@@ -1,0 +1,59 @@
+{
+  "description": "New High Score default templates",
+  "author": "New High Score <hello@newhighsco.re>",
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newhighsco/.github.git"
+  },
+  "homepage": "https://github.com/newhighsco/github#readme",
+  "bugs": {
+    "url": "https://github.com/newhighsco/github/issues"
+  },
+  "scripts": {
+    "prepare": "is-ci || husky install",
+    "test": "yarn lint",
+    "lint": "npm-run-all --parallel lint:*",
+    "lint:js": "yarn lint-staged:js --cache .",
+    "lint:renovate": "yarn lint-staged:renovate",
+    "lint-staged:js": "eslint --ignore-path .gitignore",
+    "lint-staged:renovate": "RENOVATE_CONFIG_FILE=renovate-config.json renovate-config-validator",
+    "format": "npm-run-all --parallel format:*",
+    "format:js": "yarn lint:js --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.7.1",
+    "@newhighsco/commitlint-config": "1.1.19",
+    "@newhighsco/editor-config": "1.2.0",
+    "@newhighsco/eslint-config": "4.0.66",
+    "@newhighsco/prettier-config": "2.1.15",
+    "eslint": "8.48.0",
+    "husky": "8.0.3",
+    "is-ci": "3.0.1",
+    "lint-staged": "14.0.1",
+    "npm-run-all": "4.1.5",
+    "prettier": "3.0.3",
+    "renovate": "36.79.1"
+  },
+  "commitlint": {
+    "extends": [
+      "@newhighsco"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@newhighsco"
+    ]
+  },
+  "lint-staged": {
+    "*.{[j|t]s?(on|x),mdx}": "yarn lint-staged:js --fix",
+    "renovate-config.json": "yarn lint-staged:renovate"
+  },
+  "prettier": "@newhighsco/prettier-config",
+  "renovate": {
+    "extends": [
+      "local>newhighsco/.github:renovate-config"
+    ]
+  }
+}

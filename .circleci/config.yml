@@ -1,0 +1,15 @@
+version: 2.1
+
+orbs:
+  newhighsco: newhighsco/orb@1.8.0
+
+workflows:
+  version: 2
+  test_and_release:
+    jobs:
+      - newhighsco/setup:
+          name: setup
+      - newhighsco/test:
+          name: test
+          requires:
+            - setup

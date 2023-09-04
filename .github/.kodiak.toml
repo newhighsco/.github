@@ -1,0 +1,3 @@
+version = 1
+
+merge.blocking_labels = ["blocked"]

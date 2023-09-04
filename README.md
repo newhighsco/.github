@@ -2,5 +2,5 @@
 
 New High Score default templates:
 
-- [`kodiak`](.github/.kodiak.toml)
-- [`renovate-config`](renovate-config.json)
+- :file_folder::orange_circle: [`kodiak`](.github/.kodiak.toml)
+- :file_folder::recycle: [`renovate-config`](renovate-config.json)

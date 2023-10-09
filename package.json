@@ -34,7 +34,7 @@
     "lint-staged": "14.0.1",
     "npm-run-all": "4.1.5",
     "prettier": "3.0.3",
-    "renovate": "37.8.1"
+    "renovate": "37.9.1"
   },
   "commitlint": {
     "extends": [

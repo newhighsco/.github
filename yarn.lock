@@ -2389,10 +2389,10 @@
   resolved "https://registry.yarnpkg.com/@types/moo/-/moo-0.5.5.tgz#83220b7349c59fd4bb1bc14b1d4ea0041899dc15"
   integrity sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==
 
-"@types/ms@*", "@types/ms@0.7.32":
-  version "0.7.32"
-  resolved "https://registry.yarnpkg.com/@types/ms/-/ms-0.7.32.tgz#f6cd08939ae3ad886fcc92ef7f0109dacddf61ab"
-  integrity sha512-xPSg0jm4mqgEkNhowKgZFBNtwoEwF6gJ4Dhww+GFpm3IgtNseHQZ5IqdNwnquZEoANxyDAKDRAdVo4Z72VvD/g==
+"@types/ms@*", "@types/ms@0.7.33":
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/@types/ms/-/ms-0.7.33.tgz#80bf1da64b15f21fd8c1dc387c31929317d99ee9"
+  integrity sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==
 
 "@types/node@*":
   version "20.5.9"
@@ -7586,10 +7586,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.31.7:
-  version "37.31.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.31.7.tgz#69c342e54f4f6d4c31df7dd7635bddd96bc99c2d"
-  integrity sha512-om4N5jXzr418jE9MantKrCPwVdv124utWAaRzs+V/sFQydUe5osRdh42VR3soJG9PR3ROqmPISEsZM/+bULhsw==
+renovate@37.33.1:
+  version "37.33.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.33.1.tgz#2d028150596aeb73c0de3199eb4c41a73cafd70c"
+  integrity sha512-aVLvm8oUmuu5sjS+gf1OwUaK+O/x/0XFUuWAAkkoocho7AeCA8NVPGUK1uyrzcvIkD6LTIsrbWcR4UZ2cYseAA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -7615,7 +7615,7 @@ renovate@37.31.7:
     "@renovatebot/pep440" "3.0.9"
     "@renovatebot/ruby-semver" "3.0.16"
     "@sindresorhus/is" "4.6.0"
-    "@types/ms" "0.7.32"
+    "@types/ms" "0.7.33"
     "@types/tmp" "0.2.4"
     "@yarnpkg/core" "3.5.4"
     "@yarnpkg/parsers" "2.5.1"

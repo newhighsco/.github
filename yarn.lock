@@ -4656,10 +4656,10 @@ git-up@^7.0.0:
     is-ssh "^1.4.0"
     parse-url "^8.1.0"
 
-git-url-parse@13.1.0:
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-13.1.0.tgz#07e136b5baa08d59fabdf0e33170de425adf07b4"
-  integrity sha512-5FvPJP/70WkIprlUZ33bm4UAaFdjcLkJLpWft1BeZKqwR0uhhNGoKwlUaPtVb4LxCSQ++erHapRak9kWGj+FCA==
+git-url-parse@13.1.1:
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-13.1.1.tgz#664bddf0857c6a75b3c1f0ae6239abb08a1486d4"
+  integrity sha512-PCFJyeSSdtnbfhSNRw9Wk96dDCNx+sogTe4YNXeXSJxt7xz5hvXekuRn9JX7m+Mf4OscCu8h+mtAl3+h5Fo8lQ==
   dependencies:
     git-up "^7.0.0"
 
@@ -7521,10 +7521,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.33.3:
-  version "37.33.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.33.3.tgz#8b09a423f130fbeae658b64db03d534c7da12a32"
-  integrity sha512-IVb9fs83Yf7CBBAX1kGLvDAig49IhbUXWLJsgkOF689ISqFUIGyTG+6OrX0s4E0WdYIB/jN7iXd7lqOJ5OFIkA==
+renovate@37.33.6:
+  version "37.33.6"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.33.6.tgz#782c77e1a5535a92644f50ba07372d99efa8ce6b"
+  integrity sha512-ZyTOixDIMEcf+aZiKzNE9ryFTpjaa0DWyjQwxw7X78hBEzu9KMIAxxqOCURjauFFntRvJ+gHRiycT46z10FzMQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -7580,7 +7580,7 @@ renovate@37.33.3:
     find-packages "10.0.4"
     find-up "5.0.0"
     fs-extra "11.1.1"
-    git-url-parse "13.1.0"
+    git-url-parse "13.1.1"
     github-url-from-git "1.5.0"
     glob "10.3.10"
     global-agent "3.0.0"

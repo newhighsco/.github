@@ -4882,10 +4882,10 @@ iconv-lite@^0.6.2:
   dependencies:
     safer-buffer ">= 2.1.2 < 3.0.0"
 
-ignore@5.2.4, ignore@^5.0.0, ignore@^5.1.1, ignore@^5.2.0, ignore@^5.2.4:
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
-  integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==
+ignore@5.3.0, ignore@^5.0.0, ignore@^5.1.1, ignore@^5.2.0, ignore@^5.2.4:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.0.tgz#67418ae40d34d6999c95ff56016759c718c82f78"
+  integrity sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==
 
 immediate@~3.0.5:
   version "3.0.6"
@@ -7293,10 +7293,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.65.2:
-  version "37.65.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.65.2.tgz#200a99f4b3701e92a8a0478144222be2d9398d7d"
-  integrity sha512-hg9WDccMUSMsqIGziXocUOzKvLegmeBkRsfHiFDqDtDo7Fh2RQLukcCmooAVs70Zh/0CY9ltonPtOHCJVQiHfg==
+renovate@37.65.3:
+  version "37.65.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.65.3.tgz#a6d850b3d68dd77dfaf7bfe1bed8763543fee299"
+  integrity sha512-a3sdieYYkstKUQ3zbwkprd22sXBsVRhLqvP7rHXm2Q0ewELeFps5+90ECJ8o+wuiohXyeedyKnwHxQxGmj7ezw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -7360,7 +7360,7 @@ renovate@37.65.2:
     got "11.8.6"
     graph-data-structure "3.3.0"
     handlebars "4.7.8"
-    ignore "5.2.4"
+    ignore "5.3.0"
     ini "4.1.1"
     js-yaml "4.1.0"
     json-dup-key-validator "1.0.3"

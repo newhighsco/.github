@@ -1707,10 +1707,10 @@
   resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-3.0.14.tgz#427cefc2bb3c7e52d4213b87fb3bb4935a3ee5d2"
   integrity sha512-ijhB6zyR20xUyhKR9zOy+9wBBAUD6D+LiBjbVMjMTF+8rEfPMA2mTGh+EJ0t44h8ysV41iKNzC0dQmYjxSw9BA==
 
-"@renovatebot/ruby-semver@3.0.20":
-  version "3.0.20"
-  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-3.0.20.tgz#5365b0bcff90ab3d0cfa113647803a81fc1603ae"
-  integrity sha512-HOn6SWkSfbMNBPFa/Bqwb30LIoCwlxxYQihL2dqX2n+OPzSXT5ZmmTabFF6Gso65T3dc5g67Tdt57mICxmn3SQ==
+"@renovatebot/ruby-semver@3.0.21":
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-3.0.21.tgz#61a822865e26016491e591ea89394e22f71afc9b"
+  integrity sha512-Td3WoH5OE4CVyHuKM7c7aSrjPW49prHe6SLrshzdazEEPkjiPDB5/SznSFRImHzD1ox4LXCTi4hfFH1Necjjhg==
 
 "@seald-io/binary-search-tree@^1.0.3":
   version "1.0.3"
@@ -4723,10 +4723,10 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graph-data-structure@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-3.3.0.tgz#93465f9f0aedcbcf357b187aa005214f30a8ca3b"
-  integrity sha512-p5z0GZ3tm85kuB0iXFjLpbL9gNSFeDPPOyINhLQm6mVfHbLaj62LF9uB1tymcsxkHqLWLQSqGA0f/4/OepCdxA==
+graph-data-structure@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-3.5.0.tgz#52f53046d3a509271ac813605cb6b481ed4998a5"
+  integrity sha512-AAgjRtBZC1acIExgK2otv2LDdcYeZdQFKiEStXRDTyaVs6sUUaGUif05pCczTqAU4ny82NQtM1p5PK7AQEYgRA==
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
@@ -7310,10 +7310,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.91.5:
-  version "37.91.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.91.5.tgz#09d83fa23f66a483becb6392556b0257d0a5831a"
-  integrity sha512-tTnDc2NmT5/f8E++03Rkp0W8UlxWt2mO+4wFaXyv26sdvUr4EZcSq015ea8QSgugtOvkSyBLfC1qkAa3Rlp2WQ==
+renovate@37.92.4:
+  version "37.92.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.92.4.tgz#f0e9c07c6daa02711872fd1e2c3e50b344fac25e"
+  integrity sha512-8EUVae1SroAkUr3t1FzFYzRNchUd5Cy1Lx0SM6J5ZvHAt5iltevjRHRp3L9GEqlNnTTOvNWjyhtbWL8eNdGrsg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -7336,7 +7336,7 @@ renovate@37.91.5:
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/osv-offline" "1.3.10"
     "@renovatebot/pep440" "3.0.14"
-    "@renovatebot/ruby-semver" "3.0.20"
+    "@renovatebot/ruby-semver" "3.0.21"
     "@sindresorhus/is" "4.6.0"
     "@types/ms" "0.7.34"
     "@types/tmp" "0.2.6"
@@ -7375,7 +7375,7 @@ renovate@37.91.5:
     good-enough-parser "1.1.23"
     google-auth-library "9.4.1"
     got "11.8.6"
-    graph-data-structure "3.3.0"
+    graph-data-structure "3.5.0"
     handlebars "4.7.8"
     ignore "5.3.0"
     ini "4.1.1"

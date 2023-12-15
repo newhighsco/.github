@@ -1410,7 +1410,7 @@
   resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
   integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
-"@opentelemetry/api-logs@0.45.1":
+"@opentelemetry/api-logs@0.45.1", "@opentelemetry/api-logs@^0.45.1":
   version "0.45.1"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api-logs/-/api-logs-0.45.1.tgz#9e4f2c652dcce798c5627939b22304c2b5ce19c5"
   integrity sha512-zVGq/k70l+kB/Wuv3O/zhptP2hvDhEbhDu9EtHde1iWZJf3FedeYS/nWVcMBkkyPAjS/JKNk86WN4CBQLGUuOw==
@@ -1445,11 +1445,12 @@
     "@opentelemetry/resources" "1.18.1"
     "@opentelemetry/sdk-trace-base" "1.18.1"
 
-"@opentelemetry/instrumentation-bunyan@0.33.0":
-  version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.33.0.tgz#6df62168a7cc6ff3f3fc323e6398ccfc8a51a176"
-  integrity sha512-i3xfmhajtOEuFO+9yMU/wJiH0tY4VtIlbJKGIKVHFOsoNqPQpG7iUQP01p0FRoje+UB+ZUvs4hU7fCZzwtnC1g==
+"@opentelemetry/instrumentation-bunyan@0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.34.0.tgz#9891fee8fc73d9eb4eeccb03f316972e00813404"
+  integrity sha512-UjuvggGrclyn6avTcMAdqLyrrTV26ufB73vPBPlEmA3a2dtYCS07zW82Kacxi5emZDpmHIk6zQE18DqCb/xfpA==
   dependencies:
+    "@opentelemetry/api-logs" "^0.45.1"
     "@opentelemetry/instrumentation" "^0.45.1"
     "@types/bunyan" "1.8.9"
 
@@ -7310,10 +7311,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.92.4:
-  version "37.92.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.92.4.tgz#f0e9c07c6daa02711872fd1e2c3e50b344fac25e"
-  integrity sha512-8EUVae1SroAkUr3t1FzFYzRNchUd5Cy1Lx0SM6J5ZvHAt5iltevjRHRp3L9GEqlNnTTOvNWjyhtbWL8eNdGrsg==
+renovate@37.98.1:
+  version "37.98.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.98.1.tgz#57dca53666677a0324fc0262e1dad29971891c76"
+  integrity sha512-8fZ9kkJ2arCTk2/fiSirllrFC01KiwyF9JQt7Prsrx4J5yRsprED8Mo6rVDriD0iYQdLTg5vOPLdddX+fHXI+Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -7327,7 +7328,7 @@ renovate@37.92.4:
     "@opentelemetry/context-async-hooks" "1.18.1"
     "@opentelemetry/exporter-trace-otlp-http" "0.45.1"
     "@opentelemetry/instrumentation" "0.45.1"
-    "@opentelemetry/instrumentation-bunyan" "0.33.0"
+    "@opentelemetry/instrumentation-bunyan" "0.34.0"
     "@opentelemetry/instrumentation-http" "0.45.1"
     "@opentelemetry/resources" "1.18.1"
     "@opentelemetry/sdk-trace-base" "1.18.1"

@@ -14,12 +14,12 @@
   "scripts": {
     "prepare": "is-ci || husky install",
     "test": "yarn lint",
-    "lint": "npm-run-all --parallel lint:*",
+    "lint": "concurrently yarn:lint:*",
     "lint:js": "yarn lint-staged:js --cache .",
     "lint:renovate": "yarn lint-staged:renovate",
     "lint-staged:js": "eslint --ignore-path .gitignore",
     "lint-staged:renovate": "RENOVATE_CONFIG_FILE=renovate-config.json renovate-config-validator",
-    "format": "npm-run-all --parallel format:*",
+    "format": "concurrently yarn:format:*",
     "format:js": "yarn lint:js --fix"
   },
   "devDependencies": {
@@ -28,11 +28,11 @@
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.153",
     "@newhighsco/prettier-config": "2.1.22",
+    "concurrently": "8.2.2",
     "eslint": "8.57.0",
     "husky": "9.0.11",
     "is-ci": "3.0.1",
     "lint-staged": "15.2.2",
-    "npm-run-all": "4.1.5",
     "prettier": "3.2.5",
     "renovate": "37.244.1"
   },

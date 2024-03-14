@@ -12,7 +12,7 @@
     "url": "https://github.com/newhighsco/github/issues"
   },
   "scripts": {
-    "prepare": "is-ci || husky install",
+    "prepare": "husky",
     "test": "yarn lint",
     "lint": "concurrently yarn:lint:*",
     "lint:js": "yarn lint-staged:js --cache .",
@@ -31,7 +31,6 @@
     "concurrently": "8.2.2",
     "eslint": "8.57.0",
     "husky": "9.0.11",
-    "is-ci": "3.0.1",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "renovate": "37.246.0"

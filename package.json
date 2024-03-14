@@ -13,6 +13,7 @@
   },
   "scripts": {
     "prepare": "husky",
+    "pretest": "ls .husky",
     "test": "yarn lint",
     "lint": "concurrently yarn:lint:*",
     "lint:js": "yarn lint-staged:js --cache .",

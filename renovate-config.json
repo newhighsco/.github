@@ -5,6 +5,9 @@
   ],
   "packageRules": [
     {
+      "addLabels": [
+        "automerge"
+      ],
       "automerge": true,
       "matchUpdateTypes": [
         "minor",
@@ -13,7 +16,8 @@
         "digest",
         "lockFileMaintenance",
         "bump"
-      ]
+      ],
+      "platformAutomerge": true
     },
     {
       "description": "Group New High Score packages together",

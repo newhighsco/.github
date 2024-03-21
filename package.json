@@ -18,7 +18,7 @@
     "lint:js": "yarn lint-staged:js --cache .",
     "lint:renovate": "yarn lint-staged:renovate",
     "lint-staged:js": "eslint --ignore-path .gitignore",
-    "lint-staged:renovate": "RENOVATE_CONFIG_FILE=renovate-config.json renovate-config-validator",
+    "lint-staged:renovate": "renovate-config-validator renovate-config.json --strict",
     "format": "concurrently yarn:format:*",
     "format:js": "yarn lint:js --fix"
   },

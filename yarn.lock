@@ -1715,14 +1715,14 @@
   dependencies:
     "@seald-io/nedb" "^4.0.4"
 
-"@renovatebot/osv-offline@1.5.6":
-  version "1.5.6"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.6.tgz#212be90aac00539ab9b59a8a9ffe437f9c9c257c"
-  integrity sha512-Z08cTH386UkwHPPvYl3glsUuv3xJiHi81F84jHt1Xe/fccB5G9i9XQpiD6daXt1ZcFNNbt5MQ6qsk7Y1CyWYqg==
+"@renovatebot/osv-offline@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.7.tgz#a53b7b4d2252118a1855fbaf8f75666ff03c061b"
+  integrity sha512-w44ydBUa4bPzfRLeKal8pgZSfP0K2nji9G2dPf/yk0gm5oPZa0OxVea2Ku1hhgYN6UMj0Qqyx8y8ssAOH8u0tg==
   dependencies:
     "@octokit/rest" "^20.1.1"
     "@renovatebot/osv-offline-db" "1.6.0"
-    adm-zip "~0.5.13"
+    adm-zip "~0.5.14"
     fs-extra "^11.2.0"
     got "^11.8.6"
     luxon "^3.4.4"
@@ -2771,7 +2771,7 @@ acorn@^8.0.0, acorn@^8.11.3, acorn@^8.8.2, acorn@^8.9.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.11.3.tgz#71e0b14e13a4ec160724b38fb7b0f233b1b81d7a"
   integrity sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==
 
-adm-zip@~0.5.13:
+adm-zip@~0.5.14:
   version "0.5.14"
   resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.14.tgz#2c557c0bf12af4311cf6d32970f4060cf8133b2a"
   integrity sha512-DnyqqifT4Jrcvb8USYjp6FHtBpEIz1mnXu6pTRHZ0RL69LbQYiO+0lDFg5+OKA7U29oWSs3a/i8fhn8ZcceIWg==
@@ -3880,15 +3880,15 @@ emoji-regex@^9.2.2:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
-emojibase-regex@15.3.0:
-  version "15.3.0"
-  resolved "https://registry.yarnpkg.com/emojibase-regex/-/emojibase-regex-15.3.0.tgz#98c9683a481ccb1fe6aefddb495b2d692bbf5368"
-  integrity sha512-EBz/292VBF9naBPBsGzkZUccgIv1xJibTXIINl8SezgVRnTCpKJx7MgZcR+UAd2RwjGkRJJZ/lhP7riOFZLicA==
+emojibase-regex@15.3.1:
+  version "15.3.1"
+  resolved "https://registry.yarnpkg.com/emojibase-regex/-/emojibase-regex-15.3.1.tgz#d6f6db909364a2d550a48a3a3343ab6805da3d53"
+  integrity sha512-r+uRiuWvLdo2C8RAID7zhzNpwh3DjxM4hDP7pI096X/gjBCtBu0nH1iLXdLq4D5KWA5ZT/dJmexmUlovTef7wQ==
 
-emojibase@15.3.0:
-  version "15.3.0"
-  resolved "https://registry.yarnpkg.com/emojibase/-/emojibase-15.3.0.tgz#1dc9ebd239fd4f7adcd9ce57b5f4000cbaaf0243"
-  integrity sha512-lFdQb14hoznwDh1xDoOFzkPdeeexmbuJdhUUjDaJZf/+jK+6Z3HkI5hWOemWfEdaMxtTujc1vNRx9DKtdtiOXA==
+emojibase@15.3.1:
+  version "15.3.1"
+  resolved "https://registry.yarnpkg.com/emojibase/-/emojibase-15.3.1.tgz#7f6ff5482486f23e59a457de64e974bd35f3c9a3"
+  integrity sha512-GNsjHnG2J3Ktg684Fs/vZR/6XpOSkZPMAv85EHrr6br2RN2cJNwdS4am/3YSK3y+/gOv2kmoK3GGdahXdMxg2g==
 
 encoding@^0.1.13:
   version "0.1.13"
@@ -7593,10 +7593,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.401.1:
-  version "37.401.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.401.1.tgz#54f7382e363beb4a35449d27214c6bd33e2aba1b"
-  integrity sha512-kR4/XZyGKKl/yFv1pysTPbn0ea5ZjdYxbk9Auh432zamu0SBRU8wF161v7Kd51jggAahfp4zYDgMgyGZZC7vEA==
+renovate@37.404.1:
+  version "37.404.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.404.1.tgz#8e78b2b014510e2db126f30ce18aef7e50c98327"
+  integrity sha512-B8K+Sfh/6OiCRN9ahvwpXx71gxEiXTbatq58PGcuZfoFBvTNdZwlgwZflaNKpcKNBjiu9kYdhdGgNKxxjYg68A==
   dependencies:
     "@aws-sdk/client-codecommit" "3.588.0"
     "@aws-sdk/client-ec2" "3.588.0"
@@ -7618,7 +7618,7 @@ renovate@37.401.1:
     "@opentelemetry/semantic-conventions" "1.24.1"
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/kbpgp" "3.0.1"
-    "@renovatebot/osv-offline" "1.5.6"
+    "@renovatebot/osv-offline" "1.5.7"
     "@renovatebot/pep440" "3.0.20"
     "@renovatebot/ruby-semver" "3.0.23"
     "@sindresorhus/is" "4.6.0"
@@ -7645,8 +7645,8 @@ renovate@37.401.1:
     editorconfig "2.0.0"
     email-addresses "5.0.0"
     emoji-regex "10.3.0"
-    emojibase "15.3.0"
-    emojibase-regex "15.3.0"
+    emojibase "15.3.1"
+    emojibase-regex "15.3.1"
     extract-zip "2.0.1"
     find-packages "10.0.4"
     find-up "5.0.0"
@@ -7697,7 +7697,7 @@ renovate@37.401.1:
     source-map-support "0.5.21"
     toml-eslint-parser "0.9.3"
     traverse "0.6.9"
-    tslib "2.6.2"
+    tslib "2.6.3"
     upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "5.0.1"
@@ -8578,10 +8578,10 @@ tsconfig-paths@^3.15.0:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@2.6.2, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.5.0, tslib@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
-  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
+tslib@2.6.3, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.5.0, tslib@^2.6.2:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.3.tgz#0438f810ad7a9edcde7a241c3d80db693c8cbfe0"
+  integrity sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==
 
 tslib@^1.11.1, tslib@^1.8.1, tslib@^1.9.3:
   version "1.14.1"

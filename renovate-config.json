@@ -24,8 +24,8 @@
       "description": "Group New High Score packages together",
       "groupName": "newhighsco packages",
       "groupSlug": "newhighsco",
-      "matchPackagePatterns": [
-        "^@newhighsco"
+      "matchPackageNames": [
+        "/^@newhighsco/"
       ]
     },
     {
@@ -35,8 +35,8 @@
       ],
       "groupName": "nextjs packages",
       "groupSlug": "nextjs",
-      "matchPackagePatterns": [
-        "^next"
+      "matchPackageNames": [
+        "/^next/"
       ]
     }
   ],

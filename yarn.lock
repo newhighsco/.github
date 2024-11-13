@@ -7500,10 +7500,10 @@ punycode.js@^2.3.1:
   resolved "https://registry.yarnpkg.com/punycode.js/-/punycode.js-2.3.1.tgz#6b53e56ad75588234e79f4affa90972c7dd8cdb7"
   integrity sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==
 
-punycode@^2.1.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
-  integrity sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==
+punycode@2.3.1, punycode@^2.1.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
+  integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
 purepack@^1.0.6:
   version "1.0.6"
@@ -7719,10 +7719,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.11.7:
-  version "39.11.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.11.7.tgz#b5cf5436a25f05c90593b61f44e537cf204269d5"
-  integrity sha512-vmg1LrxJNZ+wur5z6g+YlnUIzOiLqA4SpnDztJDrHhlk/+1PocCzqrEf/fDhccSRkougRcJv6YCJEeg+ZpAj2A==
+renovate@39.13.0:
+  version "39.13.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.13.0.tgz#87936109ada8c54dc2b8a5283e76bd2ba04e122d"
+  integrity sha512-cBlGgkS6uq5nggmPscH+cSiTHBL9Gi6f0LrhUkcPB/y67tir9Vqz2a+h/GED8eMdqkBdRb8RPf3UcHvPE4PxWw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.687.0"
     "@aws-sdk/client-ec2" "3.687.0"
@@ -7812,6 +7812,7 @@ renovate@39.11.7:
     parse-link-header "2.0.0"
     prettier "3.3.3"
     protobufjs "7.4.0"
+    punycode "2.3.1"
     redis "4.7.0"
     remark "13.0.0"
     remark-github "10.1.0"

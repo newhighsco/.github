@@ -1792,10 +1792,10 @@
   resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-3.1.0.tgz#05667d19b2fb865dee4ebf114dc89765f132c4b1"
   integrity sha512-Tx/wEv92j3HmFwlqfNp8Pq/BMJPVk8c5so/Ae8eHccceBeeZx4QDuLf6RYfXJ6kvw8H05K1KPoZSsigLQA7Rqg==
 
-"@renovatebot/ruby-semver@3.0.23":
-  version "3.0.23"
-  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-3.0.23.tgz#96e2cc066244c7edf6e66ddc028b8f37a0eaf097"
-  integrity sha512-YGvsvvyxOgv5Uq+sFEdD1yviyrPGs9hocjhIo7uWTj/EAIlbGyk5YA5JrHql3EkJf0tVsyfmEkM3kLK+45hmIw==
+"@renovatebot/ruby-semver@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-3.1.1.tgz#2236cd8bed20db4350bb942b394a38520abe0a27"
+  integrity sha512-T6isI/MUx+oasFtfQUWXteAdvyrt/47nVhXnyN/ic7XZYfSRMiHyguw4MXl6U0l/Scj55qxXB1oiVtTxvRJiqg==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -7719,10 +7719,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.11.4:
-  version "39.11.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.11.4.tgz#abf0e35648c77f0c1bdeaa04861d7c32e7d34912"
-  integrity sha512-6pclh1DJv1XdANVn/8bQsfO7q4Tw4V5NWimUT+MKFEV5EN4I9fHns82xReHWmmu/HUTj74UeQ5Q4MVjuM0tIRA==
+renovate@39.11.5:
+  version "39.11.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.11.5.tgz#855c394924c799dca29efec52dc5cfb82de778f8"
+  integrity sha512-fitJS9bAOmTidj7I99rrrq7DiRN+CHBZdqKsQ04dPphrqaBh1JozfG0ThT0Ryc8mnUplgO5QgbOZ1/9Jv8mn1Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.687.0"
     "@aws-sdk/client-ec2" "3.687.0"
@@ -7747,7 +7747,7 @@ renovate@39.11.4:
     "@renovatebot/kbpgp" "3.0.2"
     "@renovatebot/osv-offline" "1.5.10"
     "@renovatebot/pep440" "3.1.0"
-    "@renovatebot/ruby-semver" "3.0.23"
+    "@renovatebot/ruby-semver" "3.1.1"
     "@sindresorhus/is" "4.6.0"
     "@yarnpkg/core" "4.1.4"
     "@yarnpkg/parsers" "3.0.2"

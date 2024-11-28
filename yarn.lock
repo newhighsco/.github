@@ -1584,6 +1584,11 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.27.0.tgz#1a857dcc95a5ab30122e04417148211e6f945e6c"
   integrity sha512-sAay1RrB+ONOem0OZanAR1ZI/k7yDpnOQSQmTMuGImUQb2y8EbSaCJ94FQluM74xoU03vlb2d2U90hZluL6nQg==
 
+"@opentelemetry/semantic-conventions@1.28.0":
+  version "1.28.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.28.0.tgz#337fb2bca0453d0726696e745f50064411f646d6"
+  integrity sha512-lp4qAiMTD4sNWW4DbKLBkfiMZ4jbAboJIGOQr5DvciMRI494OapieI9qiODpOt0XBr1LjIDy1xAGAnVs5supTA==
+
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
@@ -7714,10 +7719,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.33.0:
-  version "39.33.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.33.0.tgz#9c046ddb7a5037f7f2310e4f276efe4333a4a314"
-  integrity sha512-+dKlVXvQeGupMh8LEIw1TGVcJO09ICnWwnZ1oXsnpjG6cekBiC47WQ2M/ugPXPRd9poFiGvaX/z2g+X46PfhQg==
+renovate@39.33.1:
+  version "39.33.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.33.1.tgz#521193369ca928f12b1911aa39e7240c0e08ec3d"
+  integrity sha512-rJg3VOr/tcQSbRJ6oLL2vehlqxwLaVYyhBu2lfrL7pUh5xjQtSEkEFxFTJH6dMftxyOOg8HTK+jhWuXC112Pdg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.687.0"
     "@aws-sdk/client-ec2" "3.687.0"
@@ -7736,7 +7741,7 @@ renovate@39.33.0:
     "@opentelemetry/resources" "1.28.0"
     "@opentelemetry/sdk-trace-base" "1.28.0"
     "@opentelemetry/sdk-trace-node" "1.28.0"
-    "@opentelemetry/semantic-conventions" "1.27.0"
+    "@opentelemetry/semantic-conventions" "1.28.0"
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.1.0"
     "@renovatebot/kbpgp" "4.0.1"

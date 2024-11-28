@@ -3603,10 +3603,10 @@ croner@9.0.0:
   resolved "https://registry.yarnpkg.com/croner/-/croner-9.0.0.tgz#1db62160142cf32eb22622e9ae27ba29156883f7"
   integrity sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==
 
-cronstrue@2.51.0:
-  version "2.51.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.51.0.tgz#0d37c506eab088ab5d3b68589203b79d78df488e"
-  integrity sha512-7EG9VaZZ5SRbZ7m25dmP6xaS0qe9ay6wywMskFOU/lMDKa+3gZr2oeT5OUfXwRP/Bcj8wxdYJ65AHU70CI3tsw==
+cronstrue@2.52.0:
+  version "2.52.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.52.0.tgz#00af1a8dcf76a1dece149e4416db823105b28cdb"
+  integrity sha512-NKgHbWkSZXJUcaBHSsyzC8eegD6bBd4O0oCI6XMIJ+y4Bq3v4w7sY3wfWoKPuVlq9pQHRB6od0lmKpIqi8TlKA==
 
 cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
@@ -7097,10 +7097,10 @@ onetime@^7.0.0:
   dependencies:
     mimic-function "^5.0.0"
 
-openpgp@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-6.0.0.tgz#4c53384ed4ab73abdc373fe2c446836dad7fb541"
-  integrity sha512-8YMuhOV6bP8+J4bCHltvRwol1sBJhxAcJXvwEKpcK65lKpQ0VUbymQR/EuGrzxYnatNSyMyrMgip4j/F0vhZvg==
+openpgp@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-6.0.1.tgz#ab3a2c08a3e23ac7f85c4fc62a3e715d50dc08fb"
+  integrity sha512-3lReDKjgWsKFArZT4Y/yj7/Q0q6/VhXarn4WqKEkyiBWckNjrThSGoB1t0IKo3Ke0ClvBpyQfTwumkGUkxOwww==
 
 optionator@^0.9.3:
   version "0.9.3"
@@ -7719,10 +7719,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.36.0:
-  version "39.36.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.36.0.tgz#85694a8240e8af62c28c06b9e764eae16a6cce8b"
-  integrity sha512-xdk63fmM+OILcMIKX6CIH3WzE3+i6+cUf/5u9Qy3ThhhGQvEfK0kLFdNe8p/0s0DxdKvY/ratkdVCBl76EPO6A==
+renovate@39.37.1:
+  version "39.37.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.37.1.tgz#c91d4bbf15703df2feb3c3c6a96652d7b616637c"
+  integrity sha512-4Z2UllrnEheB3NLlMbhdxLAuiIKS1lo09KEdmOtt5QbLfoiwXUeKJX9flIOG6qGDwS0LkMEi94dHmaxbQSMUBg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.687.0"
     "@aws-sdk/client-ec2" "3.687.0"
@@ -7765,7 +7765,7 @@ renovate@39.36.0:
     commander "12.1.0"
     conventional-commits-detector "1.0.3"
     croner "9.0.0"
-    cronstrue "2.51.0"
+    cronstrue "2.52.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
@@ -7835,7 +7835,7 @@ renovate@39.36.0:
     zod "3.23.8"
   optionalDependencies:
     better-sqlite3 "11.5.0"
-    openpgp "6.0.0"
+    openpgp "6.0.1"
     re2 "1.21.4"
 
 repeat-string@^1.0.0:

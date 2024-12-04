@@ -3118,10 +3118,10 @@ before-after-hook@^2.2.0:
   resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-2.2.3.tgz#c51e809c81a4e354084422b9b26bad88249c517c"
   integrity sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==
 
-better-sqlite3@11.5.0:
-  version "11.5.0"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-11.5.0.tgz#58faa51e02845a578dd154f0083487132ead0695"
-  integrity sha512-e/6eggfOutzoK0JWiU36jsisdWoHOfN9iWiW/SieKvb7SAa6aGNmBM/UKyp+/wWSXpLlWNN8tCPwoDNPhzUvuQ==
+better-sqlite3@11.6.0:
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-11.6.0.tgz#e50736956e6fe1c30dc94f1bc94a9c15d63b7b6b"
+  integrity sha512-2J6k/eVxcFYY2SsTxsXrj6XylzHWPxveCn4fKPKZFv/Vqn/Cd7lOuX4d7rGQXT5zL+97MkNL3nSbCrIoe3LkgA==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -6890,10 +6890,10 @@ nan@^2.14.0, nan@^2.20.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.20.0.tgz#08c5ea813dd54ed16e5bd6505bf42af4f7838ca3"
   integrity sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==
 
-nanoid@3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
-  integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
+nanoid@3.3.8:
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.8.tgz#b1be3030bee36aaff18bacb375e5cce521684baf"
+  integrity sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==
 
 napi-build-utils@^1.0.1:
   version "1.0.2"
@@ -7417,11 +7417,6 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
-  integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
-
 prettier@3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.4.1.tgz#e211d451d6452db0a291672ca9154bc8c2579f7b"
@@ -7719,10 +7714,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.46.0:
-  version "39.46.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.46.0.tgz#770bbbc1721d839955169e8d2ede54d3c2416f8b"
-  integrity sha512-4FG6hbQUL/oeKqW1UnJ4h5mlyxQTJgZyGbTTylmwt0XsmCLe+CPvWV0b47sNh37jCuy+SdmX19jqRuFwWfHVMg==
+renovate@39.48.1:
+  version "39.48.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.48.1.tgz#715856d9f5485c32dcaae303c5cf3b1e1ffa7801"
+  integrity sha512-Lm7KoLCb5/b8mOw72Fw9BNrqmRq0gEmoHilc5BjAR0xqH4uWShjp22NYYrYW7JcrmwN9Ps6pyAhj1nXgGSwPLA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.699.0"
     "@aws-sdk/client-ec2" "3.701.0"
@@ -7802,7 +7797,7 @@ renovate@39.46.0:
     minimatch "10.0.1"
     moo "0.5.2"
     ms "2.1.3"
-    nanoid "3.3.7"
+    nanoid "3.3.8"
     neotraverse "0.6.18"
     node-html-parser "6.1.13"
     p-all "3.0.0"
@@ -7810,7 +7805,7 @@ renovate@39.46.0:
     p-queue "6.6.2"
     p-throttle "4.1.1"
     parse-link-header "2.0.0"
-    prettier "3.3.3"
+    prettier "3.4.1"
     protobufjs "7.4.0"
     punycode "2.3.1"
     redis "4.7.0"
@@ -7834,7 +7829,7 @@ renovate@39.46.0:
     yaml "2.6.1"
     zod "3.23.8"
   optionalDependencies:
-    better-sqlite3 "11.5.0"
+    better-sqlite3 "11.6.0"
     openpgp "6.0.1"
     re2 "1.21.4"
 

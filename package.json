@@ -31,7 +31,7 @@
     "concurrently": "9.1.2",
     "eslint": "8.57.1",
     "husky": "9.1.7",
-    "lint-staged": "15.4.3",
+    "lint-staged": "15.5.0",
     "prettier": "3.5.3",
     "renovate": "39.195.0"
   },

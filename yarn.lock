@@ -3609,7 +3609,7 @@ data-view-byte-offset@^1.0.1:
     es-errors "^1.3.0"
     is-data-view "^1.0.1"
 
-debug@4, debug@^4.0.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.3.5, debug@^4.4.1:
+debug@4, debug@^4.0.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.4.0, debug@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.1.tgz#e5a8bc6cbc4c6cd3e64308b0693a3d4fa550189b"
   integrity sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==
@@ -7649,10 +7649,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@40.51.1:
-  version "40.51.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.51.1.tgz#374137ae04283129d888fefe19461ab9f828d112"
-  integrity sha512-g0duOUP1F/I1m+/ZNH/2WVbn2t+9vOGu+ey/HEITiTz3VlulSsZaErcqXz/64E6ZO1bxWf3QFZ13zTaaaYxOjA==
+renovate@40.54.1:
+  version "40.54.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.54.1.tgz#c349350efd36833f522b29d804a4dbf155a994fa"
+  integrity sha512-TyZ93VBU1fm1UHhhiCN0cnu3tCTZ/Gl9sNvnHkXO/rmhDYE02VLymD6hT4FpvxAS/ceBO3GAkCKV1d/aiKR8iQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.821.0"
     "@aws-sdk/client-ec2" "3.821.0"
@@ -7757,7 +7757,7 @@ renovate@40.51.1:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.2"
-    simple-git "3.27.0"
+    simple-git "3.28.0"
     slugify "1.6.6"
     source-map-support "0.5.21"
     toml-eslint-parser "0.10.0"
@@ -7768,7 +7768,7 @@ renovate@40.51.1:
     vuln-vects "1.1.0"
     xmldoc "1.3.0"
     yaml "2.8.0"
-    zod "3.25.51"
+    zod "3.25.56"
   optionalDependencies:
     better-sqlite3 "11.10.0"
     openpgp "6.1.1"
@@ -8117,14 +8117,14 @@ simple-get@^4.0.0:
     once "^1.3.1"
     simple-concat "^1.0.0"
 
-simple-git@3.27.0:
-  version "3.27.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.27.0.tgz#f4b09e807bda56a4a3968f635c0e4888d3decbd5"
-  integrity sha512-ivHoFS9Yi9GY49ogc6/YAi3Fl9ROnF4VyubNylgCkA+RVqLaKWnDSzXOVzya8csELIaWaYNutsEuAhZrtOjozA==
+simple-git@3.28.0:
+  version "3.28.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.28.0.tgz#c6345b2e387880f8450788a1e388573366ae48ac"
+  integrity sha512-Rs/vQRwsn1ILH1oBUy8NucJlXmnnLeLCfcvbSehkPzbv3wwoFWIdtfd6Ndo6ZPhlPsCZ60CPI4rxurnwAa+a2w==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
-    debug "^4.3.5"
+    debug "^4.4.0"
 
 slash@^3.0.0:
   version "3.0.0"
@@ -9404,10 +9404,10 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.0.0.tgz#7f816433fb2cbc511ec8bf7d263c3b58a1a3c251"
   integrity sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==
 
-zod@3.25.51, zod@^3.23.0:
-  version "3.25.51"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.51.tgz#aa2cf648e54f6f060f139cf77b694819f63c9f3a"
-  integrity sha512-TQSnBldh+XSGL+opiSIq0575wvDPqu09AqWe1F7JhUMKY+M91/aGlK4MhpVNO7MgYfHcVCB1ffwAUTJzllKJqg==
+zod@3.25.56, zod@^3.23.0:
+  version "3.25.56"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.56.tgz#4cff0340b7cd3778314dac1e74d6a663ffeef914"
+  integrity sha512-rd6eEF3BTNvQnR2e2wwolfTmUTnp70aUTqr0oaGbHifzC3BKJsoV+Gat8vxUMR1hwOKBs6El+qWehrHbCpW6SQ==
 
 zwitch@^1.0.0:
   version "1.0.5"

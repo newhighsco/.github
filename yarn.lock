@@ -3520,10 +3520,10 @@ cosmiconfig@^9.0.0:
     js-yaml "^4.1.0"
     parse-json "^5.2.0"
 
-croner@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/croner/-/croner-9.0.0.tgz#1db62160142cf32eb22622e9ae27ba29156883f7"
-  integrity sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==
+croner@9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/croner/-/croner-9.1.0.tgz#94ccbba2570bca329f60f36ec19875dccf9a63aa"
+  integrity sha512-p9nwwR4qyT5W996vBZhdvBCnMhicY5ytZkR4D1Xj0wuTDEiMnjwR57Q3RXYY/s0EpX6Ay3vgIcfaR+ewGHsi+g==
 
 cronstrue@2.61.0:
   version "2.61.0"
@@ -7579,10 +7579,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.1.4:
-  version "41.1.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.1.4.tgz#aa73a5714eef4d7f6bfdd8961b6321167351b462"
-  integrity sha512-sLIeQtDo8/e1qTbQEyKSvGEQbEp6DE2KRM0r6t//WcgBcQail0TJ8DNhjYaGap96u4MGnh1lHbr6g8yiea9JnQ==
+renovate@41.6.4:
+  version "41.6.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.6.4.tgz#310e75f450b2c7d1551bcba5aef91bd07f739140"
+  integrity sha512-mhRgaHPqNiSX+Zb6tfPmHxT3O8Fz5lHqSYriiiSeoPVCj32ikO+DtNZVQFJViwFLH9/McIWln8O/kBDMHherGA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.821.0"
     "@aws-sdk/client-ec2" "3.821.0"
@@ -7630,7 +7630,7 @@ renovate@41.1.4:
     clean-git-ref "2.0.1"
     commander "14.0.0"
     conventional-commits-detector "1.0.3"
-    croner "9.0.0"
+    croner "9.1.0"
     cronstrue "2.61.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
@@ -7699,7 +7699,7 @@ renovate@41.1.4:
     vuln-vects "1.1.0"
     xmldoc "1.3.0"
     yaml "2.8.0"
-    zod "3.25.64"
+    zod "3.25.67"
   optionalDependencies:
     better-sqlite3 "11.10.0"
     openpgp "6.1.1"
@@ -9299,10 +9299,10 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.0.0.tgz#7f816433fb2cbc511ec8bf7d263c3b58a1a3c251"
   integrity sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==
 
-zod@3.25.64, zod@^3.23.0:
-  version "3.25.64"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.64.tgz#57b5c7e76dd64e447f7e710285fcdb396b32f803"
-  integrity sha512-hbP9FpSZf7pkS7hRVUrOjhwKJNyampPgtXKc3AN6DsWtoHsg2Sb4SQaS4Tcay380zSwd2VPo9G9180emBACp5g==
+zod@3.25.67, zod@^3.23.0:
+  version "3.25.67"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.67.tgz#62987e4078e2ab0f63b491ef0c4f33df24236da8"
+  integrity sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==
 
 zwitch@^2.0.0:
   version "2.0.4"

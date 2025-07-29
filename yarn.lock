@@ -7633,10 +7633,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.43.6:
-  version "41.43.6"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.43.6.tgz#df7abc8e92a9ef1b666922ffca077563a69663a0"
-  integrity sha512-AlNnE84Ld+2+b2BOUzD58DtOP0P34FXD6z4nV2e2Hyv38BwjKeHUvz2Hh8kdUdRJvmXwzSqpfdUosDG4Fum9Bw==
+renovate@41.43.7:
+  version "41.43.7"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.43.7.tgz#77b12bdd6de5a13cea48271c2a02c2b9bb9d96d4"
+  integrity sha512-l1+1677izCM+qCol6ip64o6oE/51TvKcoGVKofd+i/S4qki2BgatL3gRkVnt8fB1T+fXIFXWE913ClOWo2QeIw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.840.0"
     "@aws-sdk/client-ec2" "3.840.0"
@@ -7750,7 +7750,7 @@ renovate@41.43.6:
     tslib "2.8.1"
     upath "2.0.1"
     url-join "5.0.0"
-    validate-npm-package-name "6.0.1"
+    validate-npm-package-name "6.0.2"
     vuln-vects "1.1.0"
     xmldoc "2.0.2"
     yaml "2.8.0"
@@ -9065,10 +9065,10 @@ validate-npm-package-name@5.0.0:
   dependencies:
     builtins "^5.0.0"
 
-validate-npm-package-name@6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-6.0.1.tgz#7b928e5fe23996045a6de5b5a22eedb3611264dd"
-  integrity sha512-OaI//3H0J7ZkR1OqlhGA8cA+Cbk/2xFOQpJOt5+s27/ta9eZwpeervh4Mxh4w0im/kdgktowaqVNR7QOrUd7Yg==
+validate-npm-package-name@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-6.0.2.tgz#4e8d2c4d939975a73dd1b7a65e8f08d44c85df96"
+  integrity sha512-IUoow1YUtvoBBC06dXs8bR8B9vuA3aJfmQNKMoaPG/OFsPmoQvw8xh+6Ye25Gx9DQhoEom3Pcu9MKHerm/NpUQ==
 
 vfile-message@^4.0.0:
   version "4.0.2"

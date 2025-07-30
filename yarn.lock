@@ -1529,35 +1529,35 @@
   resolved "https://registry.yarnpkg.com/@pnpm/catalogs.protocol-parser/-/catalogs.protocol-parser-1001.0.0.tgz#028f3d12b3164bc034e0b7d2d9fd9d96bc6c2318"
   integrity sha512-9rHKCMRvhfv7TSAVSCVLI+8OZhi1OcT8lanAGqOPbGgQTkFrPH3PfEWJNxz43xqrXRa4HCFRAMu+g19su5eRLA==
 
-"@pnpm/catalogs.resolver@1000.0.3":
-  version "1000.0.3"
-  resolved "https://registry.yarnpkg.com/@pnpm/catalogs.resolver/-/catalogs.resolver-1000.0.3.tgz#dfd7871915817259d96333ecf97623f0eccba2fa"
-  integrity sha512-MT0l2EDAxNXpZoij3sO0eIrFSUC7trimRxNRUYvNQNeEOU07KEiCAfic2CTvFtnoqFV1/2YRqsniJLokfsJVqA==
+"@pnpm/catalogs.resolver@1000.0.4":
+  version "1000.0.4"
+  resolved "https://registry.yarnpkg.com/@pnpm/catalogs.resolver/-/catalogs.resolver-1000.0.4.tgz#e1430f9c90a9ed491578c15bf999b6104d1651d2"
+  integrity sha512-R3B513UeyKyKv+6h2ZVUjBtW67VMamkFJ8FDIUvSu2mjvPOFtmD62GX8QWzzoFBLdpPLFJ28WJ70yuYo4GtcKg==
   dependencies:
     "@pnpm/catalogs.protocol-parser" "^1001.0.0"
-    "@pnpm/error" "^1000.0.2"
+    "@pnpm/error" "^1000.0.3"
 
 "@pnpm/catalogs.types@1000.0.0":
   version "1000.0.0"
   resolved "https://registry.yarnpkg.com/@pnpm/catalogs.types/-/catalogs.types-1000.0.0.tgz#69ac2eabfac82b5b07ef42933e1b0b4f6e67f7b5"
   integrity sha512-xRf72lk7xHNvbenA4sp4Of/90QDdRW0CRYT+V+EbqpUXu1xsXtedHai34cTU6VGe7C1hUukxxE9eYTtIpYrx5g==
 
-"@pnpm/constants@1001.1.0":
-  version "1001.1.0"
-  resolved "https://registry.yarnpkg.com/@pnpm/constants/-/constants-1001.1.0.tgz#d08d0f39aca39f701fae1df9e017af676cdeebf5"
-  integrity sha512-xb9dfSGi1qfUKY3r4Zy9JdC9+ZeaDxwfE7HrrGIEsBVY1hvIn6ntbR7A97z3nk44yX7vwbINNf9sizTp0WEtEw==
+"@pnpm/constants@1001.2.0":
+  version "1001.2.0"
+  resolved "https://registry.yarnpkg.com/@pnpm/constants/-/constants-1001.2.0.tgz#4bbda1ebe0d17cb7436c9fdea5c8900d5a6effe3"
+  integrity sha512-ohlStawRU3+C1AvUPtfkK+HfZ/5UbDGO79dujS2dbTpzl3O03L3Ggk7nnH361ubbMYZqp4yWlX030xhMGpr8Nw==
 
 "@pnpm/constants@6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@pnpm/constants/-/constants-6.1.0.tgz#2db43ae0e029095df7959bc640081beae38a631b"
   integrity sha512-L6AiU3OXv9kjKGTJN9j8n1TeJGDcLX9atQlZvAkthlvbXjvKc5SKNWESc/eXhr5nEfuMWhQhiKHDJCpYejmeCQ==
 
-"@pnpm/error@1000.0.2", "@pnpm/error@^1000.0.2":
-  version "1000.0.2"
-  resolved "https://registry.yarnpkg.com/@pnpm/error/-/error-1000.0.2.tgz#319ae3f95622ab7914996b6ff53bcbfe7bfff84e"
-  integrity sha512-2SfE4FFL73rE1WVIoESbqlj4sLy5nWW4M/RVdHvCRJPjlQHa9MH7m7CVJM204lz6I+eHoB+E7rL3zmpJR5wYnQ==
+"@pnpm/error@1000.0.3", "@pnpm/error@^1000.0.3":
+  version "1000.0.3"
+  resolved "https://registry.yarnpkg.com/@pnpm/error/-/error-1000.0.3.tgz#17e295d92ade122fd2585cfc8af61f3866ef2c8a"
+  integrity sha512-Sr1wmJitZ768J+9MJVXXyd7tRaX3qThEiFH1K0AQovy2sIbLqo73MITphfVZH3YWIElt+Y1uMDnUZa676ZDA8g==
   dependencies:
-    "@pnpm/constants" "1001.1.0"
+    "@pnpm/constants" "1001.2.0"
 
 "@pnpm/error@4.0.0":
   version "4.0.0"
@@ -1573,14 +1573,14 @@
   dependencies:
     graceful-fs "^4.2.6"
 
-"@pnpm/parse-overrides@1001.0.0":
-  version "1001.0.0"
-  resolved "https://registry.yarnpkg.com/@pnpm/parse-overrides/-/parse-overrides-1001.0.0.tgz#da8e013dfd48bff1cce4d292af01b4066b3d0995"
-  integrity sha512-yTf60b3QCDk84OwfSRdZ5xkqlWhxnjd8/VKPrdZCGQYxcKTLHCQnlFj8PL6FoR43U230TJuBKgL91Uvk/Q0M5g==
+"@pnpm/parse-overrides@1001.0.1":
+  version "1001.0.1"
+  resolved "https://registry.yarnpkg.com/@pnpm/parse-overrides/-/parse-overrides-1001.0.1.tgz#bcac77ae1732687f8c7989d047dd5f66d4b91811"
+  integrity sha512-wmdLw+2U9hnQoPYKZdyWoK0DQjUsJGLP9FLbsJEylpaNtrmhrjkbcGdQDrVg/gpTIit+TIL3mDMG9qTlWNZnWA==
   dependencies:
-    "@pnpm/catalogs.resolver" "1000.0.3"
+    "@pnpm/catalogs.resolver" "1000.0.4"
     "@pnpm/catalogs.types" "1000.0.0"
-    "@pnpm/error" "1000.0.2"
+    "@pnpm/error" "1000.0.3"
     "@pnpm/parse-wanted-dependency" "1001.0.0"
 
 "@pnpm/parse-wanted-dependency@1001.0.0":
@@ -7633,10 +7633,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.45.0:
-  version "41.45.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.45.0.tgz#0469651baf622a6885085fbdded32f3f6d964e56"
-  integrity sha512-2pwXo9GBVLAUwVzni7QQgP2jdoZRu7uSKX83XVURjQQyGHOlMgk98w+C6z9kTYqy+QYpP8c71iC/Y2Rrqq1/Iw==
+renovate@41.46.3:
+  version "41.46.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.46.3.tgz#7f2f536a4a5cc076919609fbf316a2fe9e641ad1"
+  integrity sha512-lhsyP9/DAJqn5AotEhnTAZPva2TVbSIBaacRwSIu1x0NpGxGw9ot4fJznNVkS7pBNFm7ahXebWd0k0X3ur0lTQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.840.0"
     "@aws-sdk/client-ec2" "3.840.0"
@@ -7662,7 +7662,7 @@ renovate@41.45.0:
     "@opentelemetry/sdk-trace-base" "2.0.1"
     "@opentelemetry/sdk-trace-node" "2.0.1"
     "@opentelemetry/semantic-conventions" "1.36.0"
-    "@pnpm/parse-overrides" "1001.0.0"
+    "@pnpm/parse-overrides" "1001.0.1"
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.1.0"
     "@renovatebot/kbpgp" "4.0.1"

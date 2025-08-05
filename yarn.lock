@@ -3187,7 +3187,25 @@ bzip-deflate@^1.0.0:
   resolved "https://registry.yarnpkg.com/bzip-deflate/-/bzip-deflate-1.0.0.tgz#b02db007ef37bebcc29384a4b2c6f4f0f4c796c9"
   integrity sha512-9RMnpiJqMYMJcLdr4pxwowZ8Zh3P+tVswE/bnX6tZ14UGKNcdV5WVK2P+lGp2As+RCjl+i3SFJ117HyCaaHNDA==
 
-cacache@19.0.1, cacache@^19.0.1:
+cacache@20.0.0:
+  version "20.0.0"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-20.0.0.tgz#d4373a794fd93180249490c769c70a24388b47cb"
+  integrity sha512-2Js2sNgHK36Fdu3ItpQqJjwUXAURb0uyo9i83Tr2wUQINU4tPl4AtQYh6mCqwVFV5W8+Vgcna+bSTQeyPLG/sQ==
+  dependencies:
+    "@npmcli/fs" "^4.0.0"
+    fs-minipass "^3.0.0"
+    glob "^11.0.3"
+    lru-cache "^11.1.0"
+    minipass "^7.0.3"
+    minipass-collect "^2.0.1"
+    minipass-flush "^1.0.5"
+    minipass-pipeline "^1.2.4"
+    p-map "^7.0.2"
+    ssri "^12.0.0"
+    tar "^7.4.3"
+    unique-filename "^4.0.0"
+
+cacache@^19.0.1:
   version "19.0.1"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-19.0.1.tgz#3370cc28a758434c85c2585008bd5bdcff17d6cd"
   integrity sha512-hdsUxulXCi5STId78vRVYEtDAjq99ICAUktLTeTYsLoTE6Z8dS0c8pWNCxwdrk9YfJeobDZc2Y186hD/5ZQgFQ==
@@ -3527,10 +3545,10 @@ croner@9.1.0:
   resolved "https://registry.yarnpkg.com/croner/-/croner-9.1.0.tgz#94ccbba2570bca329f60f36ec19875dccf9a63aa"
   integrity sha512-p9nwwR4qyT5W996vBZhdvBCnMhicY5ytZkR4D1Xj0wuTDEiMnjwR57Q3RXYY/s0EpX6Ay3vgIcfaR+ewGHsi+g==
 
-cronstrue@2.61.0:
-  version "2.61.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.61.0.tgz#97c79c77045c052afb44cb9f5f8eaf54398094f2"
-  integrity sha512-ootN5bvXbIQI9rW94+QsXN5eROtXWwew6NkdGxIRpS/UFWRggL0G5Al7a9GTBFEsuvVhJ2K3CntIIVt7L2ILhA==
+cronstrue@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.2.0.tgz#36138f9752fde512deb81c84db31207bc9fb7fdd"
+  integrity sha512-CqpqV5bCei+jmKyIw2Wihz+npXDuSkeExWCItEn5hlpD8+QFMXUU2YW5W3Vh/hFxWwzWhguoGXm5gl1os+L2Hw==
 
 cross-spawn@^7.0.2, cross-spawn@^7.0.3, cross-spawn@^7.0.6:
   version "7.0.6"
@@ -4854,7 +4872,7 @@ glob-parent@^6.0.2:
   dependencies:
     is-glob "^4.0.3"
 
-glob@11.0.3:
+glob@11.0.3, glob@^11.0.3:
   version "11.0.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-11.0.3.tgz#9d8087e6d72ddb3c4707b1d2778f80ea3eaefcd6"
   integrity sha512-2Nim7dha1KVkaiF4q6Dj+ngPPMdfvLJEOpZk/jKiUAkqKebpGAWQXAq9z1xu9HKu5lWfqw/FASuccEjyznjPaA==
@@ -6076,10 +6094,10 @@ lru-cache@^10.0.1, lru-cache@^10.2.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.4.3.tgz#410fc8a17b70e598013df257c2446b7f3383f119"
   integrity sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==
 
-lru-cache@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.0.0.tgz#15d93a196f189034d7166caf9fe55e7384c98a21"
-  integrity sha512-Qv32eSV1RSCfhY3fpPE2GNZ8jgM9X7rdAfemLWqTUxwiyIC4jJ6Sy0fZ8H+oLWevO6i4/bizg7c8d8i6bxrzbA==
+lru-cache@^11.0.0, lru-cache@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.1.0.tgz#afafb060607108132dbc1cf8ae661afb69486117"
+  integrity sha512-QIXZUBJUx+2zHUdQujWejBkcD9+cs94tLn0+YL8UrCh+D5sCXZ4c7LaEH48pNwRY3MLDgqUFyhlCyjJPf1WP0A==
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -7634,10 +7652,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.51.1:
-  version "41.51.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.51.1.tgz#8a7c7d18be7032aac0be586deb2c22d5804ae72d"
-  integrity sha512-J8MNSucUDoSKHUwSuoOpj0TWeg+tcpaVLwWf+L+wqqREAVbEJ6cAHwY1++HwrxtmqPG1xrIU1k1sw2ap5IpRLg==
+renovate@41.52.1:
+  version "41.52.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.52.1.tgz#2048f10ef93db1358eebae10cdc5283df712d0b6"
+  integrity sha512-mYRtXu5tqWANH2N4N/xjH/GwMgAbRy2Xtv97Ex9WQr1sZDmhKaRp77QYF30sENc3seEpaVj1dslDaTnDrW9J2g==
   dependencies:
     "@aws-sdk/client-codecommit" "3.858.0"
     "@aws-sdk/client-ec2" "3.858.0"
@@ -7679,14 +7697,14 @@ renovate@41.51.1:
     aws4 "1.13.2"
     azure-devops-node-api "15.1.0"
     bunyan "1.8.15"
-    cacache "19.0.1"
+    cacache "20.0.0"
     chalk "5.4.1"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
     commander "14.0.0"
     conventional-commits-detector "1.0.3"
     croner "9.1.0"
-    cronstrue "2.61.0"
+    cronstrue "3.2.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "7.0.1"
@@ -7742,7 +7760,7 @@ renovate@41.51.1:
     semver "7.7.2"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
-    shlex "2.1.2"
+    shlex "3.0.0"
     simple-git "3.28.0"
     slugify "1.6.6"
     source-map-support "0.5.21"
@@ -8047,10 +8065,10 @@ shell-quote@^1.8.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.1.tgz#6dbf4db75515ad5bac63b4f1894c3a154c766680"
   integrity sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==
 
-shlex@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/shlex/-/shlex-2.1.2.tgz#5b5384d603885281c1dee05d56975865edddcba0"
-  integrity sha512-Nz6gtibMVgYeMEhUjp2KuwAgqaJA1K155dU/HuDaEJUGgnmYfVtVZah+uerVWdH8UGnyahhDCgABbYTbs254+w==
+shlex@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/shlex/-/shlex-3.0.0.tgz#f2758dd07b29e0af9ba3c386dbddc1c65d849a98"
+  integrity sha512-jHPXQQk9d/QXCvJuLPYMOYWez3c43sORAgcIEoV7bFv5AJSJRAOyw5lQO12PMfd385qiLRCaDt7OtEzgrIGZUA==
 
 side-channel-list@^1.0.0:
   version "1.0.0"

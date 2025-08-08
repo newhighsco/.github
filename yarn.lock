@@ -1530,35 +1530,35 @@
   resolved "https://registry.yarnpkg.com/@pnpm/catalogs.protocol-parser/-/catalogs.protocol-parser-1001.0.0.tgz#028f3d12b3164bc034e0b7d2d9fd9d96bc6c2318"
   integrity sha512-9rHKCMRvhfv7TSAVSCVLI+8OZhi1OcT8lanAGqOPbGgQTkFrPH3PfEWJNxz43xqrXRa4HCFRAMu+g19su5eRLA==
 
-"@pnpm/catalogs.resolver@1000.0.4":
-  version "1000.0.4"
-  resolved "https://registry.yarnpkg.com/@pnpm/catalogs.resolver/-/catalogs.resolver-1000.0.4.tgz#e1430f9c90a9ed491578c15bf999b6104d1651d2"
-  integrity sha512-R3B513UeyKyKv+6h2ZVUjBtW67VMamkFJ8FDIUvSu2mjvPOFtmD62GX8QWzzoFBLdpPLFJ28WJ70yuYo4GtcKg==
+"@pnpm/catalogs.resolver@1000.0.5":
+  version "1000.0.5"
+  resolved "https://registry.yarnpkg.com/@pnpm/catalogs.resolver/-/catalogs.resolver-1000.0.5.tgz#feaba1fc7336f30952abfa2b5b410d4552677449"
+  integrity sha512-h6UiDAu/Ztj0LCd9sqmJwSWvJYTMUuxo/+/Iz2WZuWboyUI+2BylWJvokkMG4hNlvroLzBQ5+cz9/e+TDSLpoA==
   dependencies:
     "@pnpm/catalogs.protocol-parser" "^1001.0.0"
-    "@pnpm/error" "^1000.0.3"
+    "@pnpm/error" "^1000.0.4"
 
 "@pnpm/catalogs.types@1000.0.0":
   version "1000.0.0"
   resolved "https://registry.yarnpkg.com/@pnpm/catalogs.types/-/catalogs.types-1000.0.0.tgz#69ac2eabfac82b5b07ef42933e1b0b4f6e67f7b5"
   integrity sha512-xRf72lk7xHNvbenA4sp4Of/90QDdRW0CRYT+V+EbqpUXu1xsXtedHai34cTU6VGe7C1hUukxxE9eYTtIpYrx5g==
 
-"@pnpm/constants@1001.2.0":
-  version "1001.2.0"
-  resolved "https://registry.yarnpkg.com/@pnpm/constants/-/constants-1001.2.0.tgz#4bbda1ebe0d17cb7436c9fdea5c8900d5a6effe3"
-  integrity sha512-ohlStawRU3+C1AvUPtfkK+HfZ/5UbDGO79dujS2dbTpzl3O03L3Ggk7nnH361ubbMYZqp4yWlX030xhMGpr8Nw==
+"@pnpm/constants@1001.3.0":
+  version "1001.3.0"
+  resolved "https://registry.yarnpkg.com/@pnpm/constants/-/constants-1001.3.0.tgz#0c4954db9af54999ff9364602dba98d92be54703"
+  integrity sha512-ZFRekNHbDlu//67Byg+mG8zmtmCsfBhNsg1wKBLRtF7VjH+Q5TDGMX0+8aJYSikQDuzM2FOhvQcDwyjILKshJQ==
 
 "@pnpm/constants@6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@pnpm/constants/-/constants-6.1.0.tgz#2db43ae0e029095df7959bc640081beae38a631b"
   integrity sha512-L6AiU3OXv9kjKGTJN9j8n1TeJGDcLX9atQlZvAkthlvbXjvKc5SKNWESc/eXhr5nEfuMWhQhiKHDJCpYejmeCQ==
 
-"@pnpm/error@1000.0.3", "@pnpm/error@^1000.0.3":
-  version "1000.0.3"
-  resolved "https://registry.yarnpkg.com/@pnpm/error/-/error-1000.0.3.tgz#17e295d92ade122fd2585cfc8af61f3866ef2c8a"
-  integrity sha512-Sr1wmJitZ768J+9MJVXXyd7tRaX3qThEiFH1K0AQovy2sIbLqo73MITphfVZH3YWIElt+Y1uMDnUZa676ZDA8g==
+"@pnpm/error@1000.0.4", "@pnpm/error@^1000.0.4":
+  version "1000.0.4"
+  resolved "https://registry.yarnpkg.com/@pnpm/error/-/error-1000.0.4.tgz#4fac0fd7ec2222a4850e50152ac5cc884f5332df"
+  integrity sha512-22mG/Mq4u2r7gr2+XY5j4GlN7J4Mg4WiCfT9flvsUc1uZecShocv6WkyoA20qs14M64f6I+aaWB6b6xsDiITlg==
   dependencies:
-    "@pnpm/constants" "1001.2.0"
+    "@pnpm/constants" "1001.3.0"
 
 "@pnpm/error@4.0.0":
   version "4.0.0"
@@ -1574,14 +1574,14 @@
   dependencies:
     graceful-fs "^4.2.6"
 
-"@pnpm/parse-overrides@1001.0.1":
-  version "1001.0.1"
-  resolved "https://registry.yarnpkg.com/@pnpm/parse-overrides/-/parse-overrides-1001.0.1.tgz#bcac77ae1732687f8c7989d047dd5f66d4b91811"
-  integrity sha512-wmdLw+2U9hnQoPYKZdyWoK0DQjUsJGLP9FLbsJEylpaNtrmhrjkbcGdQDrVg/gpTIit+TIL3mDMG9qTlWNZnWA==
+"@pnpm/parse-overrides@1001.0.2":
+  version "1001.0.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/parse-overrides/-/parse-overrides-1001.0.2.tgz#7565b897787f78ac48f5edf1b71d49038ff0b46c"
+  integrity sha512-1GgUm9XJpEKQvaWGd8N55c9SlGzViN16vSC/F6FU2o28SPwOgw1aOs1A8v5hcQOWL3iEk1N/s9z0Zruq+2pqzw==
   dependencies:
-    "@pnpm/catalogs.resolver" "1000.0.4"
+    "@pnpm/catalogs.resolver" "1000.0.5"
     "@pnpm/catalogs.types" "1000.0.0"
-    "@pnpm/error" "1000.0.3"
+    "@pnpm/error" "1000.0.4"
     "@pnpm/parse-wanted-dependency" "1001.0.0"
 
 "@pnpm/parse-wanted-dependency@1001.0.0":
@@ -5796,10 +5796,10 @@ json5@^1.0.2:
   dependencies:
     minimist "^1.2.0"
 
-jsonata@2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-2.0.6.tgz#1187ec97f4662d6857b1cc40770f3ea61345d04c"
-  integrity sha512-WhQB5tXQ32qjkx2GYHFw2XbL90u+LLzjofAYwi+86g6SyZeXHz9F1Q0amy3dWRYczshOC3Haok9J4pOCgHtwyQ==
+jsonata@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-2.1.0.tgz#75547a3b1d3b83a61a9c98e01ce5d1d399832f34"
+  integrity sha512-OCzaRMK8HobtX8fp37uIVmL8CY1IGc/a6gLsDqz3quExFR09/U78HUzWYr7T31UEB6+Eu0/8dkVD5fFDOl9a8w==
 
 jsonc-parser@3.3.1:
   version "3.3.1"
@@ -7652,10 +7652,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.55.2:
-  version "41.55.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.55.2.tgz#4e45f5496d52fe35ed7aba441385ac28d6b5cfa5"
-  integrity sha512-0LQbDjVCCFyYXg+oLBn80x+9eau5//zmT3vb8LuXnJ7xpRRMle2XjqWN/5dcdl/GDRAEaW/2v2U/AU+YgyNOVg==
+renovate@41.58.2:
+  version "41.58.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.58.2.tgz#09d91411f07527f415da58fbf462c68270ec9bc1"
+  integrity sha512-NimwGcLTmprsSYtHJN6Vlem4Hl9z9tPQ/1aCeuzvsHedwqZn68QVkNKs8quQU9JYXMk6gHxC5tKr4hvmnukcXw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.858.0"
     "@aws-sdk/client-ec2" "3.858.0"
@@ -7681,7 +7681,7 @@ renovate@41.55.2:
     "@opentelemetry/sdk-trace-base" "2.0.1"
     "@opentelemetry/sdk-trace-node" "2.0.1"
     "@opentelemetry/semantic-conventions" "1.36.0"
-    "@pnpm/parse-overrides" "1001.0.1"
+    "@pnpm/parse-overrides" "1001.0.2"
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.1.0"
     "@renovatebot/kbpgp" "4.0.1"
@@ -7732,7 +7732,7 @@ renovate@41.55.2:
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "4.0.0"
     json5 "2.2.3"
-    jsonata "2.0.6"
+    jsonata "2.1.0"
     jsonc-parser "3.3.1"
     klona "2.0.6"
     luxon "3.7.1"

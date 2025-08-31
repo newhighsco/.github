@@ -7319,10 +7319,10 @@ p-queue@8.1.0:
     eventemitter3 "^5.0.1"
     p-timeout "^6.1.2"
 
-p-throttle@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-7.0.0.tgz#d2650e884dad46fd626a9a5cfc3fb239cb799dee"
-  integrity sha512-aio0v+S0QVkH1O+9x4dHtD4dgCExACcL+3EtNaGqC01GBudS9ijMuUsmN8OVScyV4OOp0jqdLShZFuSlbL/AsA==
+p-throttle@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-8.0.0.tgz#0133d651c1390866beb6ee89903d93c6b9eba8fe"
+  integrity sha512-kvpi14SZClZqNTLevyhCNQano1LH4clozDZoOdxnxyvEl17kjEKxkgD6to7mQMcWE4fMKAwbH0rLqm6Gjj7b2Q==
 
 p-timeout@^6.1.2:
   version "6.1.4"
@@ -7820,10 +7820,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.91.0:
-  version "41.91.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.91.0.tgz#85ce9711a9a40bf897903e1d6237c7680eeebc4f"
-  integrity sha512-s11qeaNWGRxBTucExxTSRBIy4j7fdxFKWLT2GFdOsGLerX8a+g5ni78bG0cu4Q0eKS/u/IZjKvdCksy76/0FpA==
+renovate@41.91.1:
+  version "41.91.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.91.1.tgz#caa061e50911149acdbfa06963d567a8171bbc13"
+  integrity sha512-EGaRZkiP48l4he2HZSmiDHJYOZMeva/jj1+WUJpLBcCrogY1vHdVsx/2g4EP2jl0M5LA/urxkXebPvPJS+DXvw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.858.0"
     "@aws-sdk/client-ec2" "3.858.0"
@@ -7915,7 +7915,7 @@ renovate@41.91.0:
     p-all "5.0.0"
     p-map "7.0.3"
     p-queue "8.1.0"
-    p-throttle "7.0.0"
+    p-throttle "8.0.0"
     parse-link-header "2.0.0"
     prettier "3.6.2"
     protobufjs "7.5.4"

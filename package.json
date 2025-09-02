@@ -53,10 +53,6 @@
   "renovate": {
     "extends": [
       "local>newhighsco/.github:renovate-config"
-    ],
-    "vulnerabilityAlerts": {
-      "enabled": true
-    },
-    "osvVulnerabilityAlerts": true
+    ]
   }
 }

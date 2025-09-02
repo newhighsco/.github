@@ -53,9 +53,6 @@
   "renovate": {
     "extends": [
       "local>newhighsco/.github:renovate-config"
-    ],
-    "lockFileMaintenance": {
-      "enabled": true
-    }
+    ]
   }
 }

@@ -49,10 +49,5 @@
     "*.{[j|t]s?(on|x),mdx}": "yarn lint-staged:js --fix",
     "renovate-config.json": "yarn lint-staged:renovate"
   },
-  "prettier": "@newhighsco/prettier-config",
-  "renovate": {
-    "extends": [
-      "local>newhighsco/.github:renovate-config"
-    ]
-  }
+  "prettier": "@newhighsco/prettier-config"
 }

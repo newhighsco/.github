@@ -1,12 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "configMigration": true,
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    ":assignAndReview(team:reviewers)",
+    ":configMigration",
+    ":maintainLockFilesWeekly",
+    ":prNotPending"
   ],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
+  "onboardingConfigFileName": ".github/renovate.json",
   "packageRules": [
     {
       "addLabels": [
@@ -52,10 +53,6 @@
   ],
   "postUpdateOptions": [
     "yarnDedupeHighest"
-  ],
-  "prCreation": "not-pending",
-  "reviewers": [
-    "team:reviewers"
   ],
   "stopUpdatingLabel": "blocked"
 }

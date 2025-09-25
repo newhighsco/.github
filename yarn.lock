@@ -1751,15 +1751,15 @@
   resolved "https://registry.yarnpkg.com/@redis/time-series/-/time-series-1.1.0.tgz#cba454c05ec201bd5547aaf55286d44682ac8eb5"
   integrity sha512-c1Q99M5ljsIuc4YdaCwfUEXsofakb9c8+Zse2qxTadu8TalLXuAESzLvFAvNVbkmSlvlzIQOLpBCmWI9wTOt+g==
 
-"@renovatebot/detect-tools@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-1.1.0.tgz#61efa40edba8bb16ca95ac6f8d52ef24e846620d"
-  integrity sha512-0GEOOX4QhUBQIY4xsr0g9sb/PrwO3C+uGPsAXlXklTDFnmXenFQ/XcEiQMTLAxPoeHofQCQ79BVCxlDVhcJ8DA==
+"@renovatebot/detect-tools@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-1.2.4.tgz#6a424d98ac941f6615defe6af47ddf5c8c7f6a8f"
+  integrity sha512-qKkRWDmwfgPN5vrD6QzMa6UNqb06VXaZL1hxxLFsOauiSTAxz/TVKPhb/hFyf27yu35JyXIN40PiNQR+bidKbQ==
   dependencies:
-    fs-extra "^11.2.0"
+    fs-extra "^11.3.2"
     toml-eslint-parser "^0.10.0"
-    upath "^2.0.0"
-    zod "^3.23.0"
+    upath "^2.0.1"
+    zod "^3.25.76"
 
 "@renovatebot/kbpgp@4.0.3":
   version "4.0.3"
@@ -1826,10 +1826,10 @@
     localforage "^1.10.0"
     util "^0.12.5"
 
-"@sindresorhus/is@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-7.0.2.tgz#a0df078a8d29f9741503c5a9c302de474ec8564a"
-  integrity sha512-d9xRovfKNz1SKieM0qJdO+PQonjnnIfSNWfHYnBSJ9hkjm0ZPw6HlxscDXYstp3z+7V2GOFHc+J0CYrYTjqCJw==
+"@sindresorhus/is@7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-7.1.0.tgz#ae17a8f9188644a9be064e0e67932351f82fe967"
+  integrity sha512-7F/yz2IphV39hiS2zB4QYVkivrptHHh0K8qJJd9HhuWSdvf8AN7NpebW3CcDZDBQsUPMoDKWsY2WWgW7bqOcfA==
 
 "@sindresorhus/is@^4.0.0":
   version "4.6.0"
@@ -4695,7 +4695,7 @@ fs-extra@11.3.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@11.3.2, fs-extra@^11.2.0, fs-extra@^11.3.2:
+fs-extra@11.3.2, fs-extra@^11.3.2:
   version "11.3.2"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.2.tgz#c838aeddc6f4a8c74dd15f85e11fe5511bfe02a4"
   integrity sha512-Xr9F6z6up6Ws+NjzMCZc6WXg2YFRlrLP9NQDO3VQrWrfiojdhS56TzueT88ze0uBdCTwEIhQ3ptnmKeWGFAe0A==
@@ -7872,10 +7872,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.130.1:
-  version "41.130.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.130.1.tgz#29940cf072d8c07dab0bbc26c74b3e4075a382b7"
-  integrity sha512-yXsUppr5Nx4it2RoRHd1jZBs91M9qXiCfuBggqmXDSUcR6oUubqryCB3z4NvRcf5ITAZSWt2ObX+mlUSHBh4cA==
+renovate@41.131.0:
+  version "41.131.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.131.0.tgz#1198b0e39b815fa3d128d2b1ed2c4d64fd51588b"
+  integrity sha512-sF9mjcLLIfEc8LxLDulDrdKCVPp+MMBN4XRJqr5KM7S/w3O2DsRux7MoI6mihfHpgtoPAcj9Q68WOzmLlNi77w==
   dependencies:
     "@aws-sdk/client-codecommit" "3.879.0"
     "@aws-sdk/client-ec2" "3.879.0"
@@ -7903,12 +7903,12 @@ renovate@41.130.1:
     "@opentelemetry/semantic-conventions" "1.37.0"
     "@pnpm/parse-overrides" "1001.0.3"
     "@qnighy/marshal" "0.1.3"
-    "@renovatebot/detect-tools" "1.1.0"
+    "@renovatebot/detect-tools" "1.2.4"
     "@renovatebot/kbpgp" "4.0.3"
     "@renovatebot/osv-offline" "1.6.11"
     "@renovatebot/pep440" "4.2.1"
     "@renovatebot/ruby-semver" "4.1.2"
-    "@sindresorhus/is" "7.0.2"
+    "@sindresorhus/is" "7.1.0"
     "@yarnpkg/core" "4.4.3"
     "@yarnpkg/parsers" "3.0.3"
     ae-cvss-calculator "1.0.8"
@@ -9230,7 +9230,7 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.1.tgz#168efc2180964e6386d061e094df61afe239b18d"
   integrity sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==
 
-upath@2.0.1, upath@^2.0.0:
+upath@2.0.1, upath@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
   integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
@@ -9604,7 +9604,7 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@3.25.76, zod@^3.23.0:
+zod@3.25.76, zod@^3.25.76:
   version "3.25.76"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.76.tgz#26841c3f6fd22a6a2760e7ccb719179768471e34"
   integrity sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==

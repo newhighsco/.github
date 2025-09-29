@@ -3116,10 +3116,10 @@ base64-js@^1.3.0, base64-js@^1.3.1:
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
 
-better-sqlite3@12.2.0:
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-12.2.0.tgz#de7c3466074f2d1a5d260f510647e822e42684d2"
-  integrity sha512-eGbYq2CT+tos1fBwLQ/tkBt9J5M3JEHjku4hbvQUePCckkvVf14xWj+1m7dGoK81M/fOjFT7yM9UMeKT/+vFLQ==
+better-sqlite3@12.3.0:
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-12.3.0.tgz#999817506ed9d985604ae053b5e5fe3c8a052bb1"
+  integrity sha512-FFf+rsghyvXQIPV/6PDUj05EsuZA1b0drGLzNgtrELkXnJKUH6NNM2h7Ce7dkA6vvPOM4SOoUIDGRPy3yRKmqw==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -7003,10 +7003,10 @@ nano-spawn@^1.0.3:
   resolved "https://registry.yarnpkg.com/nano-spawn/-/nano-spawn-1.0.3.tgz#ef8d89a275eebc8657e67b95fc312a6527a05b8d"
   integrity sha512-jtpsQDetTnvS2Ts1fiRdci5rx0VYws5jGyC+4IYOTnIQ/wwdf6JdomlHBwqC3bJYOvaKu0C2GSZ1A60anrYpaA==
 
-nanoid@5.1.5:
-  version "5.1.5"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.1.5.tgz#f7597f9d9054eb4da9548cdd53ca70f1790e87de"
-  integrity sha512-Ir/+ZpE9fDsNH0hQ3C68uyThDXzYcim2EqcZ8zn8Chtt1iylPT9xXJB0kPCnqzgcEGikO9RxSrh63MsmVCU7Fw==
+nanoid@5.1.6:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.1.6.tgz#30363f664797e7d40429f6c16946d6bd7a3f26c9"
+  integrity sha512-c7+7RQ+dMB5dPwwCp4ee1/iV/q2P6aK1mTZcfr1BTuVlyW9hJYiMPybJCcnBlQtuSmTIWNeazm/zqNoZSSElBg==
 
 napi-build-utils@^2.0.0:
   version "2.0.0"
@@ -7872,10 +7872,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.131.9:
-  version "41.131.9"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.131.9.tgz#a6cbc3881b33f12e2d7336b5ef3217e23041e5a0"
-  integrity sha512-TqHaEp0OEPjpMoVa+ItQtHB6kfQNABz8utuYK5zfWohAoKeRI13Xex8P5VeZpdTi4h674CqR999RpaC7BNkJAw==
+renovate@41.131.12:
+  version "41.131.12"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.131.12.tgz#b6807cb02539070a6767fe1518b49f016c9d7715"
+  integrity sha512-RYPMV9ilcX6x//beidLQjvdfxPIiajFOYqtxCs6kyybjWBYGBO8P0LCu/J7//9+sshKBrEQ0CkTHYD2kwELqNA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.879.0"
     "@aws-sdk/client-ec2" "3.879.0"
@@ -7962,7 +7962,7 @@ renovate@41.131.9:
     minimatch "10.0.3"
     moo "0.5.2"
     ms "2.1.3"
-    nanoid "5.1.5"
+    nanoid "5.1.6"
     neotraverse "0.6.18"
     node-html-parser "7.0.1"
     p-all "5.0.1"
@@ -7996,7 +7996,7 @@ renovate@41.131.9:
     yaml "2.8.1"
     zod "3.25.76"
   optionalDependencies:
-    better-sqlite3 "12.2.0"
+    better-sqlite3 "12.3.0"
     openpgp "6.2.2"
     re2 "1.22.1"
 

@@ -42,13 +42,6 @@
       "matchPackageNames": [
         "/^next/"
       ]
-    },
-    {
-      "description": "Pin `eslint` to v8 as update requires flat config",
-      "matchPackageNames": [
-        "eslint"
-      ],
-      "allowedVersions": "<9"
     }
   ],
   "postUpdateOptions": [

@@ -33,7 +33,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.2.5",
     "prettier": "3.6.2",
-    "renovate": "41.155.5"
+    "renovate": "41.157.1"
   },
   "commitlint": {
     "extends": [

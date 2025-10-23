@@ -10,9 +10,7 @@
   "onboardingConfigFileName": ".github/renovate.json",
   "packageRules": [
     {
-      "addLabels": [
-        "automerge"
-      ],
+      "addLabels": ["automerge"],
       "automerge": true,
       "matchUpdateTypes": [
         "minor",
@@ -28,24 +26,16 @@
       "description": "Group New High Score packages together",
       "groupName": "newhighsco packages",
       "groupSlug": "newhighsco",
-      "matchPackageNames": [
-        "/^@newhighsco/"
-      ]
+      "matchPackageNames": ["/^@newhighsco/"]
     },
     {
       "description": "Group Next.js packages and plugins together",
-      "extends": [
-        "monorepo:nextjs"
-      ],
+      "extends": ["monorepo:nextjs"],
       "groupName": "nextjs packages",
       "groupSlug": "nextjs",
-      "matchPackageNames": [
-        "/^next/"
-      ]
+      "matchPackageNames": ["/^next/"]
     }
   ],
-  "postUpdateOptions": [
-    "yarnDedupeHighest"
-  ],
+  "postUpdateOptions": ["yarnDedupeHighest"],
   "stopUpdatingLabel": "blocked"
 }

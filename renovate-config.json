@@ -4,8 +4,7 @@
     "config:recommended",
     ":assignAndReview(team:reviewers)",
     ":configMigration",
-    ":maintainLockFilesWeekly",
-    ":prNotPending"
+    ":maintainLockFilesWeekly"
   ],
   "onboardingConfigFileName": ".github/renovate.json",
   "packageRules": [

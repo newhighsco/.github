@@ -2024,10 +2024,10 @@
     localforage "^1.10.0"
     util "^0.12.5"
 
-"@sindresorhus/is@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-7.1.0.tgz#ae17a8f9188644a9be064e0e67932351f82fe967"
-  integrity sha512-7F/yz2IphV39hiS2zB4QYVkivrptHHh0K8qJJd9HhuWSdvf8AN7NpebW3CcDZDBQsUPMoDKWsY2WWgW7bqOcfA==
+"@sindresorhus/is@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-7.1.1.tgz#e32f9b1e0d7e14ee9504cdc7aae4a18dea8c3ef7"
+  integrity sha512-rO92VvpgMc3kfiTjGT52LEtJ8Yc5kCWhZjLQ3LwlA4pSgPpQO7bVpYXParOD8Jwf+cVQECJo3yP/4I8aZtUQTQ==
 
 "@sindresorhus/is@^4.0.0":
   version "4.6.0"
@@ -7913,10 +7913,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.0.3:
-  version "42.0.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.0.3.tgz#3b8fed560f14ad364515a01e937b5b7b03227893"
-  integrity sha512-/DVoQjRMmYwr1C61hmJt5X1EwKkUMow9u6/zaKTSxAMhJkMzwr304jK+JlhJFiJwiX16UkchzXWM+KcmdsSrjg==
+renovate@42.1.2:
+  version "42.1.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.1.2.tgz#a84e60fd637a0e59fef7d83a91868f88872d0a29"
+  integrity sha512-NbfdTKSFuH0QsAu/FzjU/Y8VGuf7itqI+gJ5OvjkkFi04XbP7nzfhtqcM/iFIlXYx/UN0qcJc89xdYjme0yZHA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.922.0"
     "@aws-sdk/client-ec2" "3.922.0"
@@ -7949,7 +7949,7 @@ renovate@42.0.3:
     "@renovatebot/pep440" "4.2.1"
     "@renovatebot/pgp" "1.1.0"
     "@renovatebot/ruby-semver" "4.1.2"
-    "@sindresorhus/is" "7.1.0"
+    "@sindresorhus/is" "7.1.1"
     "@yarnpkg/core" "4.4.4"
     "@yarnpkg/parsers" "3.0.3"
     ae-cvss-calculator "1.0.9"

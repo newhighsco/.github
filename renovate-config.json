@@ -33,11 +33,6 @@
       "groupName": "nextjs packages",
       "groupSlug": "nextjs",
       "matchPackageNames": ["/^next/"]
-    },
-    {
-      "description": "Pin `storybook` to v9 as update requires ESM-only",
-      "matchSourceUrls": ["https://github.com/storybookjs/storybook"],
-      "allowedVersions": "<10"
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],

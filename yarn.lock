@@ -3327,10 +3327,10 @@ baseline-browser-mapping@^2.8.25:
   resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.8.31.tgz#16c0f1814638257932e0486dbfdbb3348d0a5710"
   integrity sha512-a28v2eWrrRWPpJSzxc+mKwm0ZtVx/G8SepdQZDArnXYU/XS+IF6mp8aB/4E+hH1tyGCoDo3KlUCdlSxGDsRkAw==
 
-better-sqlite3@12.4.1:
-  version "12.4.1"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-12.4.1.tgz#f78df6c80530d1a0b750b538033e6199b7d30d26"
-  integrity sha512-3yVdyZhklTiNrtg+4WqHpJpFDd+WHTg2oM7UcR80GqL05AOV0xEJzc6qNvFYoEtE+hRp1n9MpN6/+4yhlGkDXQ==
+better-sqlite3@12.4.5:
+  version "12.4.5"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-12.4.5.tgz#0da33e67e7e284b2ae573bb00f141bbd55a76806"
+  integrity sha512-4NejwX2llfdKYK7Tzwwre/qKzTXiqcbycIagtqMH9oE7Es3LCUGGGXvhw8rWbZ2alx1C/Nh0MeJyYEZKUFs4sw==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -7950,10 +7950,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.26.2:
-  version "42.26.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.26.2.tgz#53b7ce061a268a84c1129fa674f28fc689a28fc7"
-  integrity sha512-deEBVRj3gggZ/LqWT3cJXqWktu2nAJ89z3H1Gj4azs50vziSA28AHkDpjL2zJI0V+ifiM4EM1SFg1a8W3IHhXw==
+renovate@42.26.3:
+  version "42.26.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.26.3.tgz#052977991617115d251d49e6b2707dfb7dd103db"
+  integrity sha512-jIAjGR5v0RNv1K3Btw4dl0+0C0XV3eKl63gfpjXev1zPJa6i/Q5GQc6U7DP2285hwwRR6oWFTQfmeKgfHIb56g==
   dependencies:
     "@aws-sdk/client-codecommit" "3.922.0"
     "@aws-sdk/client-ec2" "3.922.0"
@@ -8075,7 +8075,7 @@ renovate@42.26.2:
     yaml "2.8.1"
     zod "3.25.76"
   optionalDependencies:
-    better-sqlite3 "12.4.1"
+    better-sqlite3 "12.4.5"
     openpgp "6.2.2"
     re2 "1.22.3"
 

@@ -1658,10 +1658,10 @@
     "@opentelemetry/semantic-conventions" "^1.29.0"
     forwarded-parse "2.1.2"
 
-"@opentelemetry/instrumentation-redis@0.57.0":
-  version "0.57.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-redis/-/instrumentation-redis-0.57.0.tgz#c6996eb8ace9cb16cf5be3db3a6b0fb599f47fab"
-  integrity sha512-bCxTHQFXzrU3eU1LZnOZQ3s5LURxQPDlU3/upBzlWY77qOI1GZuGofazj3jtzjctMJeBEJhNwIFEgRPBX1kp/Q==
+"@opentelemetry/instrumentation-redis@0.57.1":
+  version "0.57.1"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-redis/-/instrumentation-redis-0.57.1.tgz#033a61abf6a34a2303303f8939be5f95ce01588e"
+  integrity sha512-iP564P8On9NPPi06T2MyL56sBN0RsF29DX/RC5fW0yOOFdUHcvCDmJnp11eZyymTvYj5HX8tvpoO+vDb6+Lv8A==
   dependencies:
     "@opentelemetry/instrumentation" "^0.208.0"
     "@opentelemetry/redis-common" "^0.38.2"
@@ -7952,10 +7952,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.28.0:
-  version "42.28.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.28.0.tgz#289992621c80804fea3040c55757dbc25f0bbb40"
-  integrity sha512-r9tlgeIPF40ZvQAHV9JkWs9zK844Myw2jPkOg9Ig1TwMNsRUagLUNO8t4h43yQk7sAzW2QhW3jE1agv6tk9SFA==
+renovate@42.29.3:
+  version "42.29.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.29.3.tgz#6064f4ce36b3f43dbc1e4abf7f9d64fe053effae"
+  integrity sha512-gb5BbCQpR1DJAtWEJVh1i712FxLvF6fT3pLb0kMBP7w1YRJ+52m7/X6CyiaJddGrOhTWRsRhGJGJKrKhy6YswQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.940.0"
     "@aws-sdk/client-ec2" "3.940.0"
@@ -7973,7 +7973,7 @@ renovate@42.28.0:
     "@opentelemetry/instrumentation" "0.208.0"
     "@opentelemetry/instrumentation-bunyan" "0.54.0"
     "@opentelemetry/instrumentation-http" "0.208.0"
-    "@opentelemetry/instrumentation-redis" "0.57.0"
+    "@opentelemetry/instrumentation-redis" "0.57.1"
     "@opentelemetry/resource-detector-aws" "2.8.0"
     "@opentelemetry/resource-detector-azure" "0.16.0"
     "@opentelemetry/resource-detector-gcp" "0.43.0"

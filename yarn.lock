@@ -2001,13 +2001,13 @@
   resolved "https://registry.yarnpkg.com/@redis/time-series/-/time-series-5.10.0.tgz#9c7de35fe023e36233fba5c8478ce25832ead64c"
   integrity sha512-cPkpddXH5kc/SdRhF0YG0qtjL+noqFT0AcHbQ6axhsPsO7iqPi1cjxgdkE9TNeKiBUUdCaU1DbqkR/LzbzPBhg==
 
-"@renovatebot/detect-tools@1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-1.2.4.tgz#6a424d98ac941f6615defe6af47ddf5c8c7f6a8f"
-  integrity sha512-qKkRWDmwfgPN5vrD6QzMa6UNqb06VXaZL1hxxLFsOauiSTAxz/TVKPhb/hFyf27yu35JyXIN40PiNQR+bidKbQ==
+"@renovatebot/detect-tools@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-1.2.5.tgz#7a1dabb69a009c22a217372d164bb7baf69308b4"
+  integrity sha512-es6Q+81BgRT0PiqmbqztSgmqWRg8lrLXmLRXC5HM34k2Xtt0AIJE46PjfoUugc5KwQvpIJv1TDCaKr1sm6fIJw==
   dependencies:
     fs-extra "^11.3.2"
-    toml-eslint-parser "^0.10.0"
+    toml-eslint-parser "^0.10.1"
     upath "^2.0.1"
     zod "^3.25.76"
 
@@ -7968,10 +7968,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.52.4:
-  version "42.52.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.52.4.tgz#5eb900d07a3dd20d30b508d5a7e9840a0866ab6c"
-  integrity sha512-gNsAqNXXIwzMKjVGSdJR6IHTR9ZhyaYJAhHka1NrsfdRusVCWkGoo5p3WOeg5HK5Ohd2IHFRxK7kj9njaPE+2A==
+renovate@42.52.6:
+  version "42.52.6"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.52.6.tgz#a30792c3f214f6b756fb2f58f5f75bb3466dec11"
+  integrity sha512-N2gTVV1OPTyS3RCiYl2mOyN9F1fH0c1EfxQn7amJyOBENBHPbQRgtfrgOAX1jOpTYo3JPN4YoNEw/CidiAZSog==
   dependencies:
     "@aws-sdk/client-codecommit" "3.940.0"
     "@aws-sdk/client-ec2" "3.940.0"
@@ -8000,7 +8000,7 @@ renovate@42.52.4:
     "@opentelemetry/semantic-conventions" "1.38.0"
     "@pnpm/parse-overrides" "1001.0.3"
     "@qnighy/marshal" "0.1.3"
-    "@renovatebot/detect-tools" "1.2.4"
+    "@renovatebot/detect-tools" "1.2.5"
     "@renovatebot/osv-offline" "2.0.0"
     "@renovatebot/pep440" "4.2.1"
     "@renovatebot/pgp" "1.2.2"
@@ -8084,7 +8084,7 @@ renovate@42.52.4:
     slugify "1.6.6"
     source-map-support "0.5.21"
     strip-json-comments "5.0.3"
-    toml-eslint-parser "0.10.0"
+    toml-eslint-parser "0.10.1"
     tslib "2.8.1"
     upath "2.0.1"
     url-join "5.0.0"
@@ -8943,14 +8943,7 @@ to-vfile@^8.0.0:
   dependencies:
     vfile "^6.0.0"
 
-toml-eslint-parser@0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/toml-eslint-parser/-/toml-eslint-parser-0.10.0.tgz#52000b150a8b298feefeea701c29cca8b4730a38"
-  integrity sha512-khrZo4buq4qVmsGzS5yQjKe/WsFvV8fGfOjDQN0q4iy9FjRfPWRgTFrU8u1R2iu/SfWLhY9WnCi4Jhdrcbtg+g==
-  dependencies:
-    eslint-visitor-keys "^3.0.0"
-
-toml-eslint-parser@^0.10.0:
+toml-eslint-parser@0.10.1, toml-eslint-parser@^0.10.1:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/toml-eslint-parser/-/toml-eslint-parser-0.10.1.tgz#7146a6587818f11aef88eb58dfcce451d132be53"
   integrity sha512-9mjy3frhioGIVGcwamlVlUyJ9x+WHw/TXiz9R4YOlmsIuBN43r9Dp8HZ35SF9EKjHrn3BUZj04CF+YqZ2oJ+7w==

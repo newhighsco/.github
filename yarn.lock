@@ -7372,10 +7372,10 @@ onetime@^7.0.0:
   dependencies:
     mimic-function "^5.0.0"
 
-openpgp@6.2.2:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-6.2.2.tgz#329f4fab075f9746a94e584df8cfbda70a0dcaf3"
-  integrity sha512-P/dyEqQ3gfwOCo+xsqffzXjmUhGn4AZTOJ1LCcN21S23vAk+EAvMJOQTsb/C8krL6GjOSBxqGYckhik7+hneNw==
+openpgp@6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-6.3.0.tgz#e5f72f3f10dd8bb43660225e421c4fda80bafd6e"
+  integrity sha512-pLzCU8IgyKXPSO11eeharQkQ4GzOKNWhXq79pQarIRZEMt1/ssyr+MIuWBv1mNoenJLg04gvPx+fi4gcKZ4bag==
 
 optionator@^0.9.3:
   version "0.9.4"
@@ -7968,10 +7968,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.58.0:
-  version "42.58.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.58.0.tgz#01803c0b344003f2e127cadde0334893fa2c77ba"
-  integrity sha512-+YIIAfniGxI5Sq0LaSt0F/bd5PN0hZHwg8joVKerKHIS9v70uhHY5Q8hu4bRiuuov+9nDxFCIbfyaZeD+9yXog==
+renovate@42.58.2:
+  version "42.58.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.58.2.tgz#fc00cae49c488b847fe1c53a0b610252d642780c"
+  integrity sha512-YaS4x9nTjrLyRr+BQb3hRik2MZrkTQjLE1xNleUvWQzwKY2wtVUqmIs5q0JpUrvCHNMuw4Hor5dOeI+s+rQm2Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.940.0"
     "@aws-sdk/client-ec2" "3.940.0"
@@ -8094,7 +8094,7 @@ renovate@42.58.0:
     zod "3.25.76"
   optionalDependencies:
     better-sqlite3 "12.5.0"
-    openpgp "6.2.2"
+    openpgp "6.3.0"
     re2 "1.22.3"
 
 require-directory@^2.1.1:

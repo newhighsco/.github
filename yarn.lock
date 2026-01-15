@@ -3577,7 +3577,7 @@ chalk@4.1.2, chalk@^4.0.0, chalk@^4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@5.6.2, chalk@^5.3.0:
+chalk@^5.3.0:
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.6.2.tgz#b1238b6e23ea337af71c7f8a295db5af0c158aea"
   integrity sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==
@@ -8053,10 +8053,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.81.13:
-  version "42.81.13"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.81.13.tgz#e9c82c7d47960272f1dc2eabc3c330fa6d446791"
-  integrity sha512-xjBIHZjPESCGmLN5dq4biyjokM0DuqrZ39xaASXsSqvhxO/Vnaee1/LkxG10R/v92DzOKVQbQxOCTF35GrcgBw==
+renovate@42.81.15:
+  version "42.81.15"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.81.15.tgz#4e8254b5b48599c38c436355f977f99bc1c2f29d"
+  integrity sha512-/FkwDEA0UFR6KTVk5yTCzLTTj7qOHBhZbzEJKJwi/2v9M7RofOn+R+9AWEPp6dI+w2Zd3h/XvyZAEEww1x5RFQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.958.0"
     "@aws-sdk/client-ec2" "3.958.0"
@@ -8101,7 +8101,6 @@ renovate@42.81.13:
     azure-devops-node-api "15.1.2"
     bunyan "1.8.15"
     cacache "20.0.3"
-    chalk "5.6.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
     commander "14.0.2"
@@ -8161,7 +8160,7 @@ renovate@42.81.13:
     remark-gfm "4.0.1"
     remark-github "12.0.0"
     safe-stable-stringify "2.5.0"
-    sax "1.4.3"
+    sax "1.4.4"
     semver "7.7.2"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
@@ -8369,12 +8368,7 @@ safe-stable-stringify@2.5.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sax@1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/sax/-/sax-1.4.3.tgz#fcebae3b756cdc8428321805f4b70f16ec0ab5db"
-  integrity sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ==
-
-sax@^1.4.3:
+sax@1.4.4, sax@^1.4.3:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.4.4.tgz#f29c2bba80ce5b86f4343b4c2be9f2b96627cf8b"
   integrity sha512-1n3r/tGXO6b6VXMdFT54SHzT9ytu9yr7TaELowdYpMqY/Ao7EnlQGmAQ1+RatX7Tkkdm6hONI2owqNx2aZj5Sw==

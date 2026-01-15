@@ -8034,10 +8034,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.81.8:
-  version "42.81.8"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.81.8.tgz#be194286d91e4c6a355dfd4071c7f4b82df392cd"
-  integrity sha512-921v7WU9fN6mXCoM3frr8y/ItY3XWEiK8ILGykWUuVNQ3n17tW/ihGsmOz2FEU3zejeCLL4VBJqQW2laSuHXIQ==
+renovate@42.81.9:
+  version "42.81.9"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.81.9.tgz#324625bd3c0916e650c96bf77a0314e537482928"
+  integrity sha512-2EdDs/aAXsR6ETiFEcL6ukUyUTd2meDZdjwx5lH4SGrAoFWvXRz1/2RMkJZQldI9KxEm6mjG6r7g1XTFtsRKMg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.958.0"
     "@aws-sdk/client-ec2" "3.958.0"
@@ -8151,7 +8151,7 @@ renovate@42.81.8:
     slugify "1.6.6"
     source-map-support "0.5.21"
     strip-json-comments "5.0.3"
-    toml-eslint-parser "0.10.1"
+    toml-eslint-parser "0.11.0"
     tslib "2.8.1"
     upath "2.0.1"
     url-join "5.0.0"
@@ -9013,7 +9013,14 @@ to-vfile@^8.0.0:
   dependencies:
     vfile "^6.0.0"
 
-toml-eslint-parser@0.10.1, toml-eslint-parser@^0.10.1:
+toml-eslint-parser@0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/toml-eslint-parser/-/toml-eslint-parser-0.11.0.tgz#9c87861801df4e87b165c39fca091263bbdfc207"
+  integrity sha512-piZPVcbZEhLjYEJrH2Go0F4oCLOJ/kptOSc7aYc604NvUY9+Te0l7DPQgeYjXtEnGslTlUDHUAfVOsEoYbsqOw==
+  dependencies:
+    eslint-visitor-keys "^3.0.0"
+
+toml-eslint-parser@^0.10.1:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/toml-eslint-parser/-/toml-eslint-parser-0.10.1.tgz#7146a6587818f11aef88eb58dfcce451d132be53"
   integrity sha512-9mjy3frhioGIVGcwamlVlUyJ9x+WHw/TXiz9R4YOlmsIuBN43r9Dp8HZ35SF9EKjHrn3BUZj04CF+YqZ2oJ+7w==

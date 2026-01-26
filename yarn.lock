@@ -2036,6 +2036,16 @@
     upath "^2.0.1"
     zod "^3.25.76"
 
+"@renovatebot/good-enough-parser@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/good-enough-parser/-/good-enough-parser-1.2.0.tgz#edd6dbec8927e528f9c0fc0882352324048ed36e"
+  integrity sha512-5HrZJqZJzjzhghtJ85nNG8/dE97MQ1LOvo+T4dMGZg1s56HnZEZkm5KENNhQ+dwqC6vk5DdOcZ8J0oQOcn8gng==
+  dependencies:
+    "@thi.ng/zipper" "1.0.3"
+    "@types/moo" "0.5.10"
+    klona "2.0.6"
+    moo "0.5.2"
+
 "@renovatebot/osv-offline-db@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-2.0.1.tgz#ae60079ee317b1d5b3abdcbf9a38c53a61ea162f"
@@ -2771,10 +2781,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.5.tgz#ec10755e871497bcd83efe927e43ec46e8c0747e"
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
-"@types/moo@0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@types/moo/-/moo-0.5.5.tgz#83220b7349c59fd4bb1bc14b1d4ea0041899dc15"
-  integrity sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==
+"@types/moo@0.5.10":
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/@types/moo/-/moo-0.5.10.tgz#ad04e32e7cd730c44e8e184297528cbc2a5060b2"
+  integrity sha512-W6KzyZjXUYpwQfLK1O1UDzqcqYlul+lO7Bt71luyIIyNlOZwJaNeWWdqFs1C/f2hohZvUFHMk6oFNe9Rg48DbA==
 
 "@types/ms@*":
   version "2.1.0"
@@ -5206,16 +5216,6 @@ globrex@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
   integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
-
-good-enough-parser@1.1.23:
-  version "1.1.23"
-  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.23.tgz#f80441698261d6d1722ca52cf1184bb504ac5d76"
-  integrity sha512-QUcQZutczESpdo2w9BMG6VpLFoq9ix7ER5HLM1mAdZdri2F3eISkCb8ep84W6YOo0grYWJdyT/8JkYqGjQfSSQ==
-  dependencies:
-    "@thi.ng/zipper" "1.0.3"
-    "@types/moo" "0.5.5"
-    klona "2.0.6"
-    moo "0.5.2"
 
 google-auth-library@10.5.0:
   version "10.5.0"
@@ -8033,10 +8033,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.92.4:
-  version "42.92.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.92.4.tgz#c5dd338744fee3d59ad27747a12946280028d2a2"
-  integrity sha512-ACJN2KDZx2TmV36gIRJHCDmZdmvhTM1L6PS6wPJe9SN9IA0ipJIp6+GIo2FgBSspPITzycBH5O513X8z8ySYdg==
+renovate@42.92.5:
+  version "42.92.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.92.5.tgz#9c6d0f9ba37c55696a1452cd8456f05e1fc76554"
+  integrity sha512-qMKjeorzrl2D/4yyS5yp8UW1nmJbcNt57rRXytvdA+j3pqnlyJIvLdJ1aoJoOf0nuTZIVpQG2Dibx7LEYpZpPw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.958.0"
     "@aws-sdk/client-ec2" "3.958.0"
@@ -8066,6 +8066,7 @@ renovate@42.92.4:
     "@pnpm/parse-overrides" "1001.0.3"
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.2.8"
+    "@renovatebot/good-enough-parser" "1.2.0"
     "@renovatebot/osv-offline" "2.0.1"
     "@renovatebot/pep440" "4.2.1"
     "@renovatebot/pgp" "1.2.3"
@@ -8105,7 +8106,6 @@ renovate@42.92.4:
     github-url-from-git "1.5.0"
     glob "13.0.0"
     global-agent "3.0.0"
-    good-enough-parser "1.1.23"
     google-auth-library "10.5.0"
     got "11.8.6"
     graph-data-structure "4.5.0"

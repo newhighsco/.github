@@ -3670,12 +3670,7 @@ colorette@^2.0.20:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.20.tgz#9eb793e6833067f7235902fcd3b09917a000a95a"
   integrity sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==
 
-commander@14.0.2:
-  version "14.0.2"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-14.0.2.tgz#b71fd37fe4069e4c3c7c13925252ada4eba14e8e"
-  integrity sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ==
-
-commander@^14.0.0, commander@^14.0.2:
+commander@14.0.3, commander@^14.0.0, commander@^14.0.2:
   version "14.0.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-14.0.3.tgz#425d79b48f9af82fcd9e4fc1ea8af6c5ec07bbc2"
   integrity sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==
@@ -7953,10 +7948,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.4.1:
-  version "43.4.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.4.1.tgz#6ac542b6d247abf8985c2db69a4087c336cc2843"
-  integrity sha512-YLTBxmGA+g9sLAC7MW6qxww+07udMEZgyG36IqWS+NehKpr2N2KfCpEMNbSiR2MBTiX7buKnmcb/cY56gn3iBQ==
+renovate@43.4.2:
+  version "43.4.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.4.2.tgz#5182434cecd98af981521f2fea672c8b7791de59"
+  integrity sha512-h6P5SAbwj7GXJ442wMA6R0WcQuP3AA/FppHQO071D+xXU2hNazieQ4hlSMUbNKO7/ojT6vlAye8AT7JPdug5jA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.980.0"
     "@aws-sdk/client-ec2" "3.980.0"
@@ -8004,7 +7999,7 @@ renovate@43.4.1:
     cacache "20.0.3"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "14.0.2"
+    commander "14.0.3"
     conventional-commits-detector "1.0.3"
     croner "9.1.0"
     cronstrue "3.11.0"

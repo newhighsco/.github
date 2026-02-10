@@ -4796,12 +4796,12 @@ glob-parent@^6.0.2:
   dependencies:
     is-glob "^4.0.3"
 
-glob@13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.0.tgz#9d9233a4a274fc28ef7adce5508b7ef6237a1be3"
-  integrity sha512-tvZgpqk6fz4BaNZ66ZsRaZnbHvP/jG3uKJvAZOwEVUL4RTA5nJeeLYfyN9/VA8NX/V3IBG+hkeuGpKjvELkVhA==
+glob@13.0.1, glob@^13.0.0:
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.1.tgz#c59a2500c9a5f1ab9cdd370217ced63c2aa81e60"
+  integrity sha512-B7U/vJpE3DkJ5WXTgTpTRN63uV42DseiXXKMwG14LQBXmsdeIoHAPbU/MEo6II0k5ED74uc2ZGTC6MwHFQhF6w==
   dependencies:
-    minimatch "^10.1.1"
+    minimatch "^10.1.2"
     minipass "^7.1.2"
     path-scurry "^2.0.0"
 
@@ -4816,15 +4816,6 @@ glob@^10.3.7:
     minipass "^7.1.2"
     package-json-from-dist "^1.0.0"
     path-scurry "^1.11.1"
-
-glob@^13.0.0:
-  version "13.0.1"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.1.tgz#c59a2500c9a5f1ab9cdd370217ced63c2aa81e60"
-  integrity sha512-B7U/vJpE3DkJ5WXTgTpTRN63uV42DseiXXKMwG14LQBXmsdeIoHAPbU/MEo6II0k5ED74uc2ZGTC6MwHFQhF6w==
-  dependencies:
-    minimatch "^10.1.2"
-    minipass "^7.1.2"
-    path-scurry "^2.0.0"
 
 glob@^6.0.1:
   version "6.0.4"
@@ -7314,10 +7305,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.6.1:
-  version "43.6.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.6.1.tgz#752624dbd8b3d5acf618c68bf24344987ecbc948"
-  integrity sha512-5jIgT13HUdyk0hRsN2gJBDAH6z3QcHICZ8XynKYM1fyRgeVvcXCndchtxo5SaMzvSjRzVLrF1RF6wPscZV5gdg==
+renovate@43.6.3:
+  version "43.6.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.6.3.tgz#9c58eeceff72dbb3e6840ca21d2b16c6740c3b47"
+  integrity sha512-tGjNJTL90eFGOqOF7fs9EbgfzWo8WVzBy+18d6mI2R6ef5JS+ZNnZ22nFehG3ecOgAkZxUpBaw4PWvZYz9uUKg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.980.0"
     "@aws-sdk/client-ec2" "3.980.0"
@@ -7385,7 +7376,7 @@ renovate@43.6.1:
     fs-extra "11.3.3"
     git-url-parse "16.1.0"
     github-url-from-git "1.5.0"
-    glob "13.0.0"
+    glob "13.0.1"
     global-agent "3.0.0"
     google-auth-library "10.5.0"
     got "11.8.6"

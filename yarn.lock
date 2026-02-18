@@ -3692,10 +3692,10 @@ cosmiconfig@^9.0.0:
     js-yaml "^4.1.0"
     parse-json "^5.2.0"
 
-croner@9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/croner/-/croner-9.1.0.tgz#94ccbba2570bca329f60f36ec19875dccf9a63aa"
-  integrity sha512-p9nwwR4qyT5W996vBZhdvBCnMhicY5ytZkR4D1Xj0wuTDEiMnjwR57Q3RXYY/s0EpX6Ay3vgIcfaR+ewGHsi+g==
+croner@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/croner/-/croner-10.0.1.tgz#4eb92806c99539146dbe2f3ee3907e319cb2847a"
+  integrity sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==
 
 cronstrue@3.12.0:
   version "3.12.0"
@@ -7394,10 +7394,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.25.1:
-  version "43.25.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.25.1.tgz#f74f8f91f212045ac8910728e29dc13fcc5c1713"
-  integrity sha512-QN1CW2e1oR90TIbi2tctwhHetPdASOhw77QkCXb6EQkt05R4iHoxtjqp5QVfcCXtyO5ElO3lBgpUTtGSeqSRpA==
+renovate@43.25.2:
+  version "43.25.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.25.2.tgz#f9cd6f4321362ba884f3166e728a75a7e7573a47"
+  integrity sha512-AlxW+SCk5yqYNGIXNInbpEr480+imcQIjUXtCcT89XztgsNWYvaqLgaKwhV1MPxgijhYAw6ktEudviQUc0T6mQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.992.0"
     "@aws-sdk/client-ec2" "3.992.0"
@@ -7447,7 +7447,7 @@ renovate@43.25.1:
     clean-git-ref "2.0.1"
     commander "14.0.3"
     conventional-commits-detector "1.0.3"
-    croner "9.1.0"
+    croner "10.0.1"
     cronstrue "3.12.0"
     deepmerge "4.3.1"
     dequal "2.0.3"

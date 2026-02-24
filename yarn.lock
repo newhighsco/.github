@@ -4853,12 +4853,12 @@ glob-parent@^6.0.2:
   dependencies:
     is-glob "^4.0.3"
 
-glob@13.0.3:
-  version "13.0.3"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.3.tgz#e5c39b3e0eb8a2e2bc35e3b28e78fd0839ff9e68"
-  integrity sha512-/g3B0mC+4x724v1TgtBlBtt2hPi/EWptsIAmXUx9Z2rvBYleQcsrmaOzd5LyL50jf/Soi83ZDJmw2+XqvH/EeA==
+glob@13.0.4:
+  version "13.0.4"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.4.tgz#8479df26cb72f9a878179704f6ef3fb7db7cba09"
+  integrity sha512-KACie1EOs9BIOMtenFaxwmYODWA3/fTfGSUnLhMJpXRntu1g+uL/Xvub5f8SCTppvo9q62Qy4LeOoUiaL54G5A==
   dependencies:
-    minimatch "^10.2.0"
+    minimatch "^10.2.1"
     minipass "^7.1.2"
     path-scurry "^2.0.0"
 
@@ -6493,7 +6493,7 @@ minimatch@10.2.1:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^10.2.0, minimatch@^10.2.1, minimatch@^10.2.2:
+minimatch@^10.2.1, minimatch@^10.2.2:
   version "10.2.2"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.2.2.tgz#361603ee323cfb83496fea2ae17cc44ea4e1f99f"
   integrity sha512-+G4CpNBxa5MprY+04MbgOw1v7So6n5JY166pFi9KfYwT78fxScCeSNQSNzp6dpPSW2rONOps6Ocam1wFhCgoVw==
@@ -7406,10 +7406,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.31.7:
-  version "43.31.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.31.7.tgz#3ec64bb099e73a978979fb3493f15a0c5eab28b6"
-  integrity sha512-i4cB7H9S6oFOS1P7guYKEb4EFAez3MwZ0seegAfq71VqVxALaDzdt55NVtNIcf4lwtbqedffZeddo+0Vr4G5EA==
+renovate@43.31.9:
+  version "43.31.9"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.31.9.tgz#4954258bdb4d1595b59900f176ea0831ebd0a2da"
+  integrity sha512-AWdDe8Uwxk3kRJSj4PMnEn9R2BcRR22otJWhRcxsJNZtTndupbuCWoA5UJy2JCz43R0zHkux8tPdVSsTA7bMhw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.992.0"
     "@aws-sdk/client-ec2" "3.992.0"
@@ -7478,7 +7478,7 @@ renovate@43.31.7:
     fs-extra "11.3.3"
     git-url-parse "16.1.0"
     github-url-from-git "1.5.0"
-    glob "13.0.3"
+    glob "13.0.4"
     global-agent "3.0.0"
     google-auth-library "10.5.0"
     got "14.6.6"

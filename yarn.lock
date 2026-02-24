@@ -4853,10 +4853,10 @@ glob-parent@^6.0.2:
   dependencies:
     is-glob "^4.0.3"
 
-glob@13.0.4:
-  version "13.0.4"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.4.tgz#8479df26cb72f9a878179704f6ef3fb7db7cba09"
-  integrity sha512-KACie1EOs9BIOMtenFaxwmYODWA3/fTfGSUnLhMJpXRntu1g+uL/Xvub5f8SCTppvo9q62Qy4LeOoUiaL54G5A==
+glob@13.0.5:
+  version "13.0.5"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.5.tgz#a48f760c6312b1a19d2950fcb577384221c4ec00"
+  integrity sha512-BzXxZg24Ibra1pbQ/zE7Kys4Ua1ks7Bn6pKLkVPZ9FZe4JQS6/Q7ef3LG1H+k7lUf5l4T3PLSyYyYJVYUvfgTw==
   dependencies:
     minimatch "^10.2.1"
     minipass "^7.1.2"
@@ -7406,10 +7406,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.32.1:
-  version "43.32.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.32.1.tgz#4891d0ee4cf3dd68688d322814d7a7355fa7e6c0"
-  integrity sha512-Z03cs5e7Un0/4ab7xSY036GhQQir7NNRTbrPKqZ3KoE8CFOISQV7CXlb4F/4bKz2pnfT80IA6cGbnqWNmKViJg==
+renovate@43.33.1:
+  version "43.33.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.33.1.tgz#e37cc6168ad1dbba84a40967861b0a6ecd17d221"
+  integrity sha512-sKlZs072rO8OlsFSPnQZmT6RZKY6n+mWY58Ma5gFbbKZ+JANOT8yk+eTsKcGj7Ilxq8Xfrab/3TzNVl3vo/V4g==
   dependencies:
     "@aws-sdk/client-codecommit" "3.992.0"
     "@aws-sdk/client-ec2" "3.992.0"
@@ -7478,7 +7478,7 @@ renovate@43.32.1:
     fs-extra "11.3.3"
     git-url-parse "16.1.0"
     github-url-from-git "1.5.0"
-    glob "13.0.4"
+    glob "13.0.5"
     global-agent "3.0.0"
     google-auth-library "10.5.0"
     got "14.6.6"

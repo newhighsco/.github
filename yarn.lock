@@ -3035,11 +3035,6 @@ async-mutex@0.5.0:
   dependencies:
     tslib "^2.4.0"
 
-auth-header@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/auth-header/-/auth-header-1.0.0.tgz#ea24fdc5588e1eb8b750df8655a396aa48fc9076"
-  integrity sha512-CPPazq09YVDUNNVWo4oSPTQmtwIzHusZhQmahCKvIsk0/xH6U3QsMAv3sM+7+Q0B1K2KJ/Q38OND317uXs4NHA==
-
 available-typed-arrays@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.7.tgz#a5cc375d6a03c2efc87a553f3e0b1522def14846"
@@ -7225,10 +7220,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.63.0:
-  version "43.63.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.63.0.tgz#6e090dc4631f2813769c8b1ac58be9f6f12fccbf"
-  integrity sha512-yYCToE1EX7rr8T7I4wR8CA5NtV8ajJK+ZpoymErfp2H5YS6ZktSrgQjCBWTqhu5SRs8rdHZJg4Xp9se39yyWmg==
+renovate@43.64.1:
+  version "43.64.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.64.1.tgz#bf2f10e74de2fa56da464abd78c8885eacb2183a"
+  integrity sha512-4rfCLjzIfjoCOxIPNNkmRhT4+f+QpK4QV/tDxNqYqaUuwCKNtuEeYavKFSwYfAnqT5gmN+1w3uXK3R2kbZ/OnQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1000.0"
     "@aws-sdk/client-ec2" "3.1000.0"
@@ -7270,7 +7265,6 @@ renovate@43.63.0:
     ae-cvss-calculator "1.0.11"
     agentkeepalive "4.6.0"
     async-mutex "0.5.0"
-    auth-header "1.0.0"
     aws4 "1.13.2"
     azure-devops-node-api "15.1.2"
     bunyan "1.8.15"

@@ -6823,10 +6823,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.110.5:
-  version "43.110.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.110.5.tgz#ce3c8d53cf95ec52d1bab414ae3652bfbe00e56b"
-  integrity sha512-KQWQmGeG9N3BuIUMvuq0ILjZbwS6HPUOOMyLxr+X6BM7vmPgzF24/FYfB3pxYxeghgJPX2+iIyUiP8iwX/qjLw==
+renovate@43.110.7:
+  version "43.110.7"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.110.7.tgz#ab33ea14eb60b9f376ba0424821bd03955516c0f"
+  integrity sha512-0Nups2Szvg+a5c8Y0zAnK2UIeJy2oM625xV9s5sK1pgcCH6rT2vNHeEugKhEAwfNKUm0eE4kZwJOfyHn+9mPmg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1021.0"
     "@aws-sdk/client-ec2" "3.1021.0"
@@ -6933,7 +6933,7 @@ renovate@43.110.5:
     semver-utils "1.1.4"
     shlex "3.0.0"
     simple-git "3.33.0"
-    slugify "1.6.8"
+    slugify "1.6.9"
     source-map-support "0.5.21"
     strip-json-comments "5.0.3"
     toml-eslint-parser "1.0.3"
@@ -7288,10 +7288,10 @@ slice-ansi@^8.0.0:
     ansi-styles "^6.2.3"
     is-fullwidth-code-point "^5.1.0"
 
-slugify@1.6.8:
-  version "1.6.8"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.8.tgz#0e43855ebc7df24102d04082e0bcc3a344353604"
-  integrity sha512-HVk9X1E0gz3mSpoi60h/saazLKXKaZThMLU3u/aNwoYn8/xQyX2MGxL0ui2eaokkD7tF+Zo+cKTHUbe1mmmGzA==
+slugify@1.6.9:
+  version "1.6.9"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.9.tgz#610957dea21e56b65e3a153215ef7b265715c8e8"
+  integrity sha512-vZ7rfeehZui7wQs438JXBckYLkIIdfHOXsaVEUMyS5fHo1483l1bMdo0EDSWYclY0yZKFOipDy4KHuKs6ssvdg==
 
 smart-buffer@^4.2.0:
   version "4.2.0"

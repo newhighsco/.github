@@ -6632,10 +6632,10 @@ prop-types@^15.8.1:
     object-assign "^4.1.1"
     react-is "^16.13.1"
 
-protobufjs@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-8.0.0.tgz#d884102c1fe8d0b1e2493789ad37bc7ea47c0893"
-  integrity sha512-jx6+sE9h/UryaCZhsJWbJtTEy47yXoGNYI4z8ZaRncM0zBKeRqjO2JEcOUYwrYGb1WLhXM1FfMzW3annvFv0rw==
+protobufjs@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-8.0.1.tgz#c1781abf9a73812cbd483b32138ac59948223806"
+  integrity sha512-NWWCCscLjs+cOKF/s/XVNFRW7Yih0fdH+9brffR5NZCy8k42yRdl5KlWKMVXuI1vfCoy4o1z80XR/W/QUb3V3w==
   dependencies:
     "@protobufjs/aspromise" "^1.1.2"
     "@protobufjs/base64" "^1.1.2"
@@ -6828,10 +6828,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.110.14:
-  version "43.110.14"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.110.14.tgz#f2855bb8bfc3269e85b362afc2f1373a8a94ddf5"
-  integrity sha512-N0rU9MXLibRkIhhzXuFoFVMs5XhXfMCV0Ilkpv/fmX0lKS9ec65UjjtYyz9KGr9ZoUuCStJhpwIev2B3AIq0gQ==
+renovate@43.110.15:
+  version "43.110.15"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.110.15.tgz#864cd155fda67c101d1a00237e3ac04a16dcc90e"
+  integrity sha512-xCxSM+l56MIUyglRgYzVDSahgw9ONL7tvH8oTsoZGsuAttTusAV7oQ2zZG5shjl0bhfkueOwCSlKks7ydb+nzg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1021.0"
     "@aws-sdk/client-ec2" "3.1021.0"
@@ -6926,7 +6926,7 @@ renovate@43.110.14:
     p-throttle "8.1.0"
     parse-link-header "2.0.0"
     prettier "3.8.1"
-    protobufjs "8.0.0"
+    protobufjs "8.0.1"
     punycode "2.3.1"
     remark "15.0.1"
     remark-gfm "4.0.1"

@@ -16,10 +16,8 @@
     "prepare": "husky",
     "test": "yarn lint",
     "lint": "concurrently 'yarn:lint:*'",
-    "lint:js": "yarn lint-staged:js --cache .",
-    "lint:renovate": "yarn lint-staged:renovate",
-    "lint-staged:js": "eslint",
-    "lint-staged:renovate": "renovate-config-validator renovate-config.json --strict",
+    "lint:js": "yarn eslint --cache .",
+    "lint:renovate": "renovate-config-validator renovate-config.json --strict",
     "format": "concurrently 'yarn:format:*'",
     "format:js": "yarn lint:js --fix"
   },
@@ -28,6 +26,7 @@
     "@newhighsco/commitlint-config": "1.1.56",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "7.1.2",
+    "@newhighsco/lint-staged-config": "1.0.0",
     "@newhighsco/prettier-config": "2.3.5",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
     "concurrently": "9.2.1",
@@ -41,10 +40,6 @@
     "extends": [
       "@newhighsco"
     ]
-  },
-  "lint-staged": {
-    "*.{[j|t]s?(on|x),mdx}": "yarn lint-staged:js --fix",
-    "renovate-config.json": "yarn lint-staged:renovate"
   },
   "prettier": "@newhighsco/prettier-config"
 }

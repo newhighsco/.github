@@ -1613,6 +1613,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@newhighsco/lint-staged-config@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@newhighsco/lint-staged-config@npm:1.0.0"
+  peerDependencies:
+    lint-staged: 17.0.5
+  checksum: 10c0/24b1d2a98637d89f7a2052321d2e15fc76e9e0077274619595e7b86292cd902c9051a1238f54e9eada4d92d468dd8f3625a9205d2bd0aa3acb78d56b3875dac6
+  languageName: node
+  linkType: hard
+
 "@newhighsco/prettier-config@npm:2.3.5":
   version: 2.3.5
   resolution: "@newhighsco/prettier-config@npm:2.3.5"
@@ -8739,6 +8748,7 @@ __metadata:
     "@newhighsco/commitlint-config": "npm:1.2.0"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.2"
+    "@newhighsco/lint-staged-config": "npm:1.0.0"
     "@newhighsco/prettier-config": "npm:2.3.5"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
     concurrently: "npm:9.2.1"

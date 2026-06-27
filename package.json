@@ -33,7 +33,7 @@
     "eslint": "10.6.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.8",
-    "prettier": "3.8.5",
+    "prettier": "3.9.0",
     "renovate": "43.244.4"
   },
   "commitlint": {

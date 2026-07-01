@@ -25,7 +25,8 @@
       "description": "Group New High Score packages together",
       "groupName": "newhighsco packages",
       "groupSlug": "newhighsco",
-      "matchPackageNames": ["/^@newhighsco/"]
+      "matchPackageNames": ["/^@newhighsco/"],
+      "prPriority": 1
     },
     {
       "description": "Group Next.js packages and plugins together",

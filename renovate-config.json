@@ -3,8 +3,7 @@
   "extends": [
     "config:recommended",
     ":assignAndReview(team:reviewers)",
-    ":configMigration",
-    ":maintainLockFilesWeekly"
+    ":configMigration"
   ],
   "onboardingConfigFileName": ".github/renovate.json",
   "packageRules": [

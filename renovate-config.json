@@ -33,6 +33,11 @@
       "groupName": "nextjs packages",
       "groupSlug": "nextjs",
       "matchPackageNames": ["/^next/"]
+    },
+    {
+      "description": "Pin `typescript` to v6 as update is not compatible with `typescript-eslint`",
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "<7"
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],

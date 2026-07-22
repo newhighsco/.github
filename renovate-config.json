@@ -4,7 +4,6 @@
     "config:recommended",
     ":assignAndReview(team:reviewers)",
     ":configMigration",
-    "group:react",
     ":semanticCommits"
   ],
   "onboardingConfigFileName": ".github/renovate.json",
@@ -35,6 +34,11 @@
       "groupName": "nextjs packages",
       "groupSlug": "nextjs",
       "matchPackageNames": ["/^next/"]
+    },
+    {
+      "extends": ["monorepo:react"],
+      "groupName": "react monorepo",
+      "matchSourceUrls": ["https://github.com/react/react"]
     },
     {
       "description": "Pin `typescript` to v6 as update is not compatible with `typescript-eslint`",

@@ -3,7 +3,9 @@
   "extends": [
     "config:recommended",
     ":assignAndReview(team:reviewers)",
-    ":configMigration"
+    ":configMigration",
+    "group:react",
+    ":semanticCommits"
   ],
   "onboardingConfigFileName": ".github/renovate.json",
   "packageRules": [

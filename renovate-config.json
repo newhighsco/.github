@@ -16,6 +16,7 @@
         "minor",
         "patch",
         "pin",
+        "pinDigest",
         "digest",
         "lockFileMaintenance",
         "bump"

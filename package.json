@@ -47,5 +47,6 @@
   "prettier": "@newhighsco/prettier-config",
   "release": {
     "extends": "@newhighsco/release-config"
-  }
+  },
+  "version": "1.0.0"
 }

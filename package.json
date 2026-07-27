@@ -28,6 +28,7 @@
     "@newhighsco/eslint-config": "7.1.29",
     "@newhighsco/lint-staged-config": "1.1.4",
     "@newhighsco/prettier-config": "2.3.14",
+    "@newhighsco/release-config": "1.5.10",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
     "concurrently": "10.0.4",
     "eslint": "10.8.0",
@@ -41,5 +42,8 @@
       "@newhighsco"
     ]
   },
-  "prettier": "@newhighsco/prettier-config"
+  "prettier": "@newhighsco/prettier-config",
+  "release": {
+    "extends": "@newhighsco/release-config"
+  }
 }

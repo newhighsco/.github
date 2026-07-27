@@ -1,5 +1,6 @@
 {
   "name": "@newhighsco/.github",
+  "version": "1.0.0",
   "description": "New High Score default templates",
   "author": "New High Score",
   "license": "ISC",
@@ -47,6 +48,5 @@
   "prettier": "@newhighsco/prettier-config",
   "release": {
     "extends": "@newhighsco/release-config"
-  },
-  "version": "1.0.0"
+  }
 }

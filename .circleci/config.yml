@@ -3,6 +3,12 @@ version: 2.1
 orbs:
   newhighsco: newhighsco/orb@2.0.1
 
+only-main: &only-main
+  filters:
+    branches:
+      only:
+        - main
+
 workflows:
   version: 2
   test_and_release:
@@ -13,3 +19,10 @@ workflows:
           name: test
           requires:
             - setup
+      - newhighsco/release:
+          <<: *only-main
+          name: release
+          context:
+            - release
+          requires:
+            - test

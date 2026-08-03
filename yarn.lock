@@ -1155,7 +1155,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.3.0"
     prettier: "npm:3.9.6"
-    renovate: "npm:44.7.1"
+    renovate: "npm:44.7.2"
     semantic-release: "npm:25.0.8"
   languageName: unknown
   linkType: soft
@@ -5528,18 +5528,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:11.3.6":
-  version: 11.3.6
-  resolution: "fs-extra@npm:11.3.6"
-  dependencies:
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: 10c0/191c96bf71519fe08595f7920b6e568f6e44b48ed968624f35cb3bb7f4f9b05718b99cd6bf81938c0f7b1daa6d151383c33e0cbfdfe4d95419d7ea121de8e91a
-  languageName: node
-  linkType: hard
-
-"fs-extra@npm:^11.0.0, fs-extra@npm:^11.3.6, fs-extra@npm:^11.4.0":
+"fs-extra@npm:11.4.0, fs-extra@npm:^11.0.0, fs-extra@npm:^11.3.6, fs-extra@npm:^11.4.0":
   version: 11.4.0
   resolution: "fs-extra@npm:11.4.0"
   dependencies:
@@ -9725,9 +9714,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.7.1":
-  version: 44.7.1
-  resolution: "renovate@npm:44.7.1"
+"renovate@npm:44.7.2":
+  version: 44.7.2
+  resolution: "renovate@npm:44.7.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1095.0"
     "@aws-sdk/client-ec2": "npm:3.1095.0"
@@ -9792,7 +9781,7 @@ __metadata:
     execa: "npm:8.0.1"
     find-packages: "npm:10.0.4"
     find-up: "npm:8.0.0"
-    fs-extra: "npm:11.3.6"
+    fs-extra: "npm:11.4.0"
     git-url-parse: "npm:16.1.0"
     github-url-from-git: "npm:1.5.0"
     glob: "npm:13.0.6"
@@ -9857,7 +9846,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/4950d7831c87031385f6f9175d48f3da6c4f69230cd0d26ac5347992aef3b8d8d8a9600daba468b39d5df4739f84020177a571675e06fdb94447a7602866b15c
+  checksum: 10c0/3f0b9f11f6446d09e2ed565d512e09fd48b6a6fe23ae9df51fd4c1fad459c8c17367080986eb43ad3d4a636a93b41a712f9f73686c8efcc0bbd665c89b3fcc93
   languageName: node
   linkType: hard
 

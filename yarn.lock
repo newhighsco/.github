@@ -1155,7 +1155,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.3.0"
     prettier: "npm:3.9.6"
-    renovate: "npm:44.11.7"
+    renovate: "npm:44.13.1"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -2929,16 +2929,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.9.0":
-  version: 4.9.0
-  resolution: "@yarnpkg/core@npm:4.9.0"
+"@yarnpkg/core@npm:4.9.1":
+  version: 4.9.1
+  resolution: "@yarnpkg/core@npm:4.9.1"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
     "@types/treeify": "npm:^1.0.0"
     "@yarnpkg/fslib": "npm:^3.1.5"
     "@yarnpkg/libzip": "npm:^3.2.2"
-    "@yarnpkg/parsers": "npm:^3.0.3"
+    "@yarnpkg/parsers": "npm:^3.1.0"
     "@yarnpkg/shell": "npm:^4.1.3"
     camelcase: "npm:^5.3.1"
     chalk: "npm:^4.1.2"
@@ -2953,13 +2953,13 @@ __metadata:
     hpagent: "npm:^1.2.0"
     micromatch: "npm:^4.0.2"
     p-limit: "npm:^2.2.0"
-    semver: "npm:^7.1.2"
+    semver: "npm:^7.8.5"
     strip-ansi: "npm:^6.0.0"
     tar: "npm:^7.5.3"
     tinylogic: "npm:^2.0.0"
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
-  checksum: 10c0/07d328f2bfd57c959d4d0766fe24b0e1d2ffc22ab328e49ff6f6c614cc3f6619dad87f35a460b49df4e80cf49e9afa9b11ca8e3d50943a63a2320c10946fc8b6
+  checksum: 10c0/625deb5cd7fb96eb0b8bdcfd77e0291da8a560a2c7bbbafe3a7f7703799e0b4470d4b9bd6dabb865c909c15352d7502c077693d2ef8d0c6da19117a5f0e04051
   languageName: node
   linkType: hard
 
@@ -2985,13 +2985,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:3.0.3, @yarnpkg/parsers@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "@yarnpkg/parsers@npm:3.0.3"
+"@yarnpkg/parsers@npm:3.1.0, @yarnpkg/parsers@npm:^3.0.3, @yarnpkg/parsers@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@yarnpkg/parsers@npm:3.1.0"
   dependencies:
-    js-yaml: "npm:^3.10.0"
+    js-yaml: "npm:^4.3.0"
     tslib: "npm:^2.4.0"
-  checksum: 10c0/70c2fa011bf28a517a8ee4264dd93d7590f6e3d02c6d4feb50533f405ca3b100cb156f11405b9a34f7c51c6893d3d8b051554dddfd5afaae2067f921512447a3
+  checksum: 10c0/0cabf96c138f2211c14c8cf1cacbb3b2430947fa71bfcc9a3fcdf60543d3178b98bb5d14b676e39e45fad6ec453404c0f16908535d53100a53be08d8d1f4b5b5
   languageName: node
   linkType: hard
 
@@ -3182,15 +3182,6 @@ __metadata:
   version: 1.0.0
   resolution: "archy@npm:1.0.0"
   checksum: 10c0/200c849dd1c304ea9914827b0555e7e1e90982302d574153e28637db1a663c53de62bad96df42d50e8ce7fc18d05e3437d9aa8c4b383803763755f0956c7d308
-  languageName: node
-  linkType: hard
-
-"argparse@npm:^1.0.7":
-  version: 1.0.10
-  resolution: "argparse@npm:1.0.10"
-  dependencies:
-    sprintf-js: "npm:~1.0.2"
-  checksum: 10c0/b2972c5c23c63df66bca144dbc65d180efa74f25f8fd9b7d9a0a6c88ae839db32df3d54770dcb6460cf840d232b60695d1a6b1053f599d84e73f7437087712de
   languageName: node
   linkType: hard
 
@@ -5156,16 +5147,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esprima@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "esprima@npm:4.0.1"
-  bin:
-    esparse: ./bin/esparse.js
-    esvalidate: ./bin/esvalidate.js
-  checksum: 10c0/ad4bab9ead0808cf56501750fd9d3fb276f6b105f987707d059005d57e182d18a7c9ec7f3a01794ebddcca676773e42ca48a32d67a250c9d35e009ca613caba3
-  languageName: node
-  linkType: hard
-
 "esquery@npm:^1.7.0":
   version: 1.7.0
   resolution: "esquery@npm:1.7.0"
@@ -6834,26 +6815,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.10.0":
-  version: 3.15.0
-  resolution: "js-yaml@npm:3.15.0"
-  dependencies:
-    argparse: "npm:^1.0.7"
-    esprima: "npm:^4.0.0"
-  bin:
-    js-yaml: bin/js-yaml.js
-  checksum: 10c0/ca966bd354ac5b1b7a4694ebdba46526796aa3a6a99529fa540af2abf85918bd155a50ccc0166b413130a00622999973754458ec01e7095bc902177bfdbd5b64
-  languageName: node
-  linkType: hard
-
-"js-yaml@npm:^4.0.0, js-yaml@npm:^4.1.0":
-  version: 4.3.0
-  resolution: "js-yaml@npm:4.3.0"
+"js-yaml@npm:^4.0.0, js-yaml@npm:^4.1.0, js-yaml@npm:^4.3.0":
+  version: 4.3.1
+  resolution: "js-yaml@npm:4.3.1"
   dependencies:
     argparse: "npm:^2.0.1"
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 10c0/058b30473d6915ca5b4feb11e2f7d4d97242f98d00a798ed48dd90b46b7c640398afe9128c5db22c5300f8c6528fe2a174b9a93f351a70ebc28c6203938d8bff
+  checksum: 10c0/13c500ca322e0c3f8c81686e6ecda96d2ea37b45247a420c17c7db36932d6965cc27391abc2d1a104501600e7f0d947a5f8b7be6db619c4fefa87901b3512807
   languageName: node
   linkType: hard
 
@@ -9714,9 +9683,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.11.7":
-  version: 44.11.7
-  resolution: "renovate@npm:44.11.7"
+"renovate@npm:44.13.1":
+  version: 44.13.1
+  resolution: "renovate@npm:44.13.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1095.0"
     "@aws-sdk/client-ec2": "npm:3.1095.0"
@@ -9754,8 +9723,8 @@ __metadata:
     "@renovatebot/pgp": "npm:1.3.16"
     "@renovatebot/ruby-semver": "npm:5.0.0"
     "@sindresorhus/is": "npm:8.1.0"
-    "@yarnpkg/core": "npm:4.9.0"
-    "@yarnpkg/parsers": "npm:3.0.3"
+    "@yarnpkg/core": "npm:4.9.1"
+    "@yarnpkg/parsers": "npm:3.1.0"
     adm-zip: "npm:0.6.0"
     ae-cvss-calculator: "npm:1.0.13"
     agentkeepalive: "npm:4.6.0"
@@ -9846,7 +9815,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/18549ffc19e8025f97a306ccb81d20a3b0d772378c18e0e6a52e86fb0e9ef35f4d480bcf7623954d032bd432079fc51f1dc358b930d1039fd8d769f8db62039a
+  checksum: 10c0/3b4a2d62d1fe4df324642d3bf98d1faead4a72f50fc147e12d0b3ffd16f31ee62de69dd61470532de2ad8ad73d9375c184d5f132286bf034293a2b0a6bc957a6
   languageName: node
   linkType: hard
 
@@ -10478,13 +10447,6 @@ __metadata:
   version: 1.1.3
   resolution: "sprintf-js@npm:1.1.3"
   checksum: 10c0/09270dc4f30d479e666aee820eacd9e464215cdff53848b443964202bf4051490538e5dd1b42e1a65cf7296916ca17640aebf63dae9812749c7542ee5f288dec
-  languageName: node
-  linkType: hard
-
-"sprintf-js@npm:~1.0.2":
-  version: 1.0.3
-  resolution: "sprintf-js@npm:1.0.3"
-  checksum: 10c0/ecadcfe4c771890140da5023d43e190b7566d9cf8b2d238600f31bec0fc653f328da4450eb04bd59a431771a8e9cc0e118f0aa3974b683a4981b4e07abc2a5bb
   languageName: node
   linkType: hard
 

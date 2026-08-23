@@ -1,3 +1,5 @@
+## [1.0.71](https://github.com/newhighsco/.github/compare/v1.0.70...v1.0.71) (2026-08-23)
+
 ## [1.0.70](https://github.com/newhighsco/.github/compare/v1.0.69...v1.0.70) (2026-08-22)
 
 ## [1.0.69](https://github.com/newhighsco/.github/compare/v1.0.68...v1.0.69) (2026-08-21)

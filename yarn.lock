@@ -1155,7 +1155,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.4.1"
     prettier: "npm:3.9.6"
-    renovate: "npm:44.48.0"
+    renovate: "npm:44.48.2"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -9689,9 +9689,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.48.0":
-  version: 44.48.0
-  resolution: "renovate@npm:44.48.0"
+"renovate@npm:44.48.2":
+  version: 44.48.2
+  resolution: "renovate@npm:44.48.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1095.0"
     "@aws-sdk/client-ec2": "npm:3.1095.0"
@@ -9822,7 +9822,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/e6aaefbf332a30527077c165b9c4de6299b5bb805d7c598dfa6d561a9890d184f93b44b24a0fa220e93f8947e2865e7ba7c6bb15145ba203f4db0bec1b9c3795
+  checksum: 10c0/9cef788fc9d2ec33e68ef83f4531a8e746efd3e1c59fe09b9a3ffb38eaabd427a3c61b64dea804cea305472186c31ddfc00805b78aa1641d1912b961cd1be91d
   languageName: node
   linkType: hard
 

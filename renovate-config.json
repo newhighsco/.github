@@ -5,6 +5,7 @@
     "helpers:pinGitHubActionDigestsToSemver",
     ":assignAndReview(team:reviewers)",
     ":configMigration",
+    ":maintainLockFilesWeekly",
     ":semanticCommits"
   ],
   "onboardingConfigFileName": ".github/renovate.json",

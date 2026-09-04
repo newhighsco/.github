@@ -1220,7 +1220,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.4.1"
     prettier: "npm:3.9.6"
-    renovate: "npm:44.64.0"
+    renovate: "npm:44.64.1"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -10014,9 +10014,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.64.0":
-  version: 44.64.0
-  resolution: "renovate@npm:44.64.0"
+"renovate@npm:44.64.1":
+  version: 44.64.1
+  resolution: "renovate@npm:44.64.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -10132,6 +10132,7 @@ __metadata:
     slugify: "npm:1.6.9"
     source-map-support: "npm:0.5.21"
     strip-json-comments: "npm:5.0.3"
+    tar: "npm:7.5.22"
     toml-eslint-parser: "npm:1.0.3"
     tslib: "npm:2.8.1"
     upath: "npm:3.0.8"
@@ -10149,7 +10150,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/3325b09472a86729eea87d553f837572da048a9f15baf0bd7b4877885f3678dcf061b17e2152c8c0c0ad320ff662df52e6f3fde4e06dc429ed4e2080cec64e42
+  checksum: 10c0/5458865af430dda278574779df90c3b4f7727abbc6c9b4fe6df6e899088890a6aba1fb4c5810bfaeb553210a051bf973b40b3413fbd8f04fedd09a2eb6c04947
   languageName: node
   linkType: hard
 
@@ -11089,7 +11090,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar@npm:^7.4.3, tar@npm:^7.5.1, tar@npm:^7.5.22, tar@npm:^7.5.3, tar@npm:^7.5.4":
+"tar@npm:7.5.22, tar@npm:^7.4.3, tar@npm:^7.5.1, tar@npm:^7.5.22, tar@npm:^7.5.3, tar@npm:^7.5.4":
   version: 7.5.22
   resolution: "tar@npm:7.5.22"
   dependencies:

@@ -1220,7 +1220,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.5.0"
     prettier: "npm:3.9.6"
-    renovate: "npm:44.65.5"
+    renovate: "npm:44.66.1"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -6526,10 +6526,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:7.0.6":
-  version: 7.0.6
-  resolution: "ignore@npm:7.0.6"
-  checksum: 10c0/fc01ef1d14efbe003439b60538726351e81483d1b6f55bdbb3a4465c6346d9481afad5b350dfbd604ddd7049618ef9093ff26dc147984aabc303c56ba53ea3b5
+"ignore@npm:7.0.7":
+  version: 7.0.7
+  resolution: "ignore@npm:7.0.7"
+  checksum: 10c0/9f6552572f0c1e95eda40ce382afd7d54287e8359f591ef5fe45ad6eca71a7c792b5170ece3d4e9ce3b9a45dd9a2ac18054c8ed9c706b4c27048bdcda488a709
   languageName: node
   linkType: hard
 
@@ -10014,9 +10014,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.65.5":
-  version: 44.65.5
-  resolution: "renovate@npm:44.65.5"
+"renovate@npm:44.66.1":
+  version: 44.66.1
+  resolution: "renovate@npm:44.66.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -10092,7 +10092,7 @@ __metadata:
     got: "npm:14.6.6"
     graph-data-structure: "npm:4.5.0"
     handlebars: "npm:4.7.9"
-    ignore: "npm:7.0.6"
+    ignore: "npm:7.0.7"
     ini: "npm:6.0.0"
     json-dup-key-validator: "npm:1.0.3"
     json-stringify-pretty-compact: "npm:4.0.0"
@@ -10141,7 +10141,7 @@ __metadata:
     xmldoc: "npm:2.0.3"
     yaml: "npm:2.9.0"
     yauzl: "npm:3.4.0"
-    zod: "npm:4.5.2"
+    zod: "npm:4.5.4"
   dependenciesMeta:
     openpgp:
       optional: true
@@ -10150,7 +10150,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/bd8ae96efe60938efe7f7c56376020fd02220d669c6ae7b76c0fbaa0106e34ec06f911c5dd0b1ea3b5431afb9a3168e5a71f96892a9b044cf82c919de595a1e6
+  checksum: 10c0/5d5d0f929a0f79c4f1cd09e8e9d799d8a76fa79528d342a9fb1c77b6d61c834cb55e94eac9ee03c8760eb1b92af655566341d712dea9504730d76b72186f10f7
   languageName: node
   linkType: hard
 
@@ -12105,14 +12105,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:4.5.2":
-  version: 4.5.2
-  resolution: "zod@npm:4.5.2"
-  checksum: 10c0/e54a27401dc7993f96232b5a4e889017bb6a00d8d23a2258f40704076243ed9659d09ea3ae074538fb548e960c4d6380301f879fca6bd31547b7b69745abf0f5
-  languageName: node
-  linkType: hard
-
-"zod@npm:^3.25.0 || ^4.0.0, zod@npm:^4.5.2":
+"zod@npm:4.5.4, zod@npm:^3.25.0 || ^4.0.0, zod@npm:^4.5.2":
   version: 4.5.4
   resolution: "zod@npm:4.5.4"
   checksum: 10c0/511a2a4d1a6f875dfdd70a1586989a8b14ef126776cd6218a2c760b9f65f14ef389ec20d92ee1aa4fcb4566d4ff3fa012956044f9dc503510d82e4c756a8ba92

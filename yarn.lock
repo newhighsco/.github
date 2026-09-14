@@ -1220,7 +1220,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.5.1"
     prettier: "npm:3.9.6"
-    renovate: "npm:44.83.1"
+    renovate: "npm:44.83.2"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -8651,13 +8651,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-html-parser@npm:9.0.3":
-  version: 9.0.3
-  resolution: "node-html-parser@npm:9.0.3"
+"node-html-parser@npm:9.0.4":
+  version: 9.0.4
+  resolution: "node-html-parser@npm:9.0.4"
   dependencies:
     css-select: "npm:^5.1.0"
     entities: "npm:^8.0.0"
-  checksum: 10c0/e20edf9fe40b0772693b40647ecaf47556a8268f4780f20d7c25c1dc0952449a7b0d9d4d0b7c59b96e09c3779131d574bf793456f3a7649235ee66c2e1568da6
+  checksum: 10c0/129752b901d30d16137729817a7042546e5f603b58ac57d6339b0cefad82630196e1a5f16fd374b22a83dc0d127b0bf743b05a1840d0d8beaa80f6dbcd17c487
   languageName: node
   linkType: hard
 
@@ -9982,9 +9982,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.83.1":
-  version: 44.83.1
-  resolution: "renovate@npm:44.83.1"
+"renovate@npm:44.83.2":
+  version: 44.83.2
+  resolution: "renovate@npm:44.83.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -10077,7 +10077,7 @@ __metadata:
     moo: "npm:0.5.3"
     ms: "npm:2.1.3"
     neotraverse: "npm:1.0.1"
-    node-html-parser: "npm:9.0.3"
+    node-html-parser: "npm:9.0.4"
     openpgp: "npm:6.3.1"
     p-all: "npm:5.0.1"
     p-map: "npm:7.0.7"
@@ -10119,7 +10119,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/f761558bc4772387af994d1129cd2060d8475a6be6f8b5a353aa371db85a0f5daef03056724e207fd1aabea4abe91ae99766389d8ec6a8c72655b0322a8070f2
+  checksum: 10c0/6dbfca35ed9188d748d18791f8d1933d15e03af27718ec9bec1baab820b1d5070a008535c1f8c2ecd5de367615ab82ab424dde6e544ca8dce9f41fb775d6dad0
   languageName: node
   linkType: hard
 

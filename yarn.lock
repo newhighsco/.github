@@ -1220,7 +1220,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.5.1"
     prettier: "npm:3.9.6"
-    renovate: "npm:44.93.0"
+    renovate: "npm:44.93.5"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -4404,12 +4404,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:3.24.0":
-  version: 3.24.0
-  resolution: "cronstrue@npm:3.24.0"
+"cronstrue@npm:3.25.0":
+  version: 3.25.0
+  resolution: "cronstrue@npm:3.25.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 10c0/7e723c2f798fea2a8c67b018670c8128e71d6bd02e9a835b070f039a62985a32ab05b70410b178da1bd40709103a1b938a3565f53b0070ace6c453ee90dfd36e
+  checksum: 10c0/c23c6f0b1c596e053b21edb1a85df4130b1f7f6f9ffc747a2ba72f1eeb151e8e9ac45005179bfb6b07d224c176cc755292867f23e22ea7aadac8b200903f72d3
   languageName: node
   linkType: hard
 
@@ -6503,10 +6503,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:7.0.8":
-  version: 7.0.8
-  resolution: "ignore@npm:7.0.8"
-  checksum: 10c0/95ed888e66ad46c478680af1628ac1d242a623fcac418bd5533b91549f609a6756985a32ebfe087b1d97806f52a20f991c804e3b074e9cf16fd1404f2bcd9c0a
+"ignore@npm:7.0.9, ignore@npm:^7.0.5":
+  version: 7.0.9
+  resolution: "ignore@npm:7.0.9"
+  checksum: 10c0/fec02e67b8c01a873d3b60eff6cce5e390365d7c45fea57f60f4ff52b9be5873c366867a3b8e154a3140330b72b41b94f19e1f28adfe0ef558c6b28bbf02a1b4
   languageName: node
   linkType: hard
 
@@ -6514,13 +6514,6 @@ __metadata:
   version: 5.3.2
   resolution: "ignore@npm:5.3.2"
   checksum: 10c0/f9f652c957983634ded1e7f02da3b559a0d4cc210fca3792cb67f1b153623c9c42efdc1c4121af171e295444459fc4a9201101fb041b1104a3c000bccb188337
-  languageName: node
-  linkType: hard
-
-"ignore@npm:^7.0.5":
-  version: 7.0.9
-  resolution: "ignore@npm:7.0.9"
-  checksum: 10c0/fec02e67b8c01a873d3b60eff6cce5e390365d7c45fea57f60f4ff52b9be5873c366867a3b8e154a3140330b72b41b94f19e1f28adfe0ef558c6b28bbf02a1b4
   languageName: node
   linkType: hard
 
@@ -9982,9 +9975,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.93.0":
-  version: 44.93.0
-  resolution: "renovate@npm:44.93.0"
+"renovate@npm:44.93.5":
+  version: 44.93.5
+  resolution: "renovate@npm:44.93.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -10039,7 +10032,7 @@ __metadata:
     commander: "npm:15.0.0"
     common-tags: "npm:1.8.2"
     croner: "npm:10.0.1"
-    cronstrue: "npm:3.24.0"
+    cronstrue: "npm:3.25.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:7.0.2"
@@ -10061,7 +10054,7 @@ __metadata:
     got: "npm:16.0.0"
     graph-data-structure: "npm:4.5.0"
     handlebars: "npm:4.7.9"
-    ignore: "npm:7.0.8"
+    ignore: "npm:7.0.9"
     ini: "npm:6.0.0"
     json-dup-key-validator: "npm:1.0.3"
     json-stringify-pretty-compact: "npm:4.0.0"
@@ -10119,7 +10112,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/14d439d2fb34f33a126f5ed44ba3262500d5978fd84bc7f7f2a611e7c82d38f0c5271d593ddb4c970c1d2382cb805b3bbb7a61f8e6ca7545b99b12925f3d4067
+  checksum: 10c0/570487009b4471a9b65844390f0a1f9bff5c2ef34eb69da9091f88310626a866c3fb5b5942b6c2cf1f8f37be510a27aa2445f2336d5bc8ef495a00d8a088f294
   languageName: node
   linkType: hard
 

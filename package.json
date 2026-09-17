@@ -37,7 +37,7 @@
     "husky": "9.1.7",
     "lint-staged": "17.5.1",
     "prettier": "3.9.7",
-    "renovate": "44.94.0",
+    "renovate": "44.94.4",
     "semantic-release": "25.0.9"
   },
   "commitlint": {

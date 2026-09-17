@@ -1220,7 +1220,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.5.1"
     prettier: "npm:3.9.7"
-    renovate: "npm:44.94.0"
+    renovate: "npm:44.94.4"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -2301,15 +2301,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/detect-tools@npm:4.0.14":
-  version: 4.0.14
-  resolution: "@renovatebot/detect-tools@npm:4.0.14"
+"@renovatebot/detect-tools@npm:4.0.16":
+  version: 4.0.16
+  resolution: "@renovatebot/detect-tools@npm:4.0.16"
   dependencies:
     fs-extra: "npm:^11.4.0"
     toml-eslint-parser: "npm:^1.0.3"
     upath: "npm:^3.0.8"
-    zod: "npm:^4.5.4"
-  checksum: 10c0/5667cfa319d2f5a1b622843bdfa45a0831c8788749c4965c085cb8928fa1a4f04baa45ccc4a8133d6a38b6efd6a9cdfd62b3c196ca70cbbe83501c424597ab09
+    zod: "npm:^4.6.1"
+  checksum: 10c0/6dccc2a73c73a0b7168311b3ef415cd680ad32012bb68fb7473068f36768e8e395d2c2c71dca1a828dc613de8c1c2dcaa11d2943a32aa3c0a44a502cca19bead
   languageName: node
   linkType: hard
 
@@ -9984,9 +9984,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.94.0":
-  version: 44.94.0
-  resolution: "renovate@npm:44.94.0"
+"renovate@npm:44.94.4":
+  version: 44.94.4
+  resolution: "renovate@npm:44.94.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -10019,7 +10019,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:6.2.1"
-    "@renovatebot/detect-tools": "npm:4.0.14"
+    "@renovatebot/detect-tools": "npm:4.0.16"
     "@renovatebot/good-enough-parser": "npm:2.0.1"
     "@renovatebot/osv-offline": "npm:3.0.10"
     "@renovatebot/pep440": "npm:5.0.1"
@@ -10112,7 +10112,7 @@ __metadata:
     xmldoc: "npm:3.0.0"
     yaml: "npm:2.9.0"
     yauzl: "npm:3.4.0"
-    zod: "npm:4.5.4"
+    zod: "npm:4.6.1"
   dependenciesMeta:
     openpgp:
       optional: true
@@ -10121,7 +10121,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/d7e3dac9966f883308f15ed597cea1ead4ec93a8ffdc2f6a8be605ab16aba9219f7214e75b4cd3485acbe410a000c3e81391ef61edbf2c7dd6da15ef682dc114
+  checksum: 10c0/9cbd60c8683ce92aae3a732ae294a580c12699a58944909f9b20a01dcc594e7dfc7e2777f74074983ce4c2353367f5ce386897a244635b7a46f30de59045ba60
   languageName: node
   linkType: hard
 
@@ -12085,14 +12085,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:4.5.4":
-  version: 4.5.4
-  resolution: "zod@npm:4.5.4"
-  checksum: 10c0/511a2a4d1a6f875dfdd70a1586989a8b14ef126776cd6218a2c760b9f65f14ef389ec20d92ee1aa4fcb4566d4ff3fa012956044f9dc503510d82e4c756a8ba92
+"zod@npm:4.6.1":
+  version: 4.6.1
+  resolution: "zod@npm:4.6.1"
+  checksum: 10c0/ef427982cc9b89e25a2559f5d28c9ee29504332de35c50523c2c61bbbb1f55a688713f7d39ddcb2e4fb4ef905432699b9cac7510e7b7d4da3f41099e35601dd2
   languageName: node
   linkType: hard
 
-"zod@npm:^3.25.0 || ^4.0.0, zod@npm:^4.5.4":
+"zod@npm:^3.25.0 || ^4.0.0, zod@npm:^4.6.1":
   version: 4.6.5
   resolution: "zod@npm:4.6.5"
   checksum: 10c0/32eb6c5e98becbe045675b2141c3611451c16ba567f9779231d79af41c4d651ca1c22f154aef7e6c6e77b929f23e43f1154ca05b82e119e922353725d6776af5

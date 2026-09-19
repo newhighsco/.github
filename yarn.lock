@@ -1230,7 +1230,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.5.1"
     prettier: "npm:3.9.8"
-    renovate: "npm:44.103.2"
+    renovate: "npm:44.103.3"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -9228,10 +9228,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-throttle@npm:8.1.0":
-  version: 8.1.0
-  resolution: "p-throttle@npm:8.1.0"
-  checksum: 10c0/884e0424ee64eae1456840fdfc5eac09368ede4d725734c51b0a3ddb12419b78c7bdbf9c6741410563b9bafa9cedb239da540c0e9c58981c590b15d59c18f0ee
+"p-throttle@npm:8.1.1":
+  version: 8.1.1
+  resolution: "p-throttle@npm:8.1.1"
+  checksum: 10c0/db2cdb9e3dc1f1ef905d05a537ca6868812fc4f36c7e2d63941b0e5e08721bcb5f2a47db5ec210ed19351ce6cd6529511bf568c3686fd6287e56decae5c04c7f
   languageName: node
   linkType: hard
 
@@ -9987,9 +9987,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.103.2":
-  version: 44.103.2
-  resolution: "renovate@npm:44.103.2"
+"renovate@npm:44.103.3":
+  version: 44.103.3
+  resolution: "renovate@npm:44.103.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -10087,7 +10087,7 @@ __metadata:
     p-all: "npm:5.0.1"
     p-map: "npm:7.0.7"
     p-queue: "npm:9.3.3"
-    p-throttle: "npm:8.1.0"
+    p-throttle: "npm:8.1.1"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.9.6"
     protobufjs: "npm:8.8.0"
@@ -10124,7 +10124,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/e01deee0969ce5aaae5e8824584a5066f930015563a57ed62e6a0112cc8b7e8a41396d64ae9c89e37043c9abca1a0ede5f3b7e7643a6c67dbd491c161369ef90
+  checksum: 10c0/20b5a6567d2d62ea41d9b017a4abf1a838d39ab1a80868512f0ce1cdcd05a19f2e66c8dc208a5955b69f4b10fd14e035d7cfe6e91251c4b502fa845f11d48722
   languageName: node
   linkType: hard
 

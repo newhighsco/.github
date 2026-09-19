@@ -1220,7 +1220,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.5.1"
     prettier: "npm:3.9.8"
-    renovate: "npm:44.103.1"
+    renovate: "npm:44.103.2"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -9977,9 +9977,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.103.1":
-  version: 44.103.1
-  resolution: "renovate@npm:44.103.1"
+"renovate@npm:44.103.2":
+  version: 44.103.2
+  resolution: "renovate@npm:44.103.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -10103,7 +10103,7 @@ __metadata:
     url-join: "npm:5.0.0"
     validate-npm-package-name: "npm:7.0.2"
     xmldoc: "npm:3.0.0"
-    yaml: "npm:2.9.0"
+    yaml: "npm:2.9.1"
     yauzl: "npm:3.4.0"
     zod: "npm:4.6.2"
   dependenciesMeta:
@@ -10114,7 +10114,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/9849d2efe19f66c32685971b4d8418ca9de323c9e8067b612d670d5e38e0515a0860cdfeddb53409970cdd0d0248efd509dc83f36e6777f2ebba913c60738f37
+  checksum: 10c0/e01deee0969ce5aaae5e8824584a5066f930015563a57ed62e6a0112cc8b7e8a41396d64ae9c89e37043c9abca1a0ede5f3b7e7643a6c67dbd491c161369ef90
   languageName: node
   linkType: hard
 
@@ -11942,16 +11942,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:2.9.0":
-  version: 2.9.0
-  resolution: "yaml@npm:2.9.0"
-  bin:
-    yaml: bin.mjs
-  checksum: 10c0/f340718df45e97a9551b9bf9dac61c80050bc464513b710debfb5067c380c8472e3b67809cffacb4ab5ffb5e66ef9310816c88b05f371cec60abfedd8c88e0a2
-  languageName: node
-  linkType: hard
-
-"yaml@npm:^2.9.0":
+"yaml@npm:2.9.1, yaml@npm:^2.9.0":
   version: 2.9.1
   resolution: "yaml@npm:2.9.1"
   bin:

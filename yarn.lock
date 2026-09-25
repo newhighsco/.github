@@ -1230,7 +1230,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.5.1"
     prettier: "npm:3.9.9"
-    renovate: "npm:44.115.2"
+    renovate: "npm:44.115.5"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -5431,24 +5431,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:8.0.1, execa@npm:^8.0.0":
-  version: 8.0.1
-  resolution: "execa@npm:8.0.1"
-  dependencies:
-    cross-spawn: "npm:^7.0.3"
-    get-stream: "npm:^8.0.1"
-    human-signals: "npm:^5.0.0"
-    is-stream: "npm:^3.0.0"
-    merge-stream: "npm:^2.0.0"
-    npm-run-path: "npm:^5.1.0"
-    onetime: "npm:^6.0.0"
-    signal-exit: "npm:^4.1.0"
-    strip-final-newline: "npm:^3.0.0"
-  checksum: 10c0/2c52d8775f5bf103ce8eec9c7ab3059909ba350a5164744e9947ed14a53f51687c040a250bda833f906d1283aa8803975b84e6c8f7a7c42f99dc8ef80250d1af
-  languageName: node
-  linkType: hard
-
-"execa@npm:^10.0.0":
+"execa@npm:10.0.1, execa@npm:^10.0.0":
   version: 10.0.1
   resolution: "execa@npm:10.0.1"
   dependencies:
@@ -5465,6 +5448,23 @@ __metadata:
     which-command: "npm:^0.1.0"
     yoctocolors: "npm:^2.1.2"
   checksum: 10c0/5fc05e35729344d8fdddbc92d91d995cb9cb9080f953cd60367285a7001f1bca9a7deb6f421413a62e6f80d2c2e91af9cda6990b0a88e854cb414506b4b05fce
+  languageName: node
+  linkType: hard
+
+"execa@npm:^8.0.0":
+  version: 8.0.1
+  resolution: "execa@npm:8.0.1"
+  dependencies:
+    cross-spawn: "npm:^7.0.3"
+    get-stream: "npm:^8.0.1"
+    human-signals: "npm:^5.0.0"
+    is-stream: "npm:^3.0.0"
+    merge-stream: "npm:^2.0.0"
+    npm-run-path: "npm:^5.1.0"
+    onetime: "npm:^6.0.0"
+    signal-exit: "npm:^4.1.0"
+    strip-final-newline: "npm:^3.0.0"
+  checksum: 10c0/2c52d8775f5bf103ce8eec9c7ab3059909ba350a5164744e9947ed14a53f51687c040a250bda833f906d1283aa8803975b84e6c8f7a7c42f99dc8ef80250d1af
   languageName: node
   linkType: hard
 
@@ -9971,9 +9971,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.115.2":
-  version: 44.115.2
-  resolution: "renovate@npm:44.115.2"
+"renovate@npm:44.115.5":
+  version: 44.115.5
+  resolution: "renovate@npm:44.115.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1117.0"
     "@aws-sdk/client-ec2": "npm:3.1117.0"
@@ -10038,7 +10038,7 @@ __metadata:
     emoji-regex: "npm:10.6.0"
     emojibase: "npm:17.0.0"
     emojibase-regex: "npm:17.0.0"
-    execa: "npm:8.0.1"
+    execa: "npm:10.0.1"
     find-packages: "npm:10.0.4"
     find-up: "npm:8.0.0"
     fs-extra: "npm:11.4.0"
@@ -10108,7 +10108,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/1a3e14368bf103002a56d780080ab67e11918367a32d6bc689c7ad789ee600f99688fce887179a2ee946a81873ac781fa13fded588fbaf6b3bf7d46e4a4b2622
+  checksum: 10c0/5448bd9e6b5ce54487c264e100285a41f7848d5b5bb52ca7716c0bf4d52230b073313fa280e4393d455f1927e24826c2f1a7b5d58e10e38218eda84eedc03b10
   languageName: node
   linkType: hard
 

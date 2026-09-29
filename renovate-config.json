@@ -47,6 +47,11 @@
       "description": "Pin `typescript` to v6 as update is not compatible with `typescript-eslint`",
       "matchPackageNames": ["typescript"],
       "allowedVersions": "<7"
+    },
+    {
+      "description": "Pin `conventional-changelog-conventionalcommits` to v9 - https://github.com/semantic-release/commit-analyzer/issues/921",
+      "matchPackageNames": ["conventional-changelog-conventionalcommits"],
+      "allowedVersions": "<10"
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],

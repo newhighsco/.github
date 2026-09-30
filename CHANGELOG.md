@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/newhighsco/.github/compare/v1.1.5...v1.2.0) (2026-09-30)
+
+### Features
+
+* **renovate:** disable lock file maintenance ([27e7d42](https://github.com/newhighsco/.github/commit/27e7d429dd644b0c8a64784d1623c361fed58ca3))
+
 ## [1.1.5](https://github.com/newhighsco/.github/compare/v1.1.4...v1.1.5) (2026-09-30)
 
 ### Bug Fixes

@@ -1230,7 +1230,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
     prettier: "npm:3.9.9"
-    renovate: "npm:44.132.4"
+    renovate: "npm:44.132.5"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -6599,7 +6599,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"install-artifact-from-github@npm:^1.7.0":
+"install-artifact-from-github@npm:^1.8.1":
   version: 1.8.1
   resolution: "install-artifact-from-github@npm:1.8.1"
   bin:
@@ -8498,7 +8498,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.14.0, nan@npm:^2.28.0":
+"nan@npm:^2.14.0, nan@npm:^2.29.0":
   version: 2.29.0
   resolution: "nan@npm:2.29.0"
   dependencies:
@@ -8615,7 +8615,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^13.0.1, node-gyp@npm:latest":
+"node-gyp@npm:^13.0.2":
+  version: 13.1.0
+  resolution: "node-gyp@npm:13.1.0"
+  dependencies:
+    env-paths: "npm:^2.2.0"
+    exponential-backoff: "npm:^3.1.1"
+    graceful-fs: "npm:^4.2.6"
+    nopt: "npm:^10.0.0"
+    proc-log: "npm:^7.0.0"
+    semver: "npm:^7.3.5"
+    tar: "npm:^7.5.7"
+    tinyglobby: "npm:^0.2.12"
+    undici: "npm:^8.4.1"
+    which: "npm:^7.0.0"
+  bin:
+    node-gyp: bin/node-gyp.js
+  checksum: 10c0/c6693e52e0e111b21f5cd8ff303b41b51f40338adcc79ac5c6a02399eba7039d50dc816dcafcc485870291a641f7cb75db8887a9bdd0de537fe635a3a81cba5b
+  languageName: node
+  linkType: hard
+
+"node-gyp@npm:latest":
   version: 13.0.2
   resolution: "node-gyp@npm:13.0.2"
   dependencies:
@@ -9750,14 +9770,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.26.1":
-  version: 1.26.1
-  resolution: "re2@npm:1.26.1"
+"re2@npm:1.27.0":
+  version: 1.27.0
+  resolution: "re2@npm:1.27.0"
   dependencies:
-    install-artifact-from-github: "npm:^1.7.0"
-    nan: "npm:^2.28.0"
-    node-gyp: "npm:^13.0.1"
-  checksum: 10c0/6204450f56e7b65772c02491c5c04b9264d3a95a5e635519b0f4f98623aef958d57d23b8c738c433a668d6a75166f03ae1ce3ee8ae7fe0bb2913fb2dcde4100f
+    install-artifact-from-github: "npm:^1.8.1"
+    nan: "npm:^2.29.0"
+    node-gyp: "npm:^13.0.2"
+  checksum: 10c0/a61a4a26ffbba84365baf6ea00190be579a2e7600ab69319df05a155ae4f4b944e2d61216e4f0c43a73ea695b217573e2bac33692a7a856d1ef5d395a45b9479
   languageName: node
   linkType: hard
 
@@ -9959,9 +9979,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.132.4":
-  version: 44.132.4
-  resolution: "renovate@npm:44.132.4"
+"renovate@npm:44.132.5":
+  version: 44.132.5
+  resolution: "renovate@npm:44.132.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -10064,7 +10084,7 @@ __metadata:
     prettier: "npm:3.9.9"
     protobufjs: "npm:8.8.0"
     punycode: "npm:2.3.1"
-    re2: "npm:1.26.1"
+    re2: "npm:1.27.0"
     remark: "npm:15.0.1"
     remark-gfm: "npm:4.0.1"
     remark-github: "npm:12.0.0"
@@ -10096,7 +10116,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/768858b063bd468cc3ef9e14cee61baf499f86623dc212cabc03b1bd56ef8e2c4ec0e96db56ec10491b2c0e51598dcac994503184589e31662c45f623eec3268
+  checksum: 10c0/14eb02a91b2d7d940eb88ab0195ca259ed1080ff9a48f53523c25f21f228bfe5e353467bf59ef43152b007f9808e57534c6b050d7e52a375362d3c7a05b1e8de
   languageName: node
   linkType: hard
 
@@ -11036,7 +11056,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar@npm:7.5.22, tar@npm:^7.4.3, tar@npm:^7.5.1, tar@npm:^7.5.22, tar@npm:^7.5.3, tar@npm:^7.5.4":
+"tar@npm:7.5.22, tar@npm:^7.4.3, tar@npm:^7.5.1, tar@npm:^7.5.22, tar@npm:^7.5.3, tar@npm:^7.5.4, tar@npm:^7.5.7":
   version: 7.5.22
   resolution: "tar@npm:7.5.22"
   dependencies:

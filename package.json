@@ -37,7 +37,7 @@
     "husky": "9.1.7",
     "lint-staged": "17.6.0",
     "prettier": "3.9.10",
-    "renovate": "44.155.8",
+    "renovate": "44.156.3",
     "semantic-release": "25.0.9"
   },
   "resolutions": {

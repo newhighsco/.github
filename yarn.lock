@@ -1242,7 +1242,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
     prettier: "npm:3.9.10"
-    renovate: "npm:44.165.1"
+    renovate: "npm:44.165.2"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -2305,9 +2305,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/base-image@npm:13.132.1":
-  version: 13.132.1
-  resolution: "@renovatebot/base-image@npm:13.132.1"
+"@renovatebot/base-image@npm:13.132.2":
+  version: 13.132.2
+  resolution: "@renovatebot/base-image@npm:13.132.2"
   dependencies:
     "@containerbase/base": "npm:14.42.0"
   peerDependencies:
@@ -2315,7 +2315,7 @@ __metadata:
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/480155774b49a2f7cc428b09082ca70b95729716aa8c36c14b62397bfc765d5d6c191288768ba45dcea233bc482e95dbca8f0101cc46d26d8b804ac8ccaf0024
+  checksum: 10c0/988bb76a5b6ca7d8e7733f68ec440916fadbaf0f5fb8d1ea2bb1433dbe4ed09d6a66056c36f684d47277017acec5c12a7acf15bfc17863770e65eb718d12eb2b
   languageName: node
   linkType: hard
 
@@ -10005,9 +10005,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.165.1":
-  version: 44.165.1
-  resolution: "renovate@npm:44.165.1"
+"renovate@npm:44.165.2":
+  version: 44.165.2
+  resolution: "renovate@npm:44.165.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -10040,7 +10040,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:6.3.0"
-    "@renovatebot/base-image": "npm:13.132.1"
+    "@renovatebot/base-image": "npm:13.132.2"
     "@renovatebot/detect-tools": "npm:4.0.21"
     "@renovatebot/good-enough-parser": "npm:2.0.1"
     "@renovatebot/osv-offline": "npm:3.0.12"
@@ -10143,7 +10143,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/d7157b4cc2b624abe28ad7bd418e9d9fa92014e0bb4bf1653e1fd12148c8406062eb26003fcd09144a45c43cc20ff2da633836b1d6192ffcd16029bd1463912a
+  checksum: 10c0/a74bd51329c5ae39e80eb691a622087e0ede80ddb3591df804feaa4bc3a15cf42c25a309caf72f487354195c91818cbd0f2dfd409b1fb463256441ce92143d2b
   languageName: node
   linkType: hard
 

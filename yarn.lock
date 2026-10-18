@@ -1242,7 +1242,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
     prettier: "npm:3.9.10"
-    renovate: "npm:44.167.0"
+    renovate: "npm:44.167.1"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -9216,13 +9216,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-queue@npm:9.3.3":
-  version: 9.3.3
-  resolution: "p-queue@npm:9.3.3"
+"p-queue@npm:9.3.4":
+  version: 9.3.4
+  resolution: "p-queue@npm:9.3.4"
   dependencies:
     eventemitter3: "npm:^5.0.4"
     p-timeout: "npm:^7.0.0"
-  checksum: 10c0/0d88a35cb3301bee2aac654c0a7018a2e40775fa597f3a06da66f33b0311d106bebbe9732c8e5968ae1e0e0b49f79c874333d2a7b0a57fad469189f236c066d7
+  checksum: 10c0/3bc5acb9b67452bf14dfb60a87dd2a4bfcd0e7a30f7b023ea8ca3cfb132d0d53d36241f615ef9a9b1d342cb23f94a095ba764ddd1030fd32d33f7245f798a854
   languageName: node
   linkType: hard
 
@@ -9983,9 +9983,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.167.0":
-  version: 44.167.0
-  resolution: "renovate@npm:44.167.0"
+"renovate@npm:44.167.1":
+  version: 44.167.1
+  resolution: "renovate@npm:44.167.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -10082,7 +10082,7 @@ __metadata:
     openpgp: "npm:6.3.2"
     p-all: "npm:5.0.1"
     p-map: "npm:7.1.0"
-    p-queue: "npm:9.3.3"
+    p-queue: "npm:9.3.4"
     p-throttle: "npm:8.1.1"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.9.10"
@@ -10119,7 +10119,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/97555eab3e460b020e53eda728e4d3688410bff5395d7112170dd5b9031696bc437a2d925b2eb11a5020770d25eff71ae04544889fd40e202ae836f04ccd6e3b
+  checksum: 10c0/8bc32133a6f4ab2e51a5f2a173dac0bf960568492dffc8a4822097f609a640fb44506e344739ac91212d66e8139a9837ca22e0552f1e5e1962c6cb8a8420b94d
   languageName: node
   linkType: hard
 

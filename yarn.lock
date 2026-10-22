@@ -883,9 +883,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@containerbase/base@npm:14.49.0":
-  version: 14.49.0
-  resolution: "@containerbase/base@npm:14.49.0"
+"@containerbase/base@npm:14.50.0":
+  version: 14.50.0
+  resolution: "@containerbase/base@npm:14.50.0"
   dependencies:
     semver: "npm:^7.8.5"
   peerDependencies:
@@ -893,7 +893,7 @@ __metadata:
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/cf208e78dd37bdcf512b9eab946bcd434d7504743f65d23d83a0e98f97e5a6fdcef81fcc3614b27d657606a89e598a3c4f8055ef396f86dd62337655520bd8e9
+  checksum: 10c0/b6f615d5f6df3a141528dfda1798569bb751da1bc8b30e44e00b512aac8a43c8eba4709ac0807765b3c6cbf5a0304904a36b8a3beacbfe00bcfeea29ec44a180
   languageName: node
   linkType: hard
 
@@ -1244,7 +1244,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
     prettier: "npm:3.9.10"
-    renovate: "npm:44.176.3"
+    renovate: "npm:44.178.1"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -2307,17 +2307,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/base-image@npm:13.139.1":
-  version: 13.139.1
-  resolution: "@renovatebot/base-image@npm:13.139.1"
+"@renovatebot/base-image@npm:13.140.0":
+  version: 13.140.0
+  resolution: "@renovatebot/base-image@npm:13.140.0"
   dependencies:
-    "@containerbase/base": "npm:14.49.0"
+    "@containerbase/base": "npm:14.50.0"
   peerDependencies:
     zod: ^4.0.0
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/4b5ada5649a12d84e9381d9e4ee2b2550125dcb8e44588685ab174808a4a60533c1714c709c0a3deb9f525eaf5078d6586c9b13cafa299f19a53e4c1f0ef8fa7
+  checksum: 10c0/399a2ac6b72574c1bde705b0bdf65db024347056450e564386eedb51494b9d785b63acfc17526e77195e6ee51c784053d0a5141c76551ff4d4f4db9877ebf63c
   languageName: node
   linkType: hard
 
@@ -2626,7 +2626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/is@npm:8.1.0, @sindresorhus/is@npm:^8.0.0":
+"@sindresorhus/is@npm:8.1.0, @sindresorhus/is@npm:^8.0.0, @sindresorhus/is@npm:^8.1.0":
   version: 8.1.0
   resolution: "@sindresorhus/is@npm:8.1.0"
   checksum: 10c0/45e17a558af61fc7f0ee891a48060961f25534fc3836c464146f836d0df32f19fc4fa326c3f195186f104a81ee17253885f7b2dc71abe052e8f18fc233cfa790
@@ -3853,7 +3853,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacheable-request@npm:^13.0.18":
+"cacheable-request@npm:^13.0.18, cacheable-request@npm:^13.0.19":
   version: 13.0.19
   resolution: "cacheable-request@npm:13.0.19"
   dependencies:
@@ -6123,21 +6123,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"got@npm:16.0.0":
-  version: 16.0.0
-  resolution: "got@npm:16.0.0"
+"got@npm:16.1.0":
+  version: 16.1.0
+  resolution: "got@npm:16.1.0"
   dependencies:
-    "@sindresorhus/is": "npm:^8.0.0"
+    "@sindresorhus/is": "npm:^8.1.0"
     byte-counter: "npm:^0.1.0"
-    cacheable-request: "npm:^13.0.18"
+    cacheable-request: "npm:^13.0.19"
     chunk-data: "npm:^0.1.0"
     decompress-response: "npm:^10.0.0"
     keyv: "npm:^5.6.0"
     lowercase-keys: "npm:^4.0.1"
     responselike: "npm:^4.0.2"
-    type-fest: "npm:^5.6.0"
-    uint8array-extras: "npm:^1.5.0"
-  checksum: 10c0/1d4d4c0900f808cf0e5ef661cf66ef45864e3f6abdc54fd01fae64cefce80fb15a94bde950c31450a494dd86d6d09c0c8f8099b3c6f63409eef23f523ecf82f7
+    type-fest: "npm:^5.10.0"
+    uint8array-extras: "npm:^1.6.0"
+  checksum: 10c0/99a8ec70cf7bacf1e507cf1a16a52ad01d7fe347946575bff7299a3422aec3f39cd4b8880b3487f18b722f227b39b18460bac47a7f525399747d6365ed90594a
   languageName: node
   linkType: hard
 
@@ -9985,9 +9985,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.176.3":
-  version: 44.176.3
-  resolution: "renovate@npm:44.176.3"
+"renovate@npm:44.178.1":
+  version: 44.178.1
+  resolution: "renovate@npm:44.178.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -10020,7 +10020,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:6.3.0"
-    "@renovatebot/base-image": "npm:13.139.1"
+    "@renovatebot/base-image": "npm:13.140.0"
     "@renovatebot/detect-tools": "npm:4.0.23"
     "@renovatebot/good-enough-parser": "npm:2.0.1"
     "@renovatebot/osv-offline": "npm:3.0.12"
@@ -10062,7 +10062,7 @@ __metadata:
     glob: "npm:13.0.6"
     global-agent: "npm:3.0.0"
     google-auth-library: "npm:11.3.0"
-    got: "npm:16.0.0"
+    got: "npm:16.1.0"
     graph-data-structure: "npm:4.5.0"
     handlebars: "npm:4.7.10"
     ignore: "npm:7.0.12"
@@ -10121,7 +10121,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/fb572364942d72517c528eeba886161217a11c8753883da96e5e50f00d00ff4df527865920ef04ba671f305cd128ddc21305c82247314d690d5a729c536445d9
+  checksum: 10c0/f7fb4836c745c5ed926b0172c1d4aaf1f45a1334f177edd046354086d55908c5333aa3b3a2bfc33e7b5271f681eec0b53a4cbd4fef892583c7feed84b14d95a3
   languageName: node
   linkType: hard
 
@@ -11322,7 +11322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^5.2.0, type-fest@npm:^5.4.4, type-fest@npm:^5.6.0":
+"type-fest@npm:^5.10.0, type-fest@npm:^5.2.0, type-fest@npm:^5.4.4, type-fest@npm:^5.6.0":
   version: 5.10.0
   resolution: "type-fest@npm:5.10.0"
   dependencies:
@@ -11436,7 +11436,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uint8array-extras@npm:^1.5.0":
+"uint8array-extras@npm:^1.5.0, uint8array-extras@npm:^1.6.0":
   version: 1.6.0
   resolution: "uint8array-extras@npm:1.6.0"
   checksum: 10c0/d53177c025ebea31af1e445abd474027b66341a56f207f352a5a486aa1d492e228bbc883dc4a51ea8358bb88d60a019351e20a92dd17c2ef8326e29fbad57127

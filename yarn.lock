@@ -1244,7 +1244,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
     prettier: "npm:3.9.10"
-    renovate: "npm:44.178.1"
+    renovate: "npm:44.178.4"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -1938,14 +1938,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/resource-detector-github@npm:0.32.0":
-  version: 0.32.0
-  resolution: "@opentelemetry/resource-detector-github@npm:0.32.0"
+"@opentelemetry/resource-detector-github@npm:0.33.0":
+  version: 0.33.0
+  resolution: "@opentelemetry/resource-detector-github@npm:0.33.0"
   dependencies:
     "@opentelemetry/resources": "npm:^2.0.0"
   peerDependencies:
     "@opentelemetry/api": ^1.0.0
-  checksum: 10c0/6b57aa3e2d2ace82e566e214c659b5ea49fec097271aec7458d66984aa2c99f6bcb1c5e0fbe0752fd59e579775c2f6880e716ad6081688b6402ff2015cf6c682
+  checksum: 10c0/e8b8d6a86545935720df685b0491c783b8fb8deb84dc4c2e5f9c52558882204882054e1e8309606929e2a86742098f71e67d2e5d8c4737dcd672b5eb1afc5bfc
   languageName: node
   linkType: hard
 
@@ -2307,9 +2307,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/base-image@npm:13.140.0":
-  version: 13.140.0
-  resolution: "@renovatebot/base-image@npm:13.140.0"
+"@renovatebot/base-image@npm:13.140.1":
+  version: 13.140.1
+  resolution: "@renovatebot/base-image@npm:13.140.1"
   dependencies:
     "@containerbase/base": "npm:14.50.0"
   peerDependencies:
@@ -2317,7 +2317,7 @@ __metadata:
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/399a2ac6b72574c1bde705b0bdf65db024347056450e564386eedb51494b9d785b63acfc17526e77195e6ee51c784053d0a5141c76551ff4d4f4db9877ebf63c
+  checksum: 10c0/082cb2d672a491f85475dc14f12a9e81ac5c9ac0e235c0b03942556d1920e023f7c11da057b2ea2515cdc92363e8a715d446ea3ab563f5af83b61bb022c09fcb
   languageName: node
   linkType: hard
 
@@ -5814,7 +5814,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gaxios@npm:^7.1.3, gaxios@npm:^7.1.4":
+"gaxios@npm:^7.1.3":
   version: 7.3.1
   resolution: "gaxios@npm:7.3.1"
   dependencies:
@@ -5822,6 +5822,17 @@ __metadata:
     https-proxy-agent: "npm:^7.0.1"
     node-fetch: "npm:^3.3.2"
   checksum: 10c0/64719a771c5ffa631b33d18b144253596f69d98fa3123c3864f7b66947bb1406fb98a4690bd7e11c651d2ee3f57b60b23814cc4a7dbd62d043eab9fa3df60f96
+  languageName: node
+  linkType: hard
+
+"gaxios@npm:^8.3.0":
+  version: 8.3.1
+  resolution: "gaxios@npm:8.3.1"
+  dependencies:
+    extend: "npm:^3.0.2"
+    https-proxy-agent: "npm:^7.0.1"
+    node-fetch: "npm:^3.3.2"
+  checksum: 10c0/d375fa88b4a53aebba40256b4e159797eaf239a90bffdc1d97cd252c6fd1efe19eb879f1400b1ed0eb9d2de459c4464ca218994077ec7260ff8057e0eba44830
   languageName: node
   linkType: hard
 
@@ -6088,17 +6099,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:11.3.0":
-  version: 11.3.0
-  resolution: "google-auth-library@npm:11.3.0"
+"google-auth-library@npm:11.3.1":
+  version: 11.3.1
+  resolution: "google-auth-library@npm:11.3.1"
   dependencies:
     base64-js: "npm:^1.3.0"
     ecdsa-sig-formatter: "npm:^1.0.11"
-    gaxios: "npm:^7.1.4"
+    gaxios: "npm:^8.3.0"
     gcp-metadata: "npm:^9.0.0"
     google-logging-utils: "npm:^2.0.0"
     jws: "npm:^4.0.0"
-  checksum: 10c0/56d7140f04d06f67c24f9e17750345f362b407c3c9df91df59df81c3fb03ff41defc7c7a1a52087a1bff420e91402fc6685092276e2513ed5b0f9af73b4c9717
+  checksum: 10c0/db72e7977fdb965312c5fc4696451f500e548607e413cac4a63e3c5ce37097e3c387cf43a1eb35ad8dbbbc4934b37370ffa0eda8a07dbe8e446c6b057a1af983
   languageName: node
   linkType: hard
 
@@ -9985,9 +9996,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.178.1":
-  version: 44.178.1
-  resolution: "renovate@npm:44.178.1"
+"renovate@npm:44.178.4":
+  version: 44.178.4
+  resolution: "renovate@npm:44.178.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -10012,7 +10023,7 @@ __metadata:
     "@opentelemetry/resource-detector-aws": "npm:2.23.0"
     "@opentelemetry/resource-detector-azure": "npm:0.31.0"
     "@opentelemetry/resource-detector-gcp": "npm:0.58.0"
-    "@opentelemetry/resource-detector-github": "npm:0.32.0"
+    "@opentelemetry/resource-detector-github": "npm:0.33.0"
     "@opentelemetry/resources": "npm:2.12.0"
     "@opentelemetry/sdk-trace-base": "npm:2.12.0"
     "@opentelemetry/sdk-trace-node": "npm:2.12.0"
@@ -10020,7 +10031,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:6.3.0"
-    "@renovatebot/base-image": "npm:13.140.0"
+    "@renovatebot/base-image": "npm:13.140.1"
     "@renovatebot/detect-tools": "npm:4.0.23"
     "@renovatebot/good-enough-parser": "npm:2.0.1"
     "@renovatebot/osv-offline": "npm:3.0.12"
@@ -10061,7 +10072,7 @@ __metadata:
     github-url-from-git: "npm:1.5.0"
     glob: "npm:13.0.6"
     global-agent: "npm:3.0.0"
-    google-auth-library: "npm:11.3.0"
+    google-auth-library: "npm:11.3.1"
     got: "npm:16.1.0"
     graph-data-structure: "npm:4.5.0"
     handlebars: "npm:4.7.10"
@@ -10121,7 +10132,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/f7fb4836c745c5ed926b0172c1d4aaf1f45a1334f177edd046354086d55908c5333aa3b3a2bfc33e7b5271f681eec0b53a4cbd4fef892583c7feed84b14d95a3
+  checksum: 10c0/a08ef15f907c23af6c17b85d14118c0e09de30222778d7fd522da962bc91528ac53ca61dc7124d4ebee6b28078eeddeb19826f99737e198b4e20f81dc6b489be
   languageName: node
   linkType: hard
 

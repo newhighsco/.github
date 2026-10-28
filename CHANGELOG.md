@@ -1,3 +1,34 @@
+## [1.2.59](https://github.com/newhighsco/.github/compare/v1.2.58...v1.2.59) (2026-10-28)
+
+### Bug Fixes
+
+* **deps:** update dependency renovate to v44.175.4 ([#2662](https://github.com/newhighsco/.github/issues/2662)) ([1442c80](https://github.com/newhighsco/.github/commit/1442c80140278f48b0ddfc5bcc9b9cc98c52dde3))
+* **deps:** update dependency renovate to v44.176.0 ([#2663](https://github.com/newhighsco/.github/issues/2663)) ([3fd4c10](https://github.com/newhighsco/.github/commit/3fd4c10aa90dcde536b13878801283e3f6c366ae))
+* **deps:** update dependency renovate to v44.176.1 ([#2664](https://github.com/newhighsco/.github/issues/2664)) ([caf85b8](https://github.com/newhighsco/.github/commit/caf85b855cb595af6c551c2a25c05697e04e50e4))
+* **deps:** update dependency renovate to v44.176.2 ([#2665](https://github.com/newhighsco/.github/issues/2665)) ([2693130](https://github.com/newhighsco/.github/commit/2693130a165d476cc6e258caa1a5816ce0a710fd))
+* **deps:** update dependency renovate to v44.176.3 ([#2666](https://github.com/newhighsco/.github/issues/2666)) ([57244f9](https://github.com/newhighsco/.github/commit/57244f92784eb5288738605ba0a7200d86cde86a))
+* **deps:** update dependency renovate to v44.178.1 ([#2667](https://github.com/newhighsco/.github/issues/2667)) ([4b7d67a](https://github.com/newhighsco/.github/commit/4b7d67accd0a6adf84af5d389ca1f59d7e246fc0))
+* **deps:** update dependency renovate to v44.178.4 ([#2668](https://github.com/newhighsco/.github/issues/2668)) ([ee7bbf6](https://github.com/newhighsco/.github/commit/ee7bbf642851bef617d8723c9d0c48511bf39f17))
+* **deps:** update dependency renovate to v44.178.5 ([#2669](https://github.com/newhighsco/.github/issues/2669)) ([7950a32](https://github.com/newhighsco/.github/commit/7950a32a24cd08e8cc719a5a71b456418c52e89c))
+* **deps:** update dependency renovate to v44.179.2 ([#2670](https://github.com/newhighsco/.github/issues/2670)) ([35e3e78](https://github.com/newhighsco/.github/commit/35e3e7856a092374b79e971f8716c174c38b8b87))
+* **deps:** update dependency renovate to v44.181.0 ([#2671](https://github.com/newhighsco/.github/issues/2671)) ([2e34900](https://github.com/newhighsco/.github/commit/2e349003d5e5ebca0ee9055372012ab4c730203e))
+* **deps:** update dependency renovate to v44.181.1 ([#2672](https://github.com/newhighsco/.github/issues/2672)) ([15ab54f](https://github.com/newhighsco/.github/commit/15ab54f5bc04d0b91f6b993a0cef5f7a207754b5))
+* **deps:** update dependency renovate to v44.181.11 ([#2678](https://github.com/newhighsco/.github/issues/2678)) ([b339aa8](https://github.com/newhighsco/.github/commit/b339aa8e8824390453a36e4378688652a81a6c9c))
+* **deps:** update dependency renovate to v44.181.3 ([#2673](https://github.com/newhighsco/.github/issues/2673)) ([d2cb338](https://github.com/newhighsco/.github/commit/d2cb3380a25a19da2fb6953326be536dcb98063e))
+* **deps:** update dependency renovate to v44.181.4 ([#2674](https://github.com/newhighsco/.github/issues/2674)) ([ac7409d](https://github.com/newhighsco/.github/commit/ac7409d94d298f1e18ad9d26fb74810574d8a4db))
+* **deps:** update dependency renovate to v44.181.5 ([#2675](https://github.com/newhighsco/.github/issues/2675)) ([d017778](https://github.com/newhighsco/.github/commit/d017778de1a2f5e7891cde8d7ffe0c7516aaeb09))
+* **deps:** update dependency renovate to v44.181.6 ([#2676](https://github.com/newhighsco/.github/issues/2676)) ([2f90f93](https://github.com/newhighsco/.github/commit/2f90f93f8a2f3e9123748db8b6b876ab9fca9c29))
+* **deps:** update dependency renovate to v44.181.7 ([#2677](https://github.com/newhighsco/.github/issues/2677)) ([d10ec4f](https://github.com/newhighsco/.github/commit/d10ec4f77ab4478c8050ae54d4f2aa900acc543c))
+* **deps:** update dependency renovate to v44.182.2 ([#2679](https://github.com/newhighsco/.github/issues/2679)) ([c91c257](https://github.com/newhighsco/.github/commit/c91c257ac1f6f1e238b7c46a046804ec1135a3f5))
+* **deps:** update dependency renovate to v44.185.0 ([#2680](https://github.com/newhighsco/.github/issues/2680)) ([71b6647](https://github.com/newhighsco/.github/commit/71b6647c674b5693f93a1eadbf1b1fcc857b54dd))
+* **deps:** update dependency renovate to v44.186.4 ([#2681](https://github.com/newhighsco/.github/issues/2681)) ([796318a](https://github.com/newhighsco/.github/commit/796318a4c188a2a724a1d21086f76bbd991e7916))
+* **deps:** update dependency renovate to v44.186.6 ([#2682](https://github.com/newhighsco/.github/issues/2682)) ([d77504b](https://github.com/newhighsco/.github/commit/d77504b23f0c7f680590eff72d3b9d80b0bf22c0))
+* **deps:** update dependency renovate to v44.186.7 ([#2683](https://github.com/newhighsco/.github/issues/2683)) ([09f4bc2](https://github.com/newhighsco/.github/commit/09f4bc267189333f95f808776224e5409914ba38))
+* **deps:** update dependency renovate to v44.188.2 ([#2684](https://github.com/newhighsco/.github/issues/2684)) ([4c6e27f](https://github.com/newhighsco/.github/commit/4c6e27f03ebbf1437f4e88301c6874c7cea16872))
+* **deps:** update dependency renovate to v44.190.0 ([#2685](https://github.com/newhighsco/.github/issues/2685)) ([1fba582](https://github.com/newhighsco/.github/commit/1fba582ebbe9afe0f44b6b9df64589300a2183be))
+* **deps:** update dependency renovate to v44.190.1 ([#2686](https://github.com/newhighsco/.github/issues/2686)) ([c99febd](https://github.com/newhighsco/.github/commit/c99febdb62d963570f1fd0e6ed6d731bebead67d))
+* **deps:** update dependency renovate to v44.190.2 ([#2687](https://github.com/newhighsco/.github/issues/2687)) ([cf4cb64](https://github.com/newhighsco/.github/commit/cf4cb6484563784375345b2418f61129690508cf))
+
 ## [1.2.58](https://github.com/newhighsco/.github/compare/v1.2.57...v1.2.58) (2026-10-21)
 
 ### Bug Fixes

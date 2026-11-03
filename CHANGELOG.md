@@ -1,3 +1,9 @@
+## [1.2.76](https://github.com/newhighsco/.github/compare/v1.2.75...v1.2.76) (2026-11-03)
+
+### Bug Fixes
+
+* **deps:** update dependency renovate to v44.209.0 ([#2709](https://github.com/newhighsco/.github/issues/2709)) ([024ae04](https://github.com/newhighsco/.github/commit/024ae04c953e978c65ac196cb4ae317745e1b7dd))
+
 ## [1.2.75](https://github.com/newhighsco/.github/compare/v1.2.74...v1.2.75) (2026-11-03)
 
 ### Bug Fixes

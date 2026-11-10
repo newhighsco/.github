@@ -883,9 +883,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@containerbase/base@npm:14.66.14, @containerbase/base@npm:^14.62.0":
-  version: 14.66.14
-  resolution: "@containerbase/base@npm:14.66.14"
+"@containerbase/base@npm:14.66.15, @containerbase/base@npm:^14.62.0":
+  version: 14.66.15
+  resolution: "@containerbase/base@npm:14.66.15"
   dependencies:
     semver: "npm:^7.8.5"
   peerDependencies:
@@ -893,7 +893,7 @@ __metadata:
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/48cf5830be1ef4ef55c4fc54680376cd35dd067ba862b67ff1f3db183900ca7ec73d39447e7cf588a82b5932583b12e5af9705341a5336317bae903150dddf6b
+  checksum: 10c0/c4f7986c3e920d46325740078920add5adefbe2dfd6b598ffed3d5d99424819f7b7cc189d261a1b9852436ae1d57cbbd5f7959364358ba4e377a5c842c616132
   languageName: node
   linkType: hard
 
@@ -1244,7 +1244,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
     prettier: "npm:3.9.10"
-    renovate: "npm:44.225.2"
+    renovate: "npm:44.227.2"
     semantic-release: "npm:25.0.9"
   languageName: unknown
   linkType: soft
@@ -2267,17 +2267,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/base-image@npm:13.163.1":
-  version: 13.163.1
-  resolution: "@renovatebot/base-image@npm:13.163.1"
+"@renovatebot/base-image@npm:13.163.4":
+  version: 13.163.4
+  resolution: "@renovatebot/base-image@npm:13.163.4"
   dependencies:
-    "@containerbase/base": "npm:14.66.14"
+    "@containerbase/base": "npm:14.66.15"
   peerDependencies:
     zod: ^4.0.0
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/e2d1080a0a85d0fc701be68eb8bcb8abce21d38c52a83ddbf9447315846bcafdf00e787cea396baa10e8bd8d508321efe922c0d89aa8fb629984ec0b9842dd1b
+  checksum: 10c0/0a3d0a081634b32d608a56a98b32e8bd22860a784cc933aef1b567a2af98f53ae58789bd60849c265f73eb18c5f399327c9781013565ac027226ef39cf962426
   languageName: node
   linkType: hard
 
@@ -6123,9 +6123,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:11.3.2":
-  version: 11.3.2
-  resolution: "google-auth-library@npm:11.3.2"
+"google-auth-library@npm:11.3.3":
+  version: 11.3.3
+  resolution: "google-auth-library@npm:11.3.3"
   dependencies:
     base64-js: "npm:^1.3.0"
     ecdsa-sig-formatter: "npm:^1.0.11"
@@ -6133,7 +6133,7 @@ __metadata:
     gcp-metadata: "npm:^9.2.1"
     google-logging-utils: "npm:^2.1.0"
     jws: "npm:^4.0.0"
-  checksum: 10c0/f049a897fbe77eda10e640b7ae4804aab611b9618d33e47080925f32a348b98d352a7932f147c14f0aaf1567583acadb692d8bf863e267201bb5d3e86a61409f
+  checksum: 10c0/9a8271ea21fd41ebf1e9a6944d56e334e15779f65b5d9e0087ca6571ea2bbb0e50bbf0c8cb88892389a90cedcb988752e3bc3d6b05d4befdc8db7c7c7cceb7f5
   languageName: node
   linkType: hard
 
@@ -10000,9 +10000,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.225.2":
-  version: 44.225.2
-  resolution: "renovate@npm:44.225.2"
+"renovate@npm:44.227.2":
+  version: 44.227.2
+  resolution: "renovate@npm:44.227.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -10035,7 +10035,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:6.3.1"
-    "@renovatebot/base-image": "npm:13.163.1"
+    "@renovatebot/base-image": "npm:13.163.4"
     "@renovatebot/detect-tools": "npm:5.0.0"
     "@renovatebot/good-enough-parser": "npm:4.0.3"
     "@renovatebot/osv-offline": "npm:4.5.10"
@@ -10076,7 +10076,7 @@ __metadata:
     github-url-from-git: "npm:1.5.0"
     glob: "npm:13.0.6"
     global-agent: "npm:3.0.0"
-    google-auth-library: "npm:11.3.2"
+    google-auth-library: "npm:11.3.3"
     got: "npm:16.2.0"
     graph-data-structure: "npm:4.5.0"
     handlebars: "npm:4.7.10"
@@ -10111,7 +10111,7 @@ __metadata:
     remark-github: "npm:12.0.0"
     safe-stable-stringify: "npm:2.5.0"
     sax: "npm:1.6.1"
-    semver: "npm:7.8.5"
+    semver: "npm:7.8.6"
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:3.0.0"
@@ -10136,7 +10136,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/e80204de5716744cda6035e1fbeed4fb4cbb3dab79421adc51f6d5add41de1db788bbc5d5ed08d980826728481dcfb3f303a9db57ed4da52b63d3ce9c12031a4
+  checksum: 10c0/09a1b5dfbec1f7d21e879fcd9d3a899442848580bcbc211d1a31dccb742cd2266c20a153986986f34eb0d0b40d52d768c384b1568bcdafbca8966d126a4dd367
   languageName: node
   linkType: hard
 
@@ -10440,12 +10440,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.8.5, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.6.0, semver@npm:^7.7.2, semver@npm:^7.7.3, semver@npm:^7.7.4, semver@npm:^7.8.5":
-  version: 7.8.5
-  resolution: "semver@npm:7.8.5"
+"semver@npm:7.8.6, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.6.0, semver@npm:^7.7.2, semver@npm:^7.7.3, semver@npm:^7.7.4, semver@npm:^7.8.5":
+  version: 7.8.6
+  resolution: "semver@npm:7.8.6"
   bin:
     semver: bin/semver.js
-  checksum: 10c0/b1f3127a5be8125a94f37188b361c212466c292c6910adce3ec106cff5dc211ccaedc4739c11bb70fda59d6fc1f040a9bca289f4e093451521a2372e5231fe0c
+  checksum: 10c0/bf0a4d16eb067e5391323649e46b4a268644d7f8ee88e37c7668d35e861ec145b6e7df576d898007fc0d9a2cedcbc33f71460aa3bbea18eedfa5af58c064d7fe
   languageName: node
   linkType: hard
 

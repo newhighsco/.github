@@ -873,9 +873,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@containerbase/base@npm:14.68.3, @containerbase/base@npm:^14.62.0":
-  version: 14.68.3
-  resolution: "@containerbase/base@npm:14.68.3"
+"@containerbase/base@npm:14.69.2, @containerbase/base@npm:^14.62.0":
+  version: 14.69.2
+  resolution: "@containerbase/base@npm:14.69.2"
   dependencies:
     semver: "npm:^7.8.5"
   peerDependencies:
@@ -883,7 +883,7 @@ __metadata:
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/dd8e8ce9df7bc030dcea023396fb05b878812c22760dd3cd6161c22dbb48f4de1d553f050941957b81d07eb0be99c11e0fdfda7a1d9599e5c148469a7998d296
+  checksum: 10c0/0c2bf52e75ed076589a89f2664c59d8730f4c806d0a7c0fc2a72c2995ba990b560dcd4722b486e859526d5ba33c3e49d9a27e6e494d1e4ccae79eba77f25cc0b
   languageName: node
   linkType: hard
 
@@ -1248,7 +1248,7 @@ __metadata:
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.2"
     prettier: "npm:3.10.1"
-    renovate: "npm:44.259.1"
+    renovate: "npm:44.261.1"
     semantic-release: "npm:26.0.1"
   languageName: unknown
   linkType: soft
@@ -2466,17 +2466,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/base-image@npm:13.175.0":
-  version: 13.175.0
-  resolution: "@renovatebot/base-image@npm:13.175.0"
+"@renovatebot/base-image@npm:13.176.4":
+  version: 13.176.4
+  resolution: "@renovatebot/base-image@npm:13.176.4"
   dependencies:
-    "@containerbase/base": "npm:14.68.3"
+    "@containerbase/base": "npm:14.69.2"
   peerDependencies:
     zod: ^4.0.0
   peerDependenciesMeta:
     zod:
       optional: true
-  checksum: 10c0/dad5e9f0f9d24a5796820240e3b6fe6aab468ceda3bc931a3b93a5f8d01eb089ec0e776ba7ceb724475d5574ee1310cf09c04c851a9f4b43d124c7deaf488b71
+  checksum: 10c0/cb29da8b4ebb8cf9c591778a36035dfba428c445370313c0c648f93fac66cda0c8219843319ea19824ff35b10df34d134253c6562b8303ac9273d8284df9f60b
   languageName: node
   linkType: hard
 
@@ -3903,13 +3903,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:17.0.1":
-  version: 17.0.1
-  resolution: "azure-devops-node-api@npm:17.0.1"
+"azure-devops-node-api@npm:17.0.2":
+  version: 17.0.2
+  resolution: "azure-devops-node-api@npm:17.0.2"
   dependencies:
     tunnel: "npm:0.0.6"
-    typed-rest-client: "npm:3.1.2"
-  checksum: 10c0/5e4455c8757b6df2cb80a757f550953dec251ae26e1562c5863d596567fdc2190f67f01a9e4c60d9e60acb7bea9ff138d6f4b16a84ef81c2aee8c0668c9e4235
+    typed-rest-client: "npm:3.1.3"
+  checksum: 10c0/a41cf40329630ceadbc6a6604c0826ce4158ebd77f871fd1da3e5b88b8816d92b0248a2e1a963b531d9fc045831481f8a3b0d78a80937cd5f45153ef5403749b
   languageName: node
   linkType: hard
 
@@ -10588,13 +10588,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.16.0":
-  version: 6.17.0
-  resolution: "qs@npm:6.17.0"
+"qs@npm:^6.16.1":
+  version: 6.17.1
+  resolution: "qs@npm:6.17.1"
   dependencies:
     es-define-property: "npm:^1.0.1"
     side-channel: "npm:^1.1.1"
-  checksum: 10c0/62d59fddc00fa6e141a8b3de78df89bb5863a02346af844403c6ad3b1d175b236602df293c1f2c0fa010b95ea862cacef337f108a2eef0a34556897454fcebe6
+  checksum: 10c0/55f09dd0282fda70ce9475719158f910f2214477b95aa7284675fb9977c9cdae89fb495423399227331de76766703aaa71372e96cded05046e21713c033e885d
   languageName: node
   linkType: hard
 
@@ -10851,9 +10851,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:44.259.1":
-  version: 44.259.1
-  resolution: "renovate@npm:44.259.1"
+"renovate@npm:44.261.1":
+  version: 44.261.1
+  resolution: "renovate@npm:44.261.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1139.0"
     "@aws-sdk/client-ec2": "npm:3.1139.0"
@@ -10886,7 +10886,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:6.3.1"
-    "@renovatebot/base-image": "npm:13.175.0"
+    "@renovatebot/base-image": "npm:13.176.4"
     "@renovatebot/detect-tools": "npm:5.0.0"
     "@renovatebot/good-enough-parser": "npm:4.0.3"
     "@renovatebot/osv-offline": "npm:4.5.10"
@@ -10901,7 +10901,7 @@ __metadata:
     agentkeepalive: "npm:4.6.0"
     async-mutex: "npm:0.5.0"
     aws4: "npm:1.13.2"
-    azure-devops-node-api: "npm:17.0.1"
+    azure-devops-node-api: "npm:17.0.2"
     bunyan: "npm:1.8.15"
     cacache: "npm:20.0.4"
     changelog-filename-regex: "npm:2.0.1"
@@ -10987,7 +10987,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10c0/63af83a9235d168be082e0300e013d49c44d87edcb780c641ea6c98a0278a6b3d4bbc8767494444c6980bce571ce42847d9bd5b1d62bf9a365e39d5b98731735
+  checksum: 10c0/0e01567a493d0a02147b18977144d632acd8ffa618ec2c5e31ac36a306aad28b76d593e5139aa189e0ea75dafbf591d7e97374b37096de571b9ebef87461cd75
   languageName: node
   linkType: hard
 
@@ -12280,16 +12280,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typed-rest-client@npm:3.1.2":
-  version: 3.1.2
-  resolution: "typed-rest-client@npm:3.1.2"
+"typed-rest-client@npm:3.1.3":
+  version: 3.1.3
+  resolution: "typed-rest-client@npm:3.1.3"
   dependencies:
     des.js: "npm:^1.1.0"
     js-md4: "npm:^0.3.2"
-    qs: "npm:^6.16.0"
+    qs: "npm:^6.16.1"
     tunnel: "npm:0.0.6"
     underscore: "npm:^1.13.8"
-  checksum: 10c0/7243655c54b11c54591dc90f81d711f1c22ddcc6f4e361e3d62ce17030b97dea19c033a14a30cf22e3241821083bdd07d776eb8c8ac28d20f43ed35903bb7ba7
+  checksum: 10c0/20dc0b9a5df83f41eeb401aed9d319ce1fdb79e5eb39378dfe1b7b639673fbcc030c993c997e93a20c752ee42939208326f4db9c34f5a424b20a6015b0456bfb
   languageName: node
   linkType: hard
 
